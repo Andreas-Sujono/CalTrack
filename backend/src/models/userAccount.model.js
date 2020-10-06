@@ -3,6 +3,12 @@ const validator = require('validator');
 const bcrypt = require('bcryptjs');
 
 const userAccountSchema = new mongoose.Schema({
+  fullName: {
+    type: String,
+    required: true,
+    unique: true,
+    lowercase: true,
+  },
   username: {
     type: String,
     required: true,
@@ -21,22 +27,9 @@ const userAccountSchema = new mongoose.Schema({
     required: true,
     minLength: 6,
   },
-
-  activationKey: {
-      type: String,
-      required: true,
-  },
-  firstUse: {
-      type: Boolean,
-      default: true
-  },
   date_of_last_password_change: {
       type: Date,
       default: new Date()
-  },
-  status: { //after user activate their account
-    type: Boolean,
-    default: false,
   },
   OTP: {
     type: 'string',
@@ -71,5 +64,5 @@ userAccountSchema.methods.correctPassword = async function(
 };
 
 
-const UserAccount = mongoose.model('userAccount', userAccountSchema, 'userAccounts');
+const UserAccount = mongoose.model('userAccount', userAccountSchema, 'userAccount');
 module.exports = UserAccount;

@@ -7,14 +7,8 @@ module.exports= {
         FORBIDDEN: 'You don\'t have access', //403
         FIELD_EMPTY: 'Please input all the field',
 
-        // for login
+        // auth
         LOGIN_INVALID: 'Invalid username or password',
-        ACCOUNT_HAS_NOT_ACTIVATED: 'Please activate your account first',
-
-        //for activate account
-        ACTIVATE_INVALID: 'credentials are invalid',
-        WRONG_ACTIVATION_KEY: 'Activation Key is wrong',
-        ACTIVATED_ALREADY: 'Account already activated',
 
         NOT_LOGGED_IN: 'You are not logged in! Please login in to continue'
     },
