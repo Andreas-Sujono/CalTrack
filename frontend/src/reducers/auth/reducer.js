@@ -1,4 +1,4 @@
-import { actionTypes } from '../../constants/general.constant';
+import { actionTypes } from '../../constants/auth/general.constant';
 
 // state that is shared by every features
 const initialState = {
@@ -15,7 +15,7 @@ const initialState = {
   isLoggedIn: false,
 };
 
-export default reducers = (state = initialState, action) => {
+const reducer = (state = initialState, action) => {
   switch (action.type) {
     case actionTypes.SET:
       return { ...state, [action.payload.key]: action.payload.value };
@@ -27,3 +27,5 @@ export default reducers = (state = initialState, action) => {
       return state;
   }
 };
+
+export default reducer

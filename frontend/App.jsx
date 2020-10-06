@@ -5,9 +5,11 @@ import { Provider } from 'react-redux';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 
-import Login from './Login'
+import Login from './src/components/Login'
 
 import store from './src/store';
+
+const Stack = createStackNavigator();
 
 export default function App() {
   return (
@@ -23,7 +25,6 @@ export default function App() {
             options={{ headerShown: false }} 
             name="Login" 
           component={Login} />
-
         </Stack.Navigator>
       </NavigationContainer>
     </Provider>
