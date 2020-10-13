@@ -23,7 +23,7 @@ const styles = StyleSheet.create({
     contentContainer:{
         width: '100%',
         height: '100%',
-        justifyContent: 'flex-start',
+        justifyContent: 'center',
         alignItems: 'center',
     },
     formContainer:{
@@ -33,7 +33,7 @@ const styles = StyleSheet.create({
         minHeight: 336,
         borderRadius: 16,
         backgroundColor: 'rgba(255, 255, 255, 255)',
-        marginTop:230
+        marginTop:40
     },
     textContainer:{
         alignItems: 'center'

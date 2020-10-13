@@ -13,6 +13,11 @@ import backgroundImage from 'assets/images/loginBackground.png'
 import styles from './Login.style';
 
 export default () => {
+
+  const handleSignIn = () => {
+    console.log('sign in')
+  }
+
   return (
     <View style = {styles.container}>
 
@@ -53,6 +58,7 @@ export default () => {
           <View style = {styles.inputContainer}>
             <TouchableOpacity
               style={styles.button}
+              onPress={() => handleSignIn()}
             > 
               <Text style={styles.buttonText}>Sign In </Text>
             </TouchableOpacity>
@@ -62,6 +68,7 @@ export default () => {
             <Text style = {styles.signUpText} > Don’ t have account ? </Text>
             <TouchableOpacity
               style={styles.link}
+              onPress={() => console.log('sign up link')}
             > 
               <Text style={styles.linkText}>Sign up here</Text>
             </TouchableOpacity>
