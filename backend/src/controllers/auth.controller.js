@@ -47,16 +47,17 @@ exports.login = async (req, res, next) => {
       username,
     }).select('+password');
 
-    // if(!user){
-    //   return next(
-    //     new AppError(403, 'error', 'Account is not found'),
-    //     req,
-    //     res,
-    //     next
-    //   );
-    // }
+    if(!user){
+      return next(
+        new AppError(404, 'error', 'Account is not found'),
+        req,
+        res,
+        next
+      );
+    }
 
     // 2) check if user exist and password is correct
+    console.log(await user.correctPassword(password, user.password))
     if (!user || !(await user.correctPassword(password, user.password))) {
       return next(
         new AppError(401, 'error', commonErrorMessages.LOGIN_INVALID),
