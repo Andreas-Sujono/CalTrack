@@ -12,7 +12,7 @@ import backgroundImage from 'assets/images/loginBackground.png'
 
 import styles from './Login.style';
 
-export default () => {
+export default (props) => {
 
   const handleSignIn = () => {
     console.log('sign in')
@@ -68,7 +68,7 @@ export default () => {
             <Text style = {styles.signUpText} > Don’ t have account ? </Text>
             <TouchableOpacity
               style={styles.link}
-              onPress={() => console.log('sign up link')}
+              onPress={() => props.navigation.navigate('Signup')}
             > 
               <Text style={styles.linkText}>Sign up here</Text>
             </TouchableOpacity>
