@@ -13,21 +13,20 @@ const Stack = createStackNavigator();
 
 export default function App() {
   return (
-    <Provider store={store}>
-      <NavigationContainer>
-        <Stack.Navigator initialRouteName="Login" screenOptions= {{
-          animationEnabled: false,
-          gestureEnabled: false   
-        }}
-        animation="fade"
-        >
-          <Stack.Screen 
-            options={{ headerShown: false }} 
-            name="Login" 
-          component={Login} />
-
-        </Stack.Navigator>
-      </NavigationContainer>
-    </Provider>
+      <Provider store={store}>
+        <NavigationContainer>
+          <Stack.Navigator initialRouteName="Login" screenOptions= {{
+            animationEnabled: false,
+            gestureEnabled: false   
+          }}
+          animation="fade"
+          >
+            <Stack.Screen 
+              options={{ headerShown: false }} 
+              name="Login" 
+            component={Login} />
+          </Stack.Navigator>
+        </NavigationContainer>
+      </Provider>
   );
 }
