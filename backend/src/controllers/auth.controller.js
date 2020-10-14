@@ -145,7 +145,7 @@ exports.protect = async (req, res, next) => {
     const accountId = decode.id 
 
     const userDetails = await UserDetails.findOne({accountId})
-    const userDetailsId = userDetails ? userDetailsId.id : null
+    const userDetailsId = userDetails ? userDetails._id : null
 
     req.accountId = accountId;
     req.userDetailsId = userDetailsId;

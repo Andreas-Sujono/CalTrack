@@ -7,6 +7,7 @@ const hpp = require('hpp');
 const cors = require('cors');
 
 const userRoutes = require('./src/routes/user.routes.js');
+const consumptionRoutes = require('./src/routes/consumption.routes.js');
 const indexRoutes = require('./src/routes');
 const globalErrHandler = require('./src/controllers/error.controller');
 const AppError = require('./src/utils/appError');
@@ -46,6 +47,7 @@ app.use(hpp());
 // start all routes here, only change the code below
 app.use('/', indexRoutes);
 app.use('/api/user', userRoutes);
+app.use('/api/consumption', consumptionRoutes);
 
 
 // handle undefined Routes
