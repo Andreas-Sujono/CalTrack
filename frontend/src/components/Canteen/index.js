@@ -1,3 +1,3 @@
-import Canteen from './Canteen'
+import NavStack from './NavStack'
 
-export default Canteen
+export default NavStack

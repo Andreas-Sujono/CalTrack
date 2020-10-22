@@ -5,7 +5,7 @@ import { View, Text, TouchableOpacity, Image } from 'react-native';
 const Tab = createBottomTabNavigator();
 
 import Homepage from 'components/Homepage'
-import Canteen from 'components/Canteen'
+import Canteen from 'components/Canteen/Main/Canteen'
 
 function MyTabBar({ state, descriptors, navigation }) {
     const focusedOptions = descriptors[state.routes[state.index].key].options;
