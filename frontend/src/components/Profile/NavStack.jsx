@@ -1,11 +1,8 @@
 import React from 'react'
 
 import { createStackNavigator } from '@react-navigation/stack';
-import { NavigationContainer } from '@react-navigation/native';
 
-import Canteen from './Main/Canteen'
-import Stall from './Stall/Stall'
-// import FoodItem from './FoodItem'
+import Profile from './Main'
 
 const Stack = createStackNavigator();
 
@@ -13,7 +10,7 @@ const NavStack = props => {
 
     return (
         <>
-            <Stack.Navigator initialRouteName="Canteen" screenOptions= {{
+            <Stack.Navigator initialRouteName="Profile" screenOptions= {{
             animationEnabled: true,
             gestureEnabled: true,
             gestureDirection: 'horizontal'
@@ -22,13 +19,8 @@ const NavStack = props => {
             >
             <Stack.Screen 
                 options={{ headerShown: false }} 
-                name="Canteen" 
-                component={Canteen} 
-            />
-            <Stack.Screen 
-                options={{ headerShown: false }} 
-                name="Stall" 
-                component={Stall} 
+                name="Profile" 
+                component={Profile} 
             />
             </Stack.Navigator>
         </>

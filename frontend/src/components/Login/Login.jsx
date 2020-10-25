@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import {
   View,
   Text,
@@ -7,6 +7,7 @@ import {
   TouchableOpacity,
 } from 'react-native';
 import axios from 'axios'
+import CacheStore from 'react-native-cache-store';
 
 import welcomeImage from 'assets/images/welcome.png'
 import backgroundImage from 'assets/images/loginBackground.png'
@@ -24,6 +25,24 @@ const Login = (props) => {
   const [errorMessage, setErrorMessage] = useState(errorMessage)
   const [isLoading, setIsLoading] = useState(false)
 
+  useEffect(() => {
+    CacheStore.get('auth')
+      .then((auth) => {
+        if(auth){
+          console.log(auth)
+          setUsername(auth.username)
+          setPassword(auth.password)
+          handleSignIn(auth)
+        }
+        
+      })
+      .catch((err) => {
+        console.log(err);
+        console.log('error while get cache');
+      });
+
+  }, [])
+
   const validateForm = () => {
     let isValidated = true
     if(!username || !password){
@@ -33,12 +52,12 @@ const Login = (props) => {
     return isValidated
   }
 
-  const handleSignIn = async () => {
-    if(!validateForm()) return
+  const handleSignIn = async (data = null) => {
+    if(!validateForm() && !data) return
     setIsLoading(true)
     await axios.post(`${API_ENDPOINT}/user/login`, {
-      username, 
-      password
+      username: data ? data.username : username, 
+      password: data ? data.password : password
     })
       .then(res => res.data.data)
       .then(res => {
@@ -48,6 +67,11 @@ const Login = (props) => {
         props.context.updateState('token', res.token)
         props.context.updateState('userAccountId', res.userAccount._id)
         props.context.updateState('userDetailsId', res.userDetails._id)
+
+        //save in cache
+        CacheStore.set('auth', {username, password})
+        .then(() => console.log('save cache success'))
+        .catch((err) => console.log(err));
 
         props.navigation.navigate('BottomTabs')
       })

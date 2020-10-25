@@ -29,7 +29,7 @@ export default class App extends Component{
     return (
       <UserProvider value={{state: this.state, updateState: this.updateState}}>
         <NavigationContainer>
-          <Stack.Navigator initialRouteName="Login" screenOptions= {{
+          <Stack.Navigator initialRouteName="BottomTabs" screenOptions= {{
             animationEnabled: true,
             gestureEnabled: true,
             gestureDirection: 'horizontal'
@@ -47,7 +47,7 @@ export default class App extends Component{
               component={Signup} 
             />
             {
-              this.state.isLoggedIn && 
+              // this.state.isLoggedIn && 
               <Stack.Screen 
                 options={{ headerShown: false }} 
                 name="BottomTabs" 

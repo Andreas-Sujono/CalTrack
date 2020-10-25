@@ -1,9 +1,11 @@
 import React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import { View, Text, TouchableOpacity, Image } from 'react-native';
+import { View, Text, TouchableWithoutFeedback, Image } from 'react-native';
 
 import Homepage from 'components/Homepage'
-import Canteen from 'components/Canteens/Main/Canteen'
+import Canteens from 'components/Canteens'
+import Exercise from 'components/Exercise'
+import Profile from 'components/Profile'
 
 import homepageIcon from 'assets/icons/home.png'
 import exerciseIcon from 'assets/icons/exercise.png'
@@ -45,22 +47,25 @@ function MyTabBar({ state, descriptors, navigation }) {
             };
 
             return (
-                <TouchableOpacity
+                <TouchableWithoutFeedback
                     accessibilityRole="button"
                     accessibilityState={isFocused ? { selected: true } : {}}
                     accessibilityLabel={options.tabBarAccessibilityLabel}
                     testID={options.tabBarTestID}
                     onPress={onPress}
                     style={{ flex: 1 }}
+                    key={index}
                 >
-                    <View>
+                    <View style={{
+                        flex:1, justifyContent: 'center', alignItems: 'center', backgroundColor: isFocused ? '#ACA5F8' : 'white'
+                    }}>
                         {options.tabBarIcon && options.tabBarIcon()}
-                        <Text style={{ color: isFocused ? '#673ab7' : '#222' }}>
+                        <Text style={{ color: isFocused ? 'white' : '#222' }}>
                             {label}
                         </Text>
                     </View>
                 
-                </TouchableOpacity>
+                </TouchableWithoutFeedback>
             );
             })}
       </View>
@@ -79,24 +84,56 @@ function BottomTabs(props) {
                         <Image 
                             source = {homepageIcon}
                             style={{
-                                "width": 25,
-                                "height": 19.44,
+                                "width": 30,
+                                "height": 25,
                             }}
                         />
                     ),
                 }}
             />
             <Tab.Screen 
-                name="Canteen" 
-                component={Canteen} 
+                name="Exercise" 
+                component={Exercise} 
                 options={{
-                    tabBarLabel: 'Canteen',
+                    tabBarLabel: 'Exercise',
+                    tabBarIcon: () => (
+                        <Image 
+                            source = {exerciseIcon}
+                            style={{
+                                "width": 30,
+                                "height": 22,
+                            }}
+                        />
+                    ),
+                }}
+            />
+            <Tab.Screen 
+                name="Canteens" 
+                component={Canteens} 
+                options={{
+                    tabBarLabel: 'Canteens',
                     tabBarIcon: () => (
                         <Image 
                             source = {canteensIcon}
                             style={{
+                                "width": 28,
+                                "height": 25,
+                            }}
+                        />
+                    ),
+                }}
+            />
+            <Tab.Screen 
+                name="Profile" 
+                component={Profile} 
+                options={{
+                    tabBarLabel: 'Profile',
+                    tabBarIcon: () => (
+                        <Image 
+                            source = {profileIcon}
+                            style={{
                                 "width": 25,
-                                "height": 19.44,
+                                "height": 25,
                             }}
                         />
                     ),
