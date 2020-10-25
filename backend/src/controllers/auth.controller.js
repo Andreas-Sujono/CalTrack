@@ -32,6 +32,9 @@ exports.decodeToken = token => decodeToken(token)
 exports.login = async (req, res, next) => {
   try {
     let { username, password } = req.body;
+
+    console.log(username, password)
+
     // 1) check if email and password exist
     if (!username || !password) {
       return next(
@@ -42,14 +45,14 @@ exports.login = async (req, res, next) => {
       );
     }
     username = username.toLowerCase()
-    
+
     const user = await UserAccount.findOne({
       username,
     }).select('+password');
 
     if(!user){
       return next(
-        new AppError(404, 'error', 'Account is not found'),
+        new AppError(401, 'error', commonErrorMessages.LOGIN_INVALID),
         req,
         res,
         next
@@ -73,11 +76,14 @@ exports.login = async (req, res, next) => {
     // Remove the password from the output
     user.password = undefined;
 
+    const userDetails = await UserDetails.findOne({accountId: user.id})
+
     res.status(200).json({
       status: 'success',
       data: {
         token,
-        user,
+        userAccount: user,
+        userDetails
       },
     });
   } catch (err) {
@@ -107,7 +113,8 @@ exports.register = async (req, res, next) => {
       status: 'success',
       data:{
         token: token,
-        account: userAccount
+        userAccount: userAccount,
+        userDetails: userDetails
       }
     });
 

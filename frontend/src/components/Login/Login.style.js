@@ -67,7 +67,7 @@ const styles = StyleSheet.create({
         borderRadius: 8,
         width: '100%',
         height: 35,
-        marginTop:14
+        marginTop:0
     },
     buttonText:{
         fontSize: 16,
@@ -88,6 +88,10 @@ const styles = StyleSheet.create({
     linkText:{
         fontSize:12,
         color: 'rgba(64, 163, 255, 255)',
+    },
+    errorText:{
+        color: 'red',
+        marginTop:12
     }
 })
 

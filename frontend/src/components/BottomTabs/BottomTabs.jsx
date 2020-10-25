@@ -2,10 +2,15 @@ import React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { View, Text, TouchableOpacity, Image } from 'react-native';
 
-const Tab = createBottomTabNavigator();
-
 import Homepage from 'components/Homepage'
-import Canteen from 'components/Canteen/Main/Canteen'
+import Canteen from 'components/Canteens/Main/Canteen'
+
+import homepageIcon from 'assets/icons/home.png'
+import exerciseIcon from 'assets/icons/exercise.png'
+import canteensIcon from 'assets/icons/canteens.png'
+import profileIcon from 'assets/icons/profile.png'
+
+const Tab = createBottomTabNavigator();
 
 function MyTabBar({ state, descriptors, navigation }) {
     const focusedOptions = descriptors[state.routes[state.index].key].options;
@@ -72,7 +77,7 @@ function BottomTabs(props) {
                     tabBarLabel: 'Home',
                     tabBarIcon: () => (
                         <Image 
-                            source = {{uri: "https://toppng.com/uploads/preview/home-icon-home-house-icon-house-icon-free-11553508857ouiuhg9nsa.png",}}
+                            source = {homepageIcon}
                             style={{
                                 "width": 25,
                                 "height": 19.44,
@@ -88,7 +93,7 @@ function BottomTabs(props) {
                     tabBarLabel: 'Canteen',
                     tabBarIcon: () => (
                         <Image 
-                            source = {{uri: "https://icon-library.com/images/food-and-drink-icon/food-and-drink-icon-15.jpg",}}
+                            source = {canteensIcon}
                             style={{
                                 "width": 25,
                                 "height": 19.44,

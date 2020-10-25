@@ -1,25 +1,35 @@
-import { StatusBar } from 'expo-status-bar';
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
-import { Provider } from 'react-redux';
+import React, {Component} from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 
 import Login from './src/components/Login'
 import Signup from './src/components/Signup'
-import Stall from './src/components/Canteen/Stall/Stall.js'
-import FoodRecommendation from './src/components/Canteen/FoodRecommendation/FoodRecommendation'
 import BottomTabs from './src/components/BottomTabs'
 
-import store from './src/store';
+import { UserProvider } from './src/Context'
 
 const Stack = createStackNavigator();
 
-export default function App() {
-  return (
-      <Provider store={store}>
+//REACT_NATIVE_PACKAGER_HOSTNAME=127.0.0.1
+export default class App extends Component{
+  state = {
+    isLoggedIn: false,
+    token: '',
+    userAccountId: '',
+    userDetailsId: '',
+  }
+
+  updateState = (key, value) => {
+    this.setState({
+      [key]: value
+    })
+  }
+
+  render(){
+    return (
+      <UserProvider value={{state: this.state, updateState: this.updateState}}>
         <NavigationContainer>
-          <Stack.Navigator initialRouteName="BottomTabs" screenOptions= {{
+          <Stack.Navigator initialRouteName="Login" screenOptions= {{
             animationEnabled: false,
             gestureEnabled: false   
           }}
@@ -35,13 +45,18 @@ export default function App() {
               name="Signup" 
               component={Signup} 
             />
-            <Stack.Screen 
-              options={{ headerShown: false }} 
-              name="BottomTabs" 
-              component={BottomTabs} 
-            />
+            {
+              this.state.isLoggedIn && 
+              <Stack.Screen 
+                options={{ headerShown: false }} 
+                name="BottomTabs" 
+                component={BottomTabs} 
+              />
+            }
           </Stack.Navigator>
         </NavigationContainer>
-      </Provider>
-  );
+      </UserProvider>
+    );
+  }
+  
 }
