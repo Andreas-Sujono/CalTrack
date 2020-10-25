@@ -45,7 +45,7 @@ function Homepage(props) {
                     <Text style={styles.chartTitle}>Calories</Text>
                     <PieChart
                         data={data}
-                        width={Dimensions.get('window').width - 70}
+                        width={Dimensions.get('window').width - 20}
                         height={150}
                         chartConfig={chartConfig}
                         accessor="population"
@@ -58,7 +58,7 @@ function Homepage(props) {
                     <Text style={styles.chartTitle}>Spending</Text>
                     <PieChart
                         data={data}
-                        width={Dimensions.get('window').width - 70}
+                        width={Dimensions.get('window').width - 20}
                         height={150}
                         chartConfig={chartConfig}
                         accessor="population"

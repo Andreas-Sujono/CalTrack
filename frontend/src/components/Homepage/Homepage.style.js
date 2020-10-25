@@ -11,6 +11,7 @@ const styles = StyleSheet.create({
         height: 160,
         justifyContent: 'center',
         paddingLeft:20,
+        paddingTop:20
     },
     title:{
         fontSize: 20,
@@ -24,11 +25,12 @@ const styles = StyleSheet.create({
         resizeMode: 'stretch'
     },
     chartContainer:{
+        width: '100%'
     },
     eachChart:{
         borderColor:'whitesmoke', // if you need 
         borderWidth:1,
-        paddingLeft:30
+        // paddingLeft:30
     },
     chartTitle:{
         marginTop: 20,
