@@ -4,17 +4,21 @@ import {
     Text,
     Image,
     Dimensions,
-    ScrollView
+    ScrollView,
+    TouchableOpacity
 } from 'react-native';
 import {
     PieChart,
 } from 'react-native-chart-kit'
+import { WebView } from 'react-native-webview';
+import { createStackNavigator } from '@react-navigation/stack';
 
 import NewsCard from './NewsCard'
 
 import homepageImage from 'assets/images/homepageImage.png'
 
 import styles from './Homepage.style'
+import {newsData} from './data'
 
 function Homepage(props) {
     const data = [
@@ -67,14 +71,57 @@ function Homepage(props) {
 
             <View style={styles.newsContainer}>
                 <Text style={[styles.chartTitle, {fontSize: 24, textAlign: 'left'}]}>News of the day</Text>
-                <NewsCard/>
-                <NewsCard/>
-                <NewsCard/>
-
+                {
+                    newsData.map((news, idx) => 
+                        <TouchableOpacity onPress={() => {
+                            console.log('clicked')
+                            props.navigation.navigate('Article', {url: news.url})
+                        }}
+                        key={idx}
+                        >
+                            <NewsCard image={news.image} title={news.title} desc={news.desc}/>
+                        </TouchableOpacity>
+                    )
+                }
             </View>
-          
+
         </ScrollView>
     );
 }
 
-export default Homepage;
+function Article(props){
+    const {url} = props.route.params
+    return(
+        <View style={{flex: 1}}>
+            <WebView source={{ uri: url }} style={{ marginTop: 20 }} />
+        </View>
+    )
+}
+
+const Stack = createStackNavigator();
+
+function NavStack(){
+    return(
+        <>
+            <Stack.Navigator initialRouteName="Homepage" screenOptions= {{
+                animationEnabled: true,
+                gestureEnabled: true,
+                gestureDirection: 'horizontal'
+                }}
+                animation="fade"
+            >
+                <Stack.Screen 
+                    options={{ headerShown: false }} 
+                    name="Homepage" 
+                    component={Homepage} 
+                />
+                <Stack.Screen 
+                    options={{ headerShown: true }} 
+                    name="Article" 
+                    component={Article} 
+                />
+            </Stack.Navigator>
+        </>
+    )
+}
+export default NavStack;

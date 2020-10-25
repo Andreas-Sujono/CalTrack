@@ -28,7 +28,7 @@ const Login = (props) => {
   useEffect(() => {
     CacheStore.get('auth')
       .then((auth) => {
-        if(auth){
+        if(auth && auth.usesrname && auth.password){
           console.log(auth)
           setUsername(auth.username)
           setPassword(auth.password)

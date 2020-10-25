@@ -15,12 +15,14 @@ const styles = StyleSheet.create({
     image:{
         width: '100%',
         minWidth: 140,
+        maxWidth: 320,
         height: 80,
     },
     content:{paddingLeft: 12},
     title:{
         fontSize: 16,
-        fontWeight: 'bold'
+        fontWeight: 'bold',
+        width: '48%'
     },
     desc:{
         width: '48%'
