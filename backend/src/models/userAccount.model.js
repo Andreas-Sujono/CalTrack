@@ -6,7 +6,6 @@ const userAccountSchema = new mongoose.Schema({
   fullName: {
     type: String,
     required: true,
-    unique: true,
     lowercase: true,
   },
   username: {
@@ -18,7 +17,6 @@ const userAccountSchema = new mongoose.Schema({
   email: {
     type: String,
     required: true,
-    unique: true,
     lowercase: true,
     validate: validator.isEmail,
   },

@@ -103,8 +103,20 @@ exports.register = async (req, res, next) => {
       );
     email = email.toLowerCase()
 
-    const hashedPassword = await bcrypt.hash(req.body.password, 12)
-    const userAccount = await UserAccount.create({ fullName, email, username, password:hashedPassword })
+    const existingAccount = await UserAccount.findOne({
+      username,
+    })
+
+    if(existingAccount){
+      return next(
+        new AppError(401, 'error', 'Username has been taken'),
+        req,
+        res,
+        next
+      );
+    }
+
+    const userAccount = await UserAccount.create({ fullName, email, username, password })
     const userDetails = await UserDetails.create({accountId: userAccount.id})
 
     const token = createToken(userAccount.id);
@@ -115,6 +127,25 @@ exports.register = async (req, res, next) => {
         token: token,
         userAccount: userAccount,
         userDetails: userDetails
+      }
+    });
+
+  } catch (err){
+    next(err);
+  }
+}
+
+
+exports.test = async (req, res, next) => {
+  try{
+    let {password} = req.body
+
+    const hashedPassword = await bcrypt.hash(password, 12)
+  
+    res.status(200).json({
+      status: 'success',
+      data:{
+        hashedPassword
       }
     });
 

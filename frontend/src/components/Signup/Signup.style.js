@@ -71,7 +71,7 @@ const styles = StyleSheet.create({
         borderRadius: 8,
         width: '100%',
         height: 35,
-        marginTop:14
+        marginTop:0
     },
     buttonText:{
         fontSize: 16,
@@ -93,93 +93,11 @@ const styles = StyleSheet.create({
         fontSize:12,
         color: 'rgba(64, 163, 255, 255)',
     },
+    errorText:{
+        color: 'red',
+        marginTop:12
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-    container2:{
-        "width": 25.14,
-        "height": 22.55,
-        "backgroundColor": "#000000"
-    },
-    container3:{
-        "alignItems": "flex-start",
-        "marginTop": 68.45
-    },
-    container4:{
-        "alignItems": "flex-start",
-        "paddingTop": 19,
-        "width": 318,
-        "height": 532,
-        "borderRadius": 8,
-        "backgroundColor": "rgba(255, 255, 255, 255)"
-    },
-    container5:{
-        flexDirection: 'row',
-        alignItems: 'flex-start'
-    },
-    container6:{
-        "fontSize": 14,
-        "color": "rgba(43, 43, 43, 255)",
-        "marginTop": 39
-    },
-    container7:{
-        "fontWeight": "bold",
-        "fontSize": 28,
-        "color": "rgba(43, 43, 43, 255)",
-    },
-    container8:{
-        "alignItems": "flex-start",
-        "marginTop": 34
-    },
-    container9:{
-        "alignItems": "flex-start",
-        "paddingTop": 8,
-        "width": 278,
-        "height": 35,
-        "borderRadius": 8,
-        "borderWidth": 1,
-        "borderColor": "rgba(235, 235, 242, 255)",
-        "backgroundColor": "rgba(252, 252, 255, 255)"
-    },
-    container10:{
-        "fontSize": 14,
-        "color": "rgba(174, 175, 193, 255)"
-    },
-    container11:{
-        "alignItems": "flex-start",
-        "paddingTop": 0,
-        "marginStart": 1,
-        "marginTop": 35
-    },
-    container12:{
-        "alignItems": "flex-start",
-        "paddingTop": 6,
-        "width": 275,
-        "height": 35,
-        "borderRadius": 8,
-        "backgroundColor": "rgba(64, 163, 255, 255)"
-    },
-    container13:{
-        "fontSize": 16,
-        "color": "rgba(255, 255, 255, 255)"
-    },
-    container14:{
-        "marginTop": 18
-    },
-    container15:{
-        "fontSize": 12,
-        "color": "rgba(33, 33, 33, 255)"
-    },
-    container16:{"fontSize":12,"color":"rgba(64, 163, 255, 255)"},
 })
 
 export default styles;

@@ -24,7 +24,17 @@ const Login = (props) => {
   const [errorMessage, setErrorMessage] = useState(errorMessage)
   const [isLoading, setIsLoading] = useState(false)
 
+  const validateForm = () => {
+    let isValidated = true
+    if(!username || !password){
+      isValidated = false
+      setErrorMessage('Username and password cannot be empty')
+    }
+    return isValidated
+  }
+
   const handleSignIn = async () => {
+    if(!validateForm()) return
     setIsLoading(true)
     await axios.post(`${API_ENDPOINT}/user/login`, {
       username, 
@@ -95,22 +105,25 @@ const Login = (props) => {
             />
           </View>
 
-          <Text style={styles.errorText}>{errorMessage}</Text>
+          {
+            errorMessage && <Text style={styles.errorText}>{errorMessage}</Text>
+          }
 
-          <View style = {styles.inputContainer}>
-            <TouchableOpacity
-              style={styles.button}
-              onPress={() => handleSignIn()}
-            > 
-              <Text style={styles.buttonText}>Sign In </Text>
-            </TouchableOpacity>
-          </View>
+          <TouchableOpacity
+            style={styles.button}
+            onPress={() => handleSignIn()}
+          > 
+            <Text style={styles.buttonText}>Sign In </Text>
+          </TouchableOpacity>
 
           <View style = {styles.signUpContainer} >
             <Text style = {styles.signUpText} > Don’ t have account ? </Text>
             <TouchableOpacity
               style={styles.link}
-              onPress={() => props.navigation.navigate('Signup')}
+              onPress={() => {
+                setErrorMessage('')
+                props.navigation.navigate('Signup')
+              }}
             > 
               <Text style={styles.linkText}>Sign up here</Text>
             </TouchableOpacity>

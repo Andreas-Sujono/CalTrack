@@ -10,21 +10,71 @@ import axios from 'axios'
 import Icon from 'react-native-vector-icons/AntDesign';
 
 import backgroundImage from 'assets/images/loginBackground.png'
+import Loading from 'components/Loading'
 
 import styles from './Signup.style'
 
-import UserContext, { UserConsumer } from 'Context'
+import {API_ENDPOINT} from 'api/constant'
 
-export default (props) => {
+import { withContext } from 'Context'
+
+const Signup = (props) => {
     const [fullName, setFullName] = useState('')
     const [email, setEmail] = useState('')
     const [username, setUsername] = useState('')
     const [password, setPassword] = useState('')
     const [confirmPassword, setConfirmPassword] = useState('')
 
-    const handleSignup = () => {
-        console.log('sign up')
+    const [errorMessage, setErrorMessage] = useState(errorMessage)
+    const [isLoading, setIsLoading] = useState(false)
+
+    const validateForm = () => {
+        let isValidated = true
+        if(!fullName || !email || !username || !password || !confirmPassword){
+          isValidated = false
+          setErrorMessage('Please input all the field')
+        } 
+        else if(! (/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/.test(email)))
+        {
+            isValidated = false
+            setErrorMessage('Please input a valid email')
+        }
+        else if (password !== confirmPassword){
+            isValidated = false
+          setErrorMessage('Password is not matched')
+        }
+        return isValidated
+      }
+
+    const handleSignup = async () => {
+        if(!validateForm()) return
+        setIsLoading(true)
+
+        await axios.post(`${API_ENDPOINT}/user/register`, {
+            fullName, email, username, password
+        })
+          .then(res => res.data.data)
+          .then(res => {
+            //if success
+            console.log(res)
+            props.context.updateState('isLoggedIn', true)
+            props.context.updateState('token', res.token)
+            props.context.updateState('userAccountId', res.userAccount._id)
+            props.context.updateState('userDetailsId', res.userDetails._id)
+    
+            props.navigation.navigate('BottomTabs')
+          })
+          .catch(err => {
+            let data = err.response.data
+            setErrorMessage(data.message)
+          })
+          setIsLoading(false)
     }
+
+    if(isLoading)
+        return (
+        <Loading/>
+        )
       
     return (
         <View style = {styles.container}>
@@ -92,6 +142,10 @@ export default (props) => {
                         />
                     </View>
 
+                    {
+                        errorMessage && <Text style={styles.errorText}>{errorMessage}</Text>
+                    }
+
                     <View style = {styles.inputContainer}>
                         <TouchableOpacity
                             style={styles.button}
@@ -105,7 +159,10 @@ export default (props) => {
                         <Text style = {styles.signUpText} > Already have an account ? </Text>
                         <TouchableOpacity
                             style={styles.link}
-                            onPress={() => props.navigation.navigate('Login')}
+                            onPress={() => {
+                                setErrorMessage('')
+                                props.navigation.navigate('Login')
+                            }}
                         > 
                             <Text style={styles.linkText}>Sign In here</Text>
                         </TouchableOpacity>
@@ -117,3 +174,5 @@ export default (props) => {
 
     );
 };
+
+export default withContext(Signup);

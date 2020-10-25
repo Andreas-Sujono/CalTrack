@@ -17,7 +17,10 @@ const styles = StyleSheet.create({
         height:270
     },
     topImage:{
-        marginTop:70
+        marginTop:70,
+        width: 190,
+        height:140,
+        resizeMode: 'stretch'
     },
 
     contentContainer:{
@@ -67,7 +70,7 @@ const styles = StyleSheet.create({
         borderRadius: 8,
         width: '100%',
         height: 35,
-        marginTop:0
+        marginTop:20
     },
     buttonText:{
         fontSize: 16,
