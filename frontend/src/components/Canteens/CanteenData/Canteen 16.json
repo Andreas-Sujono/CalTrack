@@ -1,0 +1,108 @@
+[
+    {
+        "Canteen16_EconomicRice": [
+                {
+                  "MENU": "1 Meat 1 Vege",
+                  "PRICE": 3.5,
+                  "CALORIES": 440,
+                  "IMAGES": "https://1.bp.blogspot.com/_mE-kXqM7KPI/TKtUSyuQ3qI/AAAAAAAAAWU/PpNwEEwfUsw/s1600/IMGP2572.JPG"
+                },
+                {
+                  "MENU": "2 meat 1 vege",
+                  "PRICE": 5.5,
+                  "CALORIES": 590,
+                  "IMAGES": "https://aromacookery.com/wp-content/uploads/2008/03/clementi_economic_rice_02.jpg"
+                },
+                {
+                  "MENU": "1 meat 2 vege",
+                  "PRICE": 4.5,
+                  "CALORIES": 500,
+                  "IMAGES": "https://sethlui.com/wp-content/uploads/2016/05/EconomicRice-16-e1463850742439-800x600.jpg"
+                },
+                {
+                  "MENU": "2 meat 2 vege",
+                  "PRICE": 6.5,
+                  "CALORIES": 650,
+                  "IMAGES": "https://s3.burpple.com/foods/583b53a464f6989acd61440000_original.?1471538059"
+                }
+              ]
+    },
+
+    {
+        "Canteen16_Japanese":[
+            {
+              "MENU": "Chicken/Pork Katsu Curry Rice",
+              "PRICE": 5,
+              "CALORIES": 1149,
+              "IMAGES": "https://www.justonecookbook.com/wp-content/uploads/2020/05/Katsu-Curry-4993-I.jpg"
+            },
+            {
+              "MENU": "Shioyu/Miso/Shio-Ramen",
+              "PRICE": 5.8,
+              "CALORIES": 475,
+              "IMAGES": "https://media-cdn.tripadvisor.com/media/photo-s/0b/03/bb/91/shoyu-charsiu-ramenyummy.jpg"
+            },
+            {
+              "MENU": "Chicken/Pork Katsu Don",
+              "PRICE": 5,
+              "CALORIES": 1109,
+              "IMAGES": "https://img.taste.com.au/jbdQff7C/taste/2016/11/katsudon-bowl-92023-2.jpeg"
+            },
+            {
+              "MENU": "Cold Noodles",
+              "PRICE": 5.8,
+              "CALORIES": 480,
+              "IMAGES": "https://univ3rsalif3.files.wordpress.com/2012/06/sam_9952.jpg"
+            }
+          ]
+
+    },
+
+    {
+        "Canteen16_Mala":[
+            {
+              "MENU": "Vegetable Bundle",
+              "PRICE": 0.5,
+              "CALORIES": 74,
+              "IMAGES": "https://lh3.googleusercontent.com/proxy/X2QKicyq7DjPVRTm4Nt0GUeY-UCnlPBQ-Tz_4j0rsWFqBJnfNpz46NDmtKLQVVvQNaWKHWWLdr8Jx3AFh476KiGRz0mYVnxGrfTvQETEcj4_4ztnbj6RuaIbGaOxvC-WDcrtBz-TwIOj"
+            },
+            {
+              "MENU": "Enoki Mushroom",
+              "PRICE": 0.8,
+              "CALORIES": 19,
+              "IMAGES": "https://chinasichuanfood.com/wp-content/uploads/2016/01/Enoki-mushrooms-steamed-with-garlic_.jpg"
+            },
+            {
+              "MENU": "Seafood/Beef",
+              "PRICE": 1.8,
+              "CALORIES": 113,
+              "IMAGES": "https://media.karousell.com/media/photos/products/2019/06/09/seafood_bundle_pack__alaska_king_crabsbig_tiger_prawnsscallopssalmon_fish_1560018496_a43cbe52_progressive.jpg"
+            },
+            {
+              "MENU": "Pork Belly",
+              "PRICE": 1.8,
+              "CALORIES": 230,
+              "IMAGES": "https://steamboatdelivery.sg/wp-content/uploads/2019/11/Pork-Belly-Shabu-1.jpg"
+            },
+            {
+              "MENU": "Sliced pork/chicken",
+              "PRICE": 1,
+              "CALORIES": 110,
+              "IMAGES": "https://image.freepik.com/free-photo/slice-pork_1339-581.jpg"
+            },
+            {
+              "MENU": "Meatball/ Fish Cake",
+              "PRICE": 1,
+              "CALORIES": 35,
+              "IMAGES": "https://www.suzyameeronline.com.sg/uploads/products/1529/Bobo_Chicken_Cheese_Ball_07623934-3d4c-4669-884d-3c21099fb802.jpg"
+            },
+            {
+              "MENU": "Rice/ noodle",
+              "PRICE": 0.5,
+              "CALORIES": 160,
+              "IMAGES": "https://images.ctfassets.net/3s5io6mnxfqz/4w2HQFnzRAsjqgWjNtuy1v/41becac8b5d850dd15302b785119435f/AdobeStock_268001268.jpeg"
+            }
+          ]
+    }
+
+]

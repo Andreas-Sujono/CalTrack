@@ -25,7 +25,7 @@ return(
                 style={styles.topImage}
                 source={gymImage}
             />
-            <Icon name="arrowleft" style={styles.arrowLeft} onPress={() => props.navigation.navigate('Login')}/>
+            <Icon name="arrowleft" style={styles.arrowLeft} onPress={() => props.navigation.navigate('Exercise')}/>
         <View style={styles.contentContainer}>
             <View style = {styles.formContainer}>
 

@@ -49,19 +49,19 @@ const styles = StyleSheet.create({
     },
     imageContainer1:{
         position: 'absolute',
-        top: 120,
-        left: -30,
+        top: 150,
+        left:-30,
     },
     imageContainer2:{
-        top: 200,
+        top: 230,
         left: -30,
     },
     imageContainer3:{
-        top: -170,
+        top: -140,
         right: -160,
     },
     imageContainer4:{
-        top: -167,
+        top: -137,
         right: -150,
     },
 

@@ -20,9 +20,6 @@ import styles from './ExerciseMain.style';
 
 export default (props) => {
 
-    const handleCalories = () => {
-      console.log('calories')
-    }
 return(
     <View style = {styles.container}>
 
@@ -35,14 +32,13 @@ return(
             <View style = {styles.formContainer}>
 
                 <View style = {styles.textContainer} > 
-                    <Text style = {styles.text1} > What did you do</Text>
-                    <Text style = {styles.text2}> today?</Text>
+                    <Text style = {styles.text1}> What did you do {"\n"} today? </Text>
                 </View>
                 <Image
                     style={styles.imageContainer1}
                     source={gymEllipse}
                 />
-                 <Image
+                <Image
                     style={styles.imageContainer2}
                     source={swimEllipse}
                 />
@@ -55,16 +51,6 @@ return(
                     source={cyclingEllipse}
                 />
                        
-        
-
-                <View style = {styles.inputContainer}>
-                    <TouchableOpacity
-                        style={styles.button}
-                        onPress={() => handleCalories()}
-                    > 
-                        <Text style={styles.buttonText}>Update Calories Burned </Text>
-                    </TouchableOpacity>
-                </View>
             </View>
         </View>
 
