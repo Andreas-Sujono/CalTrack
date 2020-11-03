@@ -14,18 +14,18 @@ const styles = StyleSheet.create({
     },
     image:{
         width: '100%',
-        minWidth: 140,
-        maxWidth: 320,
+        minWidth: 100,
+        maxWidth: 100,
         height: 80,
     },
-    content:{paddingLeft: 12},
+    content:{paddingLeft: 12, width: '70%'},
     title:{
         fontSize: 16,
         fontWeight: 'bold',
-        width: '48%'
+        width: '100%'
     },
     desc:{
-        width: '48%'
+        width: '100%'
     }
     
 })

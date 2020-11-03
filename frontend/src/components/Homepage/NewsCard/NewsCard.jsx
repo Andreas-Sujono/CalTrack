@@ -10,6 +10,8 @@ import {
 import styles from './NewsCard.style'
 
 function NewsCard(props) {
+    let desc = props.desc || ''
+    desc = desc.slice(0,50)
     return (
         <View style={styles.container}>
             <Image 
@@ -20,7 +22,7 @@ function NewsCard(props) {
             />
             <View style={styles.content}>
                 <Text style={styles.title}>{props.title}</Text>
-                <Text style={styles.desc}>{props.desc}</Text>
+                <Text style={styles.desc}>{desc}...</Text>
             </View>
             
         </View>

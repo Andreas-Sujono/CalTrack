@@ -87,7 +87,7 @@ const Login = (props) => {
 
   if(isLoading)
     return (
-      <Loading/>
+      <Loading isFullPage={true}/>
     )
 
   return (
