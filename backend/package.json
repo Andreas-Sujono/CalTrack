@@ -1,0 +1,46 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  },
+  "baseUrlPath": "/",
+  "scripts": {
+    "debug": "ndb server.js",
+    "start": "nodemon server.js ",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "test": "jest"
+  },
+  "author": "Andreas Sujono",
+  "license": "ISC",
+  "engines": {
+    "node": "10.x"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-mongo-sanitize": "^1.3.2",
+    "express-oas-generator": "^1.0.24",
+    "express-rate-limit": "^5.0.0",
+    "generate-serial-number": "0.0.3",
+    "helmet": "^3.21.2",
+    "hpp": "^0.2.2",
+    "json-stringify-pretty-compact": "^2.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.7",
+    "nodemailer": "^6.4.13",
+    "nodemon": "^2.0.3",
+    "pug": "^2.0.4",
+    "validator": "^12.0.0",
+    "xss-clean": "^0.1.1"
+  }
+}
