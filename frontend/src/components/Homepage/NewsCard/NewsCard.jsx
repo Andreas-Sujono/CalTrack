@@ -10,6 +10,7 @@ import {
 import styles from './NewsCard.style'
 
 function NewsCard(props) {
+    let defaultImage = 'https://www.freeiconspng.com/thumbs/no-image-icon/no-image-icon-6.png'
     let desc = props.desc || ''
     desc = desc.slice(0,50)
     return (
@@ -17,7 +18,7 @@ function NewsCard(props) {
             <Image 
                 style={styles.image}
                 source={{
-                    uri: props.image
+                    uri: props.image || defaultImage
                 }}
             />
             <View style={styles.content}>

@@ -5,7 +5,7 @@ import { NavigationContainer } from '@react-navigation/native';
 
 import Canteen from './Main/Canteen'
 import Stall from './Stall/Stall'
-// import FoodItem from './FoodItem'
+import FoodItem from './FoodItem/FoodItem'
 
 const Stack = createStackNavigator();
 
@@ -29,6 +29,11 @@ const NavStack = props => {
                 options={{ headerShown: false }} 
                 name="Stall" 
                 component={Stall} 
+            />
+            <Stack.Screen 
+                options={{ headerShown: false }} 
+                name="FoodItem" 
+                component={FoodItem} 
             />
             </Stack.Navigator>
         </>

@@ -30,7 +30,7 @@ function Homepage(props) {
     });
 
     useEffect(() => {
-        getNewsData()
+        // getNewsData()
     }, [])
 
     const getNewsData = () => {
@@ -40,12 +40,11 @@ function Homepage(props) {
         axios.get(url)
             .then(res => res.data)
             .then(res => {
+                console.log('fetched news API')
                 if(res.articles && res.articles?.length){
-                    let defaultImage = 'https://www.freeiconspng.com/thumbs/no-image-icon/no-image-icon-6.png'
-                    let articles = res.articles.map(item => ({...item, image: item.urlToImage || defaultImage, desc: item.description}))
+                    let articles = res.articles.map(item => ({...item, image: item.urlToImage, desc: item.description}))
                     setNewsData(articles)
                 }
-                    
             })
             .catch(err => console.log(err))
     }
@@ -87,6 +86,10 @@ function Homepage(props) {
                         backgroundColor="transparent"
                         paddingLeft="15"
                         hasLegend = {true}
+                        style={{
+                            maxWidth: '50%',
+                            flexWrap: 'wrap'
+                        }}
                     />
                 </View>
                 <View style={styles.eachChart}>

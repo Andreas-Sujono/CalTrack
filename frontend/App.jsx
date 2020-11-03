@@ -1,6 +1,15 @@
 import React, {Component} from 'react';
+import {
+  View,
+  Text,
+  Image,
+  Dimensions,
+  ScrollView,
+  TouchableOpacity
+} from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
+import { useFonts, Poppins_400Regular } from '@expo-google-fonts/poppins';
 
 import Login from './src/components/Login'
 import Signup from './src/components/Signup'
@@ -27,6 +36,7 @@ export default class App extends Component{
 
   render(){
     return (
+      <View style={{flex:1, fontFamily: 'Poppins_400Regular'}}>
       <UserProvider value={{state: this.state, updateState: this.updateState}}>
         <NavigationContainer>
           <Stack.Navigator initialRouteName="Login" screenOptions= {{
@@ -57,6 +67,7 @@ export default class App extends Component{
           </Stack.Navigator>
         </NavigationContainer>
       </UserProvider>
+      </View>
     );
   }
   

@@ -22,16 +22,17 @@ export default (props) => {
   return (
     <ScrollView style = {styles.container}>
 
-        <Image
-            style={styles.topImage}
-            source={canteenImage}
-        />
-        <Icon name="arrowleft" style={styles.arrowLeft} onPress={() => props.navigation.navigate('Canteen')}/>
+      <Image
+          style={styles.topImage}
+          source={canteenImage}
+      />
+      <Icon name="arrowleft" style={styles.arrowLeft} onPress={() => props.navigation.navigate('Canteen')}/>
+      
       <View style={styles.contentContainer}>
         <View style = {styles.formContainer}>
 
             <View style = {styles.textContainer} > 
-            <Text style = {styles.text} >{canteenName}</Text>
+              <Text style = {styles.text} >{canteenName}</Text>
             </View>
 
             {
@@ -45,7 +46,7 @@ export default (props) => {
                 let image = item[name][0].image;
 
                 return (
-                  <TouchableOpacity onPress={() => props.navigation.navigate('Stall', {canteenName})}>
+                  <TouchableOpacity onPress={() => props.navigation.navigate('FoodItem', {stallName, foods: item[name], canteenName})}>
                     <CanteenCard key={Math.random()} name={stallName} desc={menu} image={image}/>
                   </TouchableOpacity>
                 )

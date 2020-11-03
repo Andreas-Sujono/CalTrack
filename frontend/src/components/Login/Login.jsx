@@ -8,6 +8,7 @@ import {
 } from 'react-native';
 import axios from 'axios'
 import CacheStore from 'react-native-cache-store';
+import { useFonts, Poppins_400Regular } from '@expo-google-fonts/poppins';
 
 import welcomeImage from 'assets/images/welcome.png'
 import backgroundImage from 'assets/images/loginBackground.png'
@@ -24,6 +25,10 @@ const Login = (props) => {
   const [password, setPassword] = useState('')
   const [errorMessage, setErrorMessage] = useState(errorMessage)
   const [isLoading, setIsLoading] = useState(false)
+
+  let [fontsLoaded] = useFonts({
+      Poppins_400Regular,
+  });
 
   useEffect(() => {
     CacheStore.get('auth')
@@ -91,7 +96,7 @@ const Login = (props) => {
     )
 
   return (
-    <View style = {styles.container}>
+    <View style = {[styles.container, {fontFamily: 'Poppins_400Regular'}]}>
 
       <View style = {styles.imageContainer}>
         <Image
