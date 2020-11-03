@@ -27,6 +27,7 @@ const styles = StyleSheet.create({
         justifyContent: 'flex-start',
         alignItems: 'center',
         marginTop:30,
+        paddingBottom: 50
     },
     formContainer:{
         width: '80%'

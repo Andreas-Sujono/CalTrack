@@ -5,7 +5,7 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         backgroundColor:'white',
-        paddingTop:20
+        paddingTop:20,
     },
     
     topImage:{
@@ -27,6 +27,7 @@ const styles = StyleSheet.create({
         justifyContent: 'flex-start',
         alignItems: 'center',
         marginTop:30,
+        paddingBottom: 50
     },
     formContainer:{
         width: '80%'

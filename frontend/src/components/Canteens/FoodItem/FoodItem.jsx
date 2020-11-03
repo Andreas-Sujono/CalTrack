@@ -29,7 +29,7 @@ export default (props) => {
           <Text style = {styles.text} >{stallName}</Text>
         </View>
 
-        <ScrollView horizontal={true} style={{marginTop:100, padding: 20}}>
+        <ScrollView horizontal={true} style={{marginTop:70, padding: 20}}>
           {
             foods.map(item => {
               let {menu, price, calories, image} = item

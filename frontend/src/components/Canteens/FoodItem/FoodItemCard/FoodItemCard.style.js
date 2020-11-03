@@ -3,7 +3,7 @@ import {StyleSheet} from "react-native";
 
 const styles = StyleSheet.create({
     boxContainer:{
-        height: '100%',
+        height: '90%',
         borderRadius: 24,
         backgroundColor: "#5C4DB1",
         marginRight:20,

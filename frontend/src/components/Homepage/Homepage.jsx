@@ -30,7 +30,7 @@ function Homepage(props) {
     });
 
     useEffect(() => {
-        // getNewsData()
+        getNewsData()
     }, [])
 
     const getNewsData = () => {
