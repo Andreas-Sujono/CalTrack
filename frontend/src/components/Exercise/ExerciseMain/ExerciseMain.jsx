@@ -36,9 +36,12 @@ return(
                 </View>
 
                 <View style={styles.exerciseContainer}>
-                    <TouchableOpacity onPress={() => {
-                        props.navigation.navigate('ExerciseWorkout')
-                    }}>
+                    <TouchableOpacity 
+                        onPress={() => {
+                            props.navigation.navigate('ExerciseWorkout')
+                        }}
+                        style={{width:'50%'}}
+                    >
                         <View style={styles.imageContainer}>
                             <Image
                                 source={gymEllipse}
@@ -49,7 +52,7 @@ return(
                     </TouchableOpacity>
                     <TouchableOpacity onPress={() => {
                         props.navigation.navigate('ExerciseSwim')
-                    }}>
+                    }} style={{width:'50%'}}>
                         <View style={styles.imageContainer}>
                             <Image
                                 source={swimEllipse}
@@ -60,7 +63,7 @@ return(
                     </TouchableOpacity>
                     <TouchableOpacity onPress={() => {
                         props.navigation.navigate('ExerciseRun')
-                    }}>
+                    }} style={{width:'50%'}}>
                         <View style={styles.imageContainer}>
                             <Image
                                 source={runEllipse}
@@ -71,7 +74,7 @@ return(
                     </TouchableOpacity>
                     <TouchableOpacity onPress={() => {
                         props.navigation.navigate('ExerciseCycling')
-                    }}>
+                    }} style={{width:'50%'}}>
                         <View style={styles.imageContainer}>
                             <Image
                                 source={cyclingEllipse}

@@ -35,7 +35,7 @@ export default (props) => {
                 let address = item[name][0].address;
                 let image = item[name][0].image;
                 return (
-                  <TouchableOpacity onPress={() => props.navigation.navigate('Stall', {stall: name})}>
+                  <TouchableOpacity onPress={() => props.navigation.navigate('Stall', {canteenName: name})}>
                     <CanteenCard key={Math.random()} name={name} desc={address} image={image}/>
                   </TouchableOpacity>
                 )

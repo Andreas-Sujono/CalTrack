@@ -15,7 +15,7 @@ import canteenImage from 'assets/images/canteen.png'
 import CanteenCard from '../Main/CanteenCard'
 
 export default (props) => {
-  const { stall } = props.route.params;
+  const { canteenName } = props.route.params;
   let testStallName = "QuadCafe"
   let data = require(`../CanteenData/${testStallName}.json`)
 
@@ -31,7 +31,7 @@ export default (props) => {
         <View style = {styles.formContainer}>
 
             <View style = {styles.textContainer} > 
-            <Text style = {styles.text} >{stall}</Text>
+            <Text style = {styles.text} >{canteenName}</Text>
             </View>
 
             {
@@ -44,7 +44,11 @@ export default (props) => {
                 let menu = item[name][0].menu;
                 let image = item[name][0].image;
 
-                return <CanteenCard key={Math.random()} name={stallName} desc={menu} image={image}/>
+                return (
+                  <TouchableOpacity onPress={() => props.navigation.navigate('Stall', {canteenName})}>
+                    <CanteenCard key={Math.random()} name={stallName} desc={menu} image={image}/>
+                  </TouchableOpacity>
+                )
               })
             }
            
