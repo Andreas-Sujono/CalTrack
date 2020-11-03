@@ -28,8 +28,9 @@ const Login = (props) => {
   useEffect(() => {
     CacheStore.get('auth')
       .then((auth) => {
-        if(auth && auth.usesrname && auth.password){
-          console.log(auth)
+        console.log('get auth: ', auth)
+        if(auth && auth.username && auth.password){
+          console.log('retrieve auth: ', auth)
           setUsername(auth.username)
           setPassword(auth.password)
           handleSignIn(auth)
@@ -67,6 +68,7 @@ const Login = (props) => {
         props.context.updateState('token', res.token)
         props.context.updateState('userAccountId', res.userAccount._id)
         props.context.updateState('userDetailsId', res.userDetails._id)
+        setErrorMessage('')
 
         //save in cache
         CacheStore.set('auth', {username, password})
@@ -129,8 +131,9 @@ const Login = (props) => {
             />
           </View>
 
+          
           {
-            errorMessage && <Text style={styles.errorText}>{errorMessage}</Text>
+            errorMessage ? <Text style={styles.errorText}>{errorMessage}</Text> : null
           }
 
           <TouchableOpacity
@@ -149,7 +152,9 @@ const Login = (props) => {
                 props.navigation.navigate('Signup')
               }}
             > 
-              <Text style={styles.linkText}>Sign up here</Text>
+              <View>
+                <Text style={styles.linkText}>Sign up here</Text>
+              </View>
             </TouchableOpacity>
           </View>
         </View>

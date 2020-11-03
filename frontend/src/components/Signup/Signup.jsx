@@ -143,7 +143,7 @@ const Signup = (props) => {
                     </View>
 
                     {
-                        errorMessage && <Text style={styles.errorText}>{errorMessage}</Text>
+                        errorMessage ? <Text style={styles.errorText}>{errorMessage}</Text> : null
                     }
 
                     <View style = {styles.inputContainer}>

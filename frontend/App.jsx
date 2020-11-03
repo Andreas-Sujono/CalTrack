@@ -47,7 +47,7 @@ export default class App extends Component{
               component={Signup} 
             />
             {
-              // this.state.isLoggedIn && 
+              this.state.isLoggedIn && 
               <Stack.Screen 
                 options={{ headerShown: false }} 
                 name="BottomTabs" 
