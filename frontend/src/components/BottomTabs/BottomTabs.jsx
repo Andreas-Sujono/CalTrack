@@ -8,9 +8,13 @@ import Exercise from 'components/Exercise'
 import Profile from 'components/Profile'
 
 import homepageIcon from 'assets/icons/home.png'
+import homepageActiveIcon from 'assets/icons/homeActive.png'
 import exerciseIcon from 'assets/icons/exercise.png'
+import exerciseActiveIcon from 'assets/icons/exerciseActive.png'
 import canteensIcon from 'assets/icons/canteens.png'
+import canteensActiveIcon from 'assets/icons/canteensActive.png'
 import profileIcon from 'assets/icons/profile.png'
+import profileActiveIcon from 'assets/icons/profileActive.png'
 
 const Tab = createBottomTabNavigator();
 
@@ -53,13 +57,14 @@ function MyTabBar({ state, descriptors, navigation }) {
                     accessibilityLabel={options.tabBarAccessibilityLabel}
                     testID={options.tabBarTestID}
                     onPress={onPress}
-                    style={{ flex: 1 }}
+                    style={{ flex: 1,}}
                     key={index}
                 >
                     <View style={{
-                        flex:1, justifyContent: 'center', alignItems: 'center', backgroundColor: isFocused ? '#ACA5F8' : 'white'
+                        flex:1, justifyContent: 'center', alignItems: 'center', backgroundColor: isFocused ? '#ACA5F8' : 'white',
+                        borderTopColor: '#F5F5F5', borderTopWidth: 1 
                     }}>
-                        {options.tabBarIcon && options.tabBarIcon()}
+                        {!isFocused ? options.tabBarIcon() : options.tabBarActiveIcon()}
                         <Text style={{ color: isFocused ? 'white' : '#222' }}>
                             {label}
                         </Text>
@@ -89,6 +94,15 @@ function BottomTabs(props) {
                             }}
                         />
                     ),
+                    tabBarActiveIcon: () => (
+                        <Image 
+                            source = {homepageActiveIcon}
+                            style={{
+                                "width": 30,
+                                "height": 25,
+                            }}
+                        />
+                    ),
                 }}
             />
             <Tab.Screen 
@@ -99,6 +113,15 @@ function BottomTabs(props) {
                     tabBarIcon: () => (
                         <Image 
                             source = {exerciseIcon}
+                            style={{
+                                "width": 30,
+                                "height": 22,
+                            }}
+                        />
+                    ),
+                    tabBarActiveIcon: () => (
+                        <Image 
+                            source = {exerciseActiveIcon}
                             style={{
                                 "width": 30,
                                 "height": 22,
@@ -121,6 +144,15 @@ function BottomTabs(props) {
                             }}
                         />
                     ),
+                    tabBarActiveIcon: () => (
+                        <Image 
+                            source = {canteensActiveIcon}
+                            style={{
+                                "width": 28,
+                                "height": 25,
+                            }}
+                        />
+                    ),
                 }}
             />
             <Tab.Screen 
@@ -131,6 +163,15 @@ function BottomTabs(props) {
                     tabBarIcon: () => (
                         <Image 
                             source = {profileIcon}
+                            style={{
+                                "width": 25,
+                                "height": 25,
+                            }}
+                        />
+                    ),
+                    tabBarActiveIcon: () => (
+                        <Image 
+                            source = {profileActiveIcon}
                             style={{
                                 "width": 25,
                                 "height": 25,

@@ -32,13 +32,13 @@ const Profile = () => {
   const underweight = bmi <18.5;
 
   const labels = [
-    'SUN',
     'MON',
     'TUE',
     'WED',
     'THU',
     'FRI',
     'SAT',
+    'SUN',
   ];
   const data = [
     Math.random() * 100,
@@ -60,7 +60,7 @@ const Profile = () => {
         <View style = {styles.titleContainer}>
           <View style = {styles.profileContainer}>
             {/* <Image style={styles.profileImage} source={profileImage1}/> */}
-            <Text style = {styles.title} >Profiles</Text>
+            <Text style = {styles.title} >Profile</Text>
           </View>
           <Image source={backgroudImage} style={styles.backgroudImage}/> 
         </View>
