@@ -1,399 +1,399 @@
 [{"QuadCafe_KoreanFood" : [
   {
-    "MENU": "Beef Bulgogi",
-    "PRICE": 5.5,
-    "CALORIES": 664,
-    "IMAGE": "https://s23209.pcdn.co/wp-content/uploads/2019/04/Korean-Beef-BulgogiIMG_9246.jpg"
+    "menu": "Beef Bulgogi",
+    "price": 5.5,
+    "calories": 664,
+    "image": "https://s23209.pcdn.co/wp-content/uploads/2019/04/Korean-Beef-BulgogiIMG_9246.jpg"
   },
   {
-    "MENU": "Beef Combo",
-    "PRICE": 6,
-    "CALORIES": 540,
-    "IMAGE": ""
+    "menu": "Beef Combo",
+    "price": 6,
+    "calories": 540,
+    "image": ""
   },
   {
-    "MENU": "Fish",
-    "PRICE": 5,
-    "CALORIES": 116,
-    "IMAGE": ""
+    "menu": "Fish",
+    "price": 5,
+    "calories": 116,
+    "image": ""
   },
   {
-    "MENU": "Kimchi Jigae",
-    "PRICE": 4.5,
-    "CALORIES": 357,
-    "IMAGE": ""
+    "menu": "Kimchi Jigae",
+    "price": 4.5,
+    "calories": 357,
+    "image": ""
   },
   {
-    "MENU": "Bibimbap",
-    "PRICE": 4,
-    "CALORIES": 560,
-    "IMAGE": ""
+    "menu": "Bibimbap",
+    "price": 4,
+    "calories": 560,
+    "image": ""
   },
   {
-    "MENU": "Ramyeon",
-    "PRICE": 3.5,
-    "CALORIES": 475,
-    "IMAGE": ""
+    "menu": "Ramyeon",
+    "price": 3.5,
+    "calories": 475,
+    "image": ""
   },
   {
-    "MENU": "Kimbab",
-    "PRICE": 3,
-    "CALORIES": 340,
-    "IMAGE": ""
+    "menu": "Kimbab",
+    "price": 3,
+    "calories": 340,
+    "image": ""
   },
   {
-    "MENU": "Chicken Bulgogi",
-    "PRICE": 4.8,
-    "CALORIES": 433,
-    "IMAGE": ""
+    "menu": "Chicken Bulgogi",
+    "price": 4.8,
+    "calories": 433,
+    "image": ""
   },
   {
-    "MENU": "Chicken Combo",
-    "PRICE": 5.5,
-    "CALORIES": 600,
-    "IMAGE": ""
+    "menu": "Chicken Combo",
+    "price": 5.5,
+    "calories": 600,
+    "image": ""
   },
   {
-    "MENU": "Samgye Tang",
-    "PRICE": 5.8,
-    "CALORIES": 201,
-    "IMAGE": ""
+    "menu": "Samgye Tang",
+    "price": 5.8,
+    "calories": 201,
+    "image": ""
   },
   {
-    "MENU": "Sondubu",
-    "PRICE": 4.5,
-    "CALORIES": 252,
-    "IMAGE": ""
+    "menu": "Sondubu",
+    "price": 4.5,
+    "calories": 252,
+    "image": ""
   },
   {
-    "MENU": "Kimchi Bokkeum Bab",
-    "PRICE": 4,
-    "CALORIES": 567,
-    "IMAGE": ""
+    "menu": "Kimchi Bokkeum Bab",
+    "price": 4,
+    "calories": 567,
+    "image": ""
   }]},
   {
-    "MENU": "",
-    "PRICE": "",
-    "CALORIES": "",
-    "IMAGE": ""
+    "menu": "",
+    "price": "",
+    "calories": "",
+    "image": ""
   },
   {
-    "MENU": "",
-    "PRICE": "",
-    "CALORIES": "",
-    "IMAGE": ""
+    "menu": "",
+    "price": "",
+    "calories": "",
+    "image": ""
   },
   {
-    "MENU": "",
-    "PRICE": "",
-    "CALORIES": "",
-    "IMAGE": ""
+    "menu": "",
+    "price": "",
+    "calories": "",
+    "image": ""
   },
   {"QuadCafe_Noodles" : [
   {
-    "MENU": "MENU",
-    "PRICE": "PRICE",
-    "CALORIES": "CALORIES",
-    "IMAGE": "IMAGE"
+    "menu": "menu",
+    "price": "price",
+    "calories": "calories",
+    "image": "image"
   },
   {
-    "MENU": "LanZhou Beef La Mian",
-    "PRICE": 5,
-    "CALORIES": 1248,
-    "IMAGE": ""
+    "menu": "LanZhou Beef La Mian",
+    "price": 5,
+    "calories": 1248,
+    "image": ""
   },
   {
-    "MENU": "ShangHai Fried Noodle",
-    "PRICE": 5.5,
-    "CALORIES": 1160,
-    "IMAGE": ""
+    "menu": "ShangHai Fried Noodle",
+    "price": 5.5,
+    "calories": 1160,
+    "image": ""
   },
   {
-    "MENU": "ChongQing Noodle",
-    "PRICE": 5,
-    "CALORIES": 490,
-    "IMAGE": ""
+    "menu": "ChongQing Noodle",
+    "price": 5,
+    "calories": 490,
+    "image": ""
   },
   {
-    "MENU": "GuiZhou Beef Rice Noodle",
-    "PRICE": 5.5,
-    "CALORIES": 739,
-    "IMAGE": ""
+    "menu": "GuiZhou Beef Rice Noodle",
+    "price": 5.5,
+    "calories": 739,
+    "image": ""
   },
   {
-    "MENU": "Beijing Mixed Sauce Noodle",
-    "PRICE": 4.5,
-    "CALORIES": 446,
-    "IMAGE": ""
+    "menu": "Beijing Mixed Sauce Noodle",
+    "price": 4.5,
+    "calories": 446,
+    "image": ""
   },
   {
-    "MENU": "Dry Fried Hofen",
-    "PRICE": 4.5,
-    "CALORIES": 585,
-    "IMAGE": ""
+    "menu": "Dry Fried Hofen",
+    "price": 4.5,
+    "calories": 585,
+    "image": ""
   },
   {
-    "MENU": "Dry Fried Rice Noodle",
-    "PRICE": 4.5,
-    "CALORIES": 373,
-    "IMAGE": ""
+    "menu": "Dry Fried Rice Noodle",
+    "price": 4.5,
+    "calories": 373,
+    "image": ""
   },
   {
-    "MENU": "Oil Spilled La Mian",
-    "PRICE": 4.5,
-    "CALORIES": 759,
-    "IMAGE": ""
+    "menu": "Oil Spilled La Mian",
+    "price": 4.5,
+    "calories": 759,
+    "image": ""
   },
   {
-    "MENU": "Signatur Fried Rice With Tomato Sauce",
-    "PRICE": 4.5,
-    "CALORIES": 550,
-    "IMAGE": ""
+    "menu": "Signatur Fried Rice With Tomato Sauce",
+    "price": 4.5,
+    "calories": 550,
+    "image": ""
   },
   {
-    "MENU": "Sauerkraut Fish",
-    "PRICE": 5,
-    "CALORIES": 307,
-    "IMAGE": ""
+    "menu": "Sauerkraut Fish",
+    "price": 5,
+    "calories": 307,
+    "image": ""
   },
   {
-    "MENU": "Rice Noodle with Sauerkraut Fish",
-    "PRICE": 5,
-    "CALORIES": 592,
-    "IMAGE": ""
+    "menu": "Rice Noodle with Sauerkraut Fish",
+    "price": 5,
+    "calories": 592,
+    "image": ""
   }]},
   {
-    "MENU": "",
-    "PRICE": "",
-    "CALORIES": "",
-    "IMAGE": ""
+    "menu": "",
+    "price": "",
+    "calories": "",
+    "image": ""
   },
   {
-    "MENU": "",
-    "PRICE": "",
-    "CALORIES": "",
-    "IMAGE": ""
+    "menu": "",
+    "price": "",
+    "calories": "",
+    "image": ""
   },
   {
-    "MENU": "",
-    "PRICE": "",
-    "CALORIES": "",
-    "IMAGE": ""
+    "menu": "",
+    "price": "",
+    "calories": "",
+    "image": ""
   },
   {
-    "MENU": "MENU",
-    "PRICE": "PRICE",
-    "CALORIES": "CALORIES",
-    "IMAGE": "IMAGE"
+    "menu": "menu",
+    "price": "price",
+    "calories": "calories",
+    "image": "image"
   },
   {
-    "MENU": "Beef Noodle soup",
-    "PRICE": 5.5,
-    "CALORIES": 0,
-    "IMAGE": ""
+    "menu": "Beef Noodle soup",
+    "price": 5.5,
+    "calories": 0,
+    "image": ""
   },
   {
-    "MENU": "Bamee/Youmee",
-    "PRICE": 4,
-    "CALORIES": 0,
-    "IMAGE": ""
+    "menu": "Bamee/Youmee",
+    "price": 4,
+    "calories": 0,
+    "image": ""
   },
   {
-    "MENU": "Dumplings Noodle",
-    "PRICE": 4,
-    "CALORIES": 0,
-    "IMAGE": ""
+    "menu": "Dumplings Noodle",
+    "price": 4,
+    "calories": 0,
+    "image": ""
   },
   {
-    "MENU": "Noodles",
-    "PRICE": 3.5,
-    "CALORIES": 0,
-    "IMAGE": ""
+    "menu": "Noodles",
+    "price": 3.5,
+    "calories": 0,
+    "image": ""
   },
   {
-    "MENU": "Oyster Sauce Chicken Noodle",
-    "PRICE": 3.8,
-    "CALORIES": 0,
-    "IMAGE": ""
+    "menu": "Oyster Sauce Chicken Noodle",
+    "price": 3.8,
+    "calories": 0,
+    "image": ""
   },
   {
-    "MENU": "Liangpi",
-    "PRICE": 3.5,
-    "CALORIES": 0,
-    "IMAGE": ""
+    "menu": "Liangpi",
+    "price": 3.5,
+    "calories": 0,
+    "image": ""
   },
   {
-    "MENU": "Vegetable Noodles",
-    "PRICE": 3.5,
-    "CALORIES": 0,
-    "IMAGE": ""
+    "menu": "Vegetable Noodles",
+    "price": 3.5,
+    "calories": 0,
+    "image": ""
   },
   {
-    "MENU": "Dumplings",
-    "PRICE": 4.5,
-    "CALORIES": 0,
-    "IMAGE": ""
+    "menu": "Dumplings",
+    "price": 4.5,
+    "calories": 0,
+    "image": ""
   },
   {
-    "MENU": "Beef/Cold Noodles",
-    "PRICE": 4.5,
-    "CALORIES": 0,
-    "IMAGE": ""
+    "menu": "Beef/Cold Noodles",
+    "price": 4.5,
+    "calories": 0,
+    "image": ""
   },
   {
-    "MENU": "Sauce Chicken Noodles",
-    "PRICE": 5,
-    "CALORIES": 0,
-    "IMAGE": ""
+    "menu": "Sauce Chicken Noodles",
+    "price": 5,
+    "calories": 0,
+    "image": ""
   },
   {
-    "MENU": "Mala Tang",
-    "PRICE": 5,
-    "CALORIES": 0,
-    "IMAGE": ""
+    "menu": "Mala Tang",
+    "price": 5,
+    "calories": 0,
+    "image": ""
   },
   {
-    "MENU": "Dried dumpling",
-    "PRICE": 5,
-    "CALORIES": 0,
-    "IMAGE": ""
+    "menu": "Dried dumpling",
+    "price": 5,
+    "calories": 0,
+    "image": ""
   },
   {
-    "MENU": "Braised Beef Rice",
-    "PRICE": 4.5,
-    "CALORIES": 0,
-    "IMAGE": ""
+    "menu": "Braised Beef Rice",
+    "price": 4.5,
+    "calories": 0,
+    "image": ""
   },
   {
-    "MENU": "",
-    "PRICE": "",
-    "CALORIES": "",
-    "IMAGE": ""
+    "menu": "",
+    "price": "",
+    "calories": "",
+    "image": ""
   },
   {
-    "MENU": "",
-    "PRICE": "",
-    "CALORIES": "",
-    "IMAGE": ""
+    "menu": "",
+    "price": "",
+    "calories": "",
+    "image": ""
   },
   {
-    "MENU": "",
-    "PRICE": "",
-    "CALORIES": "",
-    "IMAGE": ""
+    "menu": "",
+    "price": "",
+    "calories": "",
+    "image": ""
   },
   {
-    "MENU": "MENU",
-    "PRICE": "PRICE",
-    "CALORIES": "CALORIES",
-    "IMAGE": "IMAGE"
+    "menu": "menu",
+    "price": "price",
+    "calories": "calories",
+    "image": "image"
   },
   {
-    "MENU": "Coffee",
-    "PRICE": 0.8,
-    "CALORIES": 0,
-    "IMAGE": ""
+    "menu": "Coffee",
+    "price": 0.8,
+    "calories": 0,
+    "image": ""
   },
   {
-    "MENU": "Tea",
-    "PRICE": 0.8,
-    "CALORIES": 0,
-    "IMAGE": ""
+    "menu": "Tea",
+    "price": 0.8,
+    "calories": 0,
+    "image": ""
   },
   {
-    "MENU": "Milo",
-    "PRICE": 1,
-    "CALORIES": 0,
-    "IMAGE": ""
+    "menu": "Milo",
+    "price": 1,
+    "calories": 0,
+    "image": ""
   },
   {
-    "MENU": "Chinese Tea",
-    "PRICE": 0.6,
-    "CALORIES": 0,
-    "IMAGE": ""
+    "menu": "Chinese Tea",
+    "price": 0.6,
+    "calories": 0,
+    "image": ""
   },
   {
-    "MENU": "Chrysentium Tea",
-    "PRICE": 0.7,
-    "CALORIES": 0,
-    "IMAGE": ""
+    "menu": "Chrysentium Tea",
+    "price": 0.7,
+    "calories": 0,
+    "image": ""
   },
   {
-    "MENU": "Ginger Tea",
-    "PRICE": 1.2,
-    "CALORIES": 0,
-    "IMAGE": ""
+    "menu": "Ginger Tea",
+    "price": 1.2,
+    "calories": 0,
+    "image": ""
   },
   {
-    "MENU": "Water Melon",
-    "PRICE": 0.6,
-    "CALORIES": 0,
-    "IMAGE": ""
+    "menu": "Water Melon",
+    "price": 0.6,
+    "calories": 0,
+    "image": ""
   },
   {
-    "MENU": "Honeydew",
-    "PRICE": 0.6,
-    "CALORIES": 0,
-    "IMAGE": ""
+    "menu": "Honeydew",
+    "price": 0.6,
+    "calories": 0,
+    "image": ""
   },
   {
-    "MENU": "Papaya",
-    "PRICE": 0.6,
-    "CALORIES": 0,
-    "IMAGE": ""
+    "menu": "Papaya",
+    "price": 0.6,
+    "calories": 0,
+    "image": ""
   },
   {
-    "MENU": "Pineapple",
-    "PRICE": 0.8,
-    "CALORIES": 0,
-    "IMAGE": ""
+    "menu": "Pineapple",
+    "price": 0.8,
+    "calories": 0,
+    "image": ""
   },
   {
-    "MENU": "Guava",
-    "PRICE": 0.8,
-    "CALORIES": 0,
-    "IMAGE": ""
+    "menu": "Guava",
+    "price": 0.8,
+    "calories": 0,
+    "image": ""
   },
   {
-    "MENU": "Banana",
-    "PRICE": 0.7,
-    "CALORIES": 0,
-    "IMAGE": ""
+    "menu": "Banana",
+    "price": 0.7,
+    "calories": 0,
+    "image": ""
   },
   {
-    "MENU": "Apple",
-    "PRICE": 0.9,
-    "CALORIES": 0,
-    "IMAGE": ""
+    "menu": "Apple",
+    "price": 0.9,
+    "calories": 0,
+    "image": ""
   },
   {
-    "MENU": "Orange",
-    "PRICE": 0.9,
-    "CALORIES": 0,
-    "IMAGE": ""
+    "menu": "Orange",
+    "price": 0.9,
+    "calories": 0,
+    "image": ""
   },
   {
-    "MENU": "Kiwi",
-    "PRICE": 1,
-    "CALORIES": 0,
-    "IMAGE": ""
+    "menu": "Kiwi",
+    "price": 1,
+    "calories": 0,
+    "image": ""
   },
   {
-    "MENU": "Rock Melon",
-    "PRICE": 1,
-    "CALORIES": 0,
-    "IMAGE": ""
+    "menu": "Rock Melon",
+    "price": 1,
+    "calories": 0,
+    "image": ""
   },
   {
-    "MENU": "Red Dragon Fruit",
-    "PRICE": 1,
-    "CALORIES": 0,
-    "IMAGE": ""
+    "menu": "Red Dragon Fruit",
+    "price": 1,
+    "calories": 0,
+    "image": ""
   },
   {
-    "MENU": "Fruit Cup",
-    "PRICE": 2.5,
-    "CALORIES": 0,
-    "IMAGE": ""
+    "menu": "Fruit Cup",
+    "price": 2.5,
+    "calories": 0,
+    "image": ""
   }
 ]

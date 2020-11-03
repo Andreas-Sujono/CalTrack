@@ -2,7 +2,7 @@
   {
     "address": "60 Nanyang Drive, The Quad CafeSchool of Biological Sciences, Level B1, 637551",
     "stalls": ["Korean Food", "Drink and Beverages","Noodles"],
-    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.facebook.com%2FNTUMAEGraduateStudentClub%2Fposts%2Fthe-quad-cafe-just-reopen-if-you-have-class-around-sbs-and-or-a-short-break-duri%2F1573023382740545%2F&psig=AOvVaw1A9YKse1-UUdzwhQhtllEO&ust=1604417356739000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNjP7MaW5OwCFQAAAAAdAAAAABAD"
+    "image": "https://www.ntu.edu.sg/has/FnB/SiteAssets/Pages/HallCanteens/QC(280x180_UT).jpg"
   }]},
 
   {"SouthSpine" : [
@@ -29,19 +29,49 @@
     "stalls": "",
     "image": "https://www.ntu.edu.sg/has/FnB/Publishingimages/Canteen2_FoodParadise(280x180)(UT).jpg"
   }]},
+  {"Canteen 9" : [
+  {
+    "address": "24 Nanyang Ave, Singapore 639811",
+    "stalls": "",
+    "image": "https://www.ntu.edu.sg/has/FnB/PublishingImages/Canteen%209_280x180.png"
+  }]},
+  {"Canteen 11" : [
+  {
+    "address": "20 Nanyang Avenue Singapore 639809",
+    "stalls": "",
+    "image": "https://www.ntu.edu.sg/has/FnB/PublishingImages/Canteen_11_280x180.png"
+  }]},
+  {"Canteen 13" : [
+  {
+    "address": "32 Nanyang Cresent Singapore 637658",
+    "stalls": "",
+    "image": "https://www.ntu.edu.sg/has/FnB/PublishingImages/FC13(FFD)_280x180(UT).jpg"
+  }]},
   {"Canteen 14" : [
   {
     "address": "34 Nanyang Cres, Singapore 637634",
     "stalls": "",
     "image": "https://www.ntu.edu.sg/has/FnB/Publishingimages/Canteen_14_1_280x180.png"
   }]},
+  {"Canteen 16" : [
+  {
+    "address": "50 Nanyang Walk Singapore 639929",
+    "stalls": "",
+    "image": "https://www.ntu.edu.sg/has/FnB/PublishingImages/Food%20Court%2016.png"
+  }]},
+  {"North Hill \n Foodcourt" : [
+  {
+    "address": "60 Nanyang Crescent Singapore 636957",
+    "stalls": "",
+    "image": "https://www.ntu.edu.sg/has/FnB/PublishingImages/FCNH(Foodgle)_280x180(UT).jpg"
+  }]}, 
   {"Pioneer Foodcourt" : [
   {
     "address": "Nanyang Cres, 637125 156",
     "stalls": "",
-    "image": "https://lh3.googleusercontent.com/proxy/Q5A1Wqs7jFa92iO_rEc5MotsfLWmQKPkDtRIm4UUt6mk25eWFBWiu_RvXz1TXJstO-eEz9e2FfzBk_Y3dXMn9gJm-WP866Bzx0_5VISa0N7GL_-2_DvCw4aUjVynqIT9ErIYES8ytTvKWMM"
+    "image": "https://www.jayyeo.com/projects/nanyangchronicle/wp-content/uploads/2017/09/DSC_2045-1024x684.jpg"
   }]},
-  {"Tamarind Foodcourt" : [
+  {"Tamarind \n Foodcourt" : [
   {
     "address": "38 Nanyang Cres, Singapore 637121",
     "stalls": "",

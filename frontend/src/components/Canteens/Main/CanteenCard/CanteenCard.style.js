@@ -8,11 +8,11 @@ const styles = StyleSheet.create({
     },
     boxContainer:{
         marginTop:20,
-        marginLeft:-10,
+        marginLeft:-13,
         width: 350,
         height: 111,
         borderRadius: 21,
-        borderWidth: 1,
+        borderWidth: 0.8,
         borderColor: "rgba(199, 199, 199, 52)",
         backgroundColor: "rgba(255, 255, 255, 255)"
     },
