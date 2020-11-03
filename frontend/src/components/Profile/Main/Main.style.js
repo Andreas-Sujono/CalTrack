@@ -10,8 +10,8 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         alignItems: 'center',
         width: '100%',
-        height: 150,
-        backgroundColor: '#F7F7F7'
+        height: 160,
+        backgroundColor: '#F7F7F7',
     },
     profileContainer: {
       flexDirection: 'column',
@@ -30,7 +30,7 @@ const styles = StyleSheet.create({
       "fontSize": 30,
       "letterSpacing": 0.5,
       "color": "rgba(0, 0, 0, 230)",
-      "marginTop": 20,
+      "marginTop": 40,
       marginLeft:20
     },
     
