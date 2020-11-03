@@ -34,14 +34,14 @@ export default (props) => {
                 let name = Object.keys(item)[0]
                 let address = item[name][0].address;
                 let image = item[name][0].image;
-                return <CanteenCard key={Math.random()} name={name} address={address} image={image} onClick={(stall) => props.navigation.navigate('Stall')}/>
+                return (
+                  <TouchableOpacity onPress={() => props.navigation.navigate('Stall', {stall: name})}>
+                    <CanteenCard key={Math.random()} name={name} desc={address} image={image}/>
+                  </TouchableOpacity>
+                )
               })
             }
-          
-              
-                  
-
-              
+  
         </View>
       </View>
 

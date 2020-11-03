@@ -24,7 +24,7 @@ const styles = StyleSheet.create({
         borderRadius: 15
     },
 
-    canteenText:{
+    nameText:{
         fontWeight: "bold",
         fontSize: 22,
         letterSpacing: 0.42,
@@ -32,7 +32,7 @@ const styles = StyleSheet.create({
         marginTop: -80,
         marginLeft: 140
     },
-    addressText:{
+    descText:{
         marginLeft:150,
         fontSize: 11,
         letterSpacing: 0.42,

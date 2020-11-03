@@ -12,10 +12,13 @@ import Icon from 'react-native-vector-icons/AntDesign';
 
 import styles from "./Stall.style"
 import canteenImage from 'assets/images/canteen.png'
-import data from '../CanteenData/Canteen1.json'
 import CanteenCard from '../Main/CanteenCard'
 
 export default (props) => {
+  const { stall } = props.route.params;
+  let testStallName = "QuadCafe"
+  let data = require(`../CanteenData/${testStallName}.json`)
+
   return (
     <ScrollView style = {styles.container}>
 
@@ -28,7 +31,7 @@ export default (props) => {
         <View style = {styles.formContainer}>
 
             <View style = {styles.textContainer} > 
-                <Text style = {styles.text} >Stall 1</Text>
+            <Text style = {styles.text} >{stall}</Text>
             </View>
 
             {
@@ -36,17 +39,15 @@ export default (props) => {
                 let name = Object.keys(item)[0]
                 let [canteenName, stallName] = name.split('_')
 
+                if(!name || !stallName || !item[name] || !item[name][0]) return null
+
                 let menu = item[name][0].menu;
                 let image = item[name][0].image;
 
-                return <CanteenCard name={canteenName} address={menu} image={image}/>
+                return <CanteenCard key={Math.random()} name={stallName} desc={menu} image={image}/>
               })
             }
-          
-              
-                  
-
-              
+           
         </View>
       </View>
 
