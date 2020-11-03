@@ -9,14 +9,16 @@ import {
   Dimensions,
   TouchableOpacity
 } from 'react-native';
+import CacheStore from 'react-native-cache-store';
 
 import profileImage1 from 'assets/profiles/profileImage1.png'
 import backgroudImage from 'assets/images/profileBackgroundImage.png'
 
 import { LineChart} from "react-native-chart-kit";
 import styles from './Main.style';
+import { withContext } from 'Context'
 
-const Profile = () => {
+const Profile = (props) => {
   const [age, onChangeText1] = React.useState('');
   const [height, onChangeText2] = React.useState('');
   const [weight, onChangeText3] = React.useState('');
@@ -24,12 +26,17 @@ const Profile = () => {
   const [goaldate, onChangeText5] = React.useState('');
   const [budget, onChangeText6] = React.useState('');
   
-  const [bmi, setBmi] = useState('Calculated BMI');
-  const onPress = () => setBmi(weight/(height*height).toFixed(2));
+  const [bmi, setBmi] = useState('');
 
-  const health = (bmi < 24.9) &&  (bmi > 18.5);
-  const overweight = bmi >24.9;
-  const underweight = bmi <18.5;
+  const onChangeSetBmi = (weight, height) => {
+    weight = parseFloat(weight)
+    height = parseFloat(height)
+    return setBmi( (weight && height) ? (weight/(height*height)).toFixed(2) : 0);
+  }
+
+  const health = (bmi && (bmi < 24.9)) && (bmi > 18.5);
+  const overweight = bmi && bmi >24.9;
+  const underweight = bmi && bmi <18.5;
 
   const labels = [
     'MON',
@@ -49,6 +56,21 @@ const Profile = () => {
     Math.random() * 100,
     Math.random() * 100,
   ];
+
+  const logout = () => {
+    CacheStore.remove('auth')
+    .then((res) => {
+        props.context.updateState('isLoggedIn', false)
+        props.context.updateState('token', '')
+        props.context.updateState('userAccountId', null)
+        props.context.updateState('userDetailsId', null)
+        props.navigation.navigate('Login')
+    })
+    .catch((err) => {
+      console.log(err);
+      console.log('error while removing cache');
+    });
+  }
 
   return (
     <ScrollView> 
@@ -78,7 +100,10 @@ const Profile = () => {
         <View style = {styles.inputContainer}>
           <TextInput 
             style = {styles.inputText} 
-            onChangeText={text => onChangeText2(text)}
+            onChangeText={text => {
+              onChangeText2(text)
+              onChangeSetBmi(weight, text)
+            }}
             placeholder='input here (m)'
             value={height}/>
         </View>
@@ -87,16 +112,19 @@ const Profile = () => {
         <View style = {styles.inputContainer}>
         <TextInput 
             style = {styles.inputText} 
-            onChangeText={text => onChangeText3(text)}
+            onChangeText={text => {
+              onChangeText3(text)
+              onChangeSetBmi(text, height)
+            }}
             placeholder='input here (kg)'
             value={weight}/>
         </View> 
 
         <Text style = {styles.text1} >
-          BMI: <Text style={{fontWeight: 'bold'}}>20.5</Text> 
-          {health && <Text style = {styles.alertText1} > You are normal weight! </Text>}
-          {overweight && <Text style = {styles.alertText2} > You are overwright! </Text>}
-          {underweight && <Text style = {styles.alertText3} > You are underweight! </Text>}
+          BMI: <Text style={{fontWeight: 'bold'}}>{bmi}</Text> 
+          {health ? <Text style = {styles.alertText1} > You are normal weight! </Text> : null}
+          {overweight ? <Text style = {styles.alertText2} > You are overwright! </Text> : null}
+          {underweight ? <Text style = {styles.alertText3} > You are underweight! </Text> : null}
         </Text>
         {/* <View style = {styles.inputContainer}>
           <Text style = {styles.inputText}> {bmi} </Text>
@@ -178,7 +206,7 @@ const Profile = () => {
 
         <View style={styles.line}/>
 
-        <TouchableOpacity style={styles.logoutContainer}>
+        <TouchableOpacity style={styles.logoutContainer} onPress={() => logout()}>
           <View>
             <Text style={styles.logoutText}>Logout</Text>
           </View>
@@ -193,4 +221,4 @@ const Profile = () => {
   
   
 
-export default Profile;
+export default withContext(Profile);
