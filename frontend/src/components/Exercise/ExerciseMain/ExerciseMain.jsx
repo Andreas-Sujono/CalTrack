@@ -23,10 +23,10 @@ export default (props) => {
 return(
     <View style = {styles.container}>
 
-            <Image
-                style={styles.topImage}
-                source={runImage}
-            />
+        <Image
+            style={styles.topImage}
+            source={runImage}
+        />
         
         <View style={styles.contentContainer}>
             <View style = {styles.formContainer}>
@@ -34,22 +34,53 @@ return(
                 <View style = {styles.textContainer} > 
                     <Text style = {styles.text1}> What did you do {"\n"} today? </Text>
                 </View>
-                <Image
-                    style={styles.imageContainer1}
-                    source={gymEllipse}
-                />
-                <Image
-                    style={styles.imageContainer2}
-                    source={swimEllipse}
-                />
-                <Image
-                    style={styles.imageContainer3}
-                    source={runEllipse}
-                />
-                 <Image
-                    style={styles.imageContainer4}
-                    source={cyclingEllipse}
-                />
+
+                <View style={styles.exerciseContainer}>
+                    <TouchableOpacity onPress={() => {
+                        props.navigation.navigate('ExerciseWorkout')
+                    }}>
+                        <View style={styles.imageContainer}>
+                            <Image
+                                source={gymEllipse}
+                                resizeMode='contain'
+                                style={styles.image}
+                            />
+                        </View>
+                    </TouchableOpacity>
+                    <TouchableOpacity onPress={() => {
+                        props.navigation.navigate('ExerciseSwim')
+                    }}>
+                        <View style={styles.imageContainer}>
+                            <Image
+                                source={swimEllipse}
+                                resizeMode='contain'
+                                style={styles.image}
+                            />
+                        </View>
+                    </TouchableOpacity>
+                    <TouchableOpacity onPress={() => {
+                        props.navigation.navigate('ExerciseRun')
+                    }}>
+                        <View style={styles.imageContainer}>
+                            <Image
+                                source={runEllipse}
+                                resizeMode='contain'
+                                style={styles.image}
+                            />
+                        </View>
+                    </TouchableOpacity>
+                    <TouchableOpacity onPress={() => {
+                        props.navigation.navigate('ExerciseCycling')
+                    }}>
+                        <View style={styles.imageContainer}>
+                            <Image
+                                source={cyclingEllipse}
+                                resizeMode='contain'
+                                style={styles.image}
+                            />
+                        </View>
+                    </TouchableOpacity>
+                </View>
                        
             </View>
         </View>

@@ -28,7 +28,7 @@ const styles = StyleSheet.create({
         marginTop:50,
     },
     formContainer:{
-        width: '80%'
+        width: '100%'
     },
     textContainer:{
         alignItems: 'flex-start'
@@ -38,7 +38,7 @@ const styles = StyleSheet.create({
         fontSize: 30,
         color: "rgba(51, 51, 51, 255)",
         marginTop: 30,
-        marginLeft:-20,
+        marginLeft:20,
     },
     text2:{
         fontWeight: 'bold',
@@ -47,24 +47,21 @@ const styles = StyleSheet.create({
         marginTop: 0,
         marginLeft:-20,
     },
-    imageContainer1:{
-        position: 'absolute',
-        top: 150,
-        left:-30,
-    },
-    imageContainer2:{
-        top: 230,
-        left: -30,
-    },
-    imageContainer3:{
-        top: -140,
-        right: -160,
-    },
-    imageContainer4:{
-        top: -137,
-        right: -150,
+    exerciseContainer:{
+        flexDirection: 'row',
+        flexWrap: 'wrap',
+        justifyContent: 'center',
+        alignItems: 'center',
+        marginTop: 50,
     },
 
+    imageContainer:{
+        width:'100%',
+    },
+    image:{
+        width:200,
+        height: 200
+    }
     
 })
 

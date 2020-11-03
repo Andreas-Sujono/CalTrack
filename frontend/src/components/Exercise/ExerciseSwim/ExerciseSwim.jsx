@@ -21,11 +21,14 @@ export default (props) => {
 return(
     <View style = {styles.container}>
 
-            <Image
-                style={styles.topImage}
-                source={swimImage}
-            />
-            <Icon name="arrowleft" style={styles.arrowLeft} onPress={() => props.navigation.navigate('Exercise')}/>
+        <Image
+            style={styles.topImage}
+            source={swimImage}
+        />
+        <TouchableOpacity onPress={() => props.navigation.navigate('Exercise')}>
+            <Icon name="arrowleft" style={styles.arrowLeft}/>
+        </TouchableOpacity>
+
         <View style={styles.contentContainer}>
             <View style = {styles.formContainer}>
 
