@@ -2,7 +2,8 @@ import React from 'react'
 
 import { createStackNavigator } from '@react-navigation/stack';
 
-import Exercise from './Main'
+import Exercise from './ExerciseMain'
+import ExerciseRun from './ExerciseRun'
 
 const Stack = createStackNavigator();
 
@@ -21,6 +22,11 @@ const NavStack = props => {
                 options={{ headerShown: false }} 
                 name="Exercise" 
                 component={Exercise} 
+            />
+            <Stack.Screen
+                options = {{headerShown: false}}
+                name="ExerciseRun"
+                component={ExerciseRun}
             />
             </Stack.Navigator>
         </>

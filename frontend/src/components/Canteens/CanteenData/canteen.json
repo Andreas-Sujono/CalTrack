@@ -1,0 +1,50 @@
+[{"QuadCafe" :[
+  {
+    "address": "60 Nanyang Drive, The Quad CafeSchool of Biological Sciences, Level B1, 637551",
+    "stalls": ["Korean Food", "Drink and Beverages","Noodles"],
+    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.facebook.com%2FNTUMAEGraduateStudentClub%2Fposts%2Fthe-quad-cafe-just-reopen-if-you-have-class-around-sbs-and-or-a-short-break-duri%2F1573023382740545%2F&psig=AOvVaw1A9YKse1-UUdzwhQhtllEO&ust=1604417356739000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNjP7MaW5OwCFQAAAAAdAAAAABAD"
+  }]},
+
+  {"SouthSpine" : [
+  {
+    "address": "50 Nanyang Ave, Block N3.1, Singapore 639798",
+    "stalls": "Korean Food\", \"Drink and Beverages\", \"Chicken Rice",
+    "image": "https://sg1-cdn.pgimgs.com/listing/20968719/UPHO.95379376.V800/Koufu-the-South-Spine-NTU-Boon-Lay-Jurong-Tuas-Singapore.jpg"
+  }]},
+  {"NorthSpine" :[
+  {
+    "address": "76 Nanyang Drive, N2.1, #02-03, Nanyang Technological University, 637331",
+    "stalls": "",
+    "image": "https://www.ntu.edu.sg/has/FnB/Publishingimages/North_Spine_Food_Court_280x180.png"
+  }]},
+  {"Canteen 1" :[
+  {
+    "address": "Hall of Residence 1, 21 Nanyang Cir, Singapore 639778",
+    "stalls": "",
+    "image": "https://www.ntu.edu.sg/has/FnB/Publishingimages/FC1_280x180(UT).jpg"
+  }]},
+  {"Canteen 2" : [
+  {
+    "address": "35 Students Walk, Singapore 639548",
+    "stalls": "",
+    "image": "https://www.ntu.edu.sg/has/FnB/Publishingimages/Canteen2_FoodParadise(280x180)(UT).jpg"
+  }]},
+  {"Canteen 14" : [
+  {
+    "address": "34 Nanyang Cres, Singapore 637634",
+    "stalls": "",
+    "image": "https://www.ntu.edu.sg/has/FnB/Publishingimages/Canteen_14_1_280x180.png"
+  }]},
+  {"Pioneer Foodcourt" : [
+  {
+    "address": "Nanyang Cres, 637125 156",
+    "stalls": "",
+    "image": "https://lh3.googleusercontent.com/proxy/Q5A1Wqs7jFa92iO_rEc5MotsfLWmQKPkDtRIm4UUt6mk25eWFBWiu_RvXz1TXJstO-eEz9e2FfzBk_Y3dXMn9gJm-WP866Bzx0_5VISa0N7GL_-2_DvCw4aUjVynqIT9ErIYES8ytTvKWMM"
+  }]},
+  {"Tamarind Foodcourt" : [
+  {
+    "address": "38 Nanyang Cres, Singapore 637121",
+    "stalls": "",
+    "image": "https://www.ntu.edu.sg/has/FnB/Publishingimages/Pioneer_Food_Court_280x180.png"
+  }]}
+]
