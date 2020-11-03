@@ -7,7 +7,6 @@ import Profile from './Main'
 const Stack = createStackNavigator();
 
 const NavStack = props => {
-
     return (
         <>
             <Stack.Navigator initialRouteName="Profile" screenOptions= {{

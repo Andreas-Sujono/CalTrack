@@ -12,6 +12,8 @@ import {
 } from 'react-native-chart-kit'
 import { WebView } from 'react-native-webview';
 import { createStackNavigator } from '@react-navigation/stack';
+import { useFonts, Poppins_400Regular } from '@expo-google-fonts/poppins';
+import { AppLoading } from 'expo'
 
 import NewsCard from './NewsCard'
 
@@ -21,6 +23,9 @@ import styles from './Homepage.style'
 import {newsData} from './data'
 
 function Homepage(props) {
+    let [fontsLoaded] = useFonts({
+        Poppins_400Regular,
+    });
     const data = [
         { name: 'Consumed', population: 250, color: '#ACA5F8', legendFontColor: '#7F7F7F', legendFontSize: 15 },
         { name: 'Remaining', population: 100, color: '#F0F3F4', legendFontColor: '#7F7F7F', legendFontSize: 15 },
@@ -30,8 +35,13 @@ function Homepage(props) {
         backgroundGradientTo: '#08130D',
         color: (opacity = 1) => `rgba(26, 255, 146, ${opacity})`
     }
+
+    if (!fontsLoaded) {
+        return <AppLoading/>;
+    }
+
     return (
-        <ScrollView style={styles.container}>
+        <ScrollView style={[styles.container, {fontFamily: 'Poppins_400Regular'}]}>
             <View style={styles.topContainer}>
                 <Text style={styles.title}>Hello, <Text style={styles.textBold}>Andreas</Text></Text>
                 <Text style={styles.title}>You have burnt <Text style={[styles.textBold, {color: '#7C73E0'}]}>520</Text> Calories today</Text>
@@ -93,7 +103,7 @@ function Article(props){
     const {url} = props.route.params
     return(
         <View style={{flex: 1}}>
-            <WebView source={{ uri: url }} style={{ marginTop: 20 }} />
+            <WebView source={{ uri: url }} style={{ marginTop: 0 }} />
         </View>
     )
 }
