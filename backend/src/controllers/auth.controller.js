@@ -46,7 +46,7 @@ exports.login = async (req, res, next) => {
     }
     username = username.toLowerCase()
 
-    const user = await UserAccount.findOne({
+    let user = await UserAccount.findOne({
       username,
     }).select('+password');
 
@@ -68,6 +68,11 @@ exports.login = async (req, res, next) => {
         res,
         next
       );
+    }
+
+    //update isFirstUse
+    if(user.isFirstUse){
+      user = await UserAccount.findByIdAndUpdate(user._id, {isFirstUse: false})
     }
 
     // 3) All correct, send jwt to client

@@ -36,6 +36,10 @@ const userAccountSchema = new mongoose.Schema({
   OTP_expired_time: {
     type: Date,
     default: new Date()
+  },
+  isFirstUse: {
+    type: Boolean,
+    default: true
   }
 });
 
