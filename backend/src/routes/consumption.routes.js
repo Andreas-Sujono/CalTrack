@@ -21,6 +21,10 @@ router.get('/spending', async (req,res,next) => {
     return consumptionController.getSpending(req,res,next)
 });
 
+router.get('/history', async (req,res,next) => {
+    return consumptionController.getHistory(req,res,next)
+});
+
 router.post('/', async (req,res,next) => {
     return consumptionController.addConsumption(req,res,next)
 });
