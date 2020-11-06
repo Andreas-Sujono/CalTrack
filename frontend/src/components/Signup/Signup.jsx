@@ -61,10 +61,13 @@ const Signup = (props) => {
             props.context.updateState('token', res.token)
             props.context.updateState('userAccountId', res.userAccount._id)
             props.context.updateState('userDetailsId', res.userDetails._id)
-    
-            props.navigation.navigate('BottomTabs')
+            props.context.updateState('userAccount', res.userAccount)
+            props.context.updateState('userDetails', res.userDetails)
+
+            props.navigation.navigate('BottomTabs', {startTutorial: true})
           })
           .catch(err => {
+              console.log(err)
             let data = err.response.data
             setErrorMessage(data.message)
           })

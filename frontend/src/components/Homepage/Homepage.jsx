@@ -19,19 +19,48 @@ import axios from 'axios'
 import NewsCard from './NewsCard'
 
 import homepageImage from 'assets/images/homepageImage.png'
+import {API_ENDPOINT} from 'api/constant'
+
+import { withContext } from 'Context'
 
 import styles from './Homepage.style'
 // import {newsData} from './data'
 
 function Homepage(props) {
     let [newsData, setNewsData] = useState([])
+    let [caloriesBurnt, setCaloriesBurnt] = useState(0)
+    let [caloriesGained, setCaloriesGained] = useState(0)
+    let [caloriesGainedWeek, setCaloriesGainedWeek] = useState(0)
+    let [caloriesLimit, setCaloriesLimit] = useState(0)
+    let [currentSpending, setCurrentSpending] = useState(0)
+    let [budget, setBudget] = useState(0)
+
     let [fontsLoaded] = useFonts({
         Poppins_400Regular,
     });
 
+    const {state} = props.context
+
     useEffect(() => {
-        getNewsData()
+        // getNewsData()
+        getHomepageData()
     }, [])
+
+    const getHomepageData = async () => {
+        await axios.get(`${API_ENDPOINT}/consumption/spending`, { headers: {"Authorization" : `Bearer ${state.token}`} })
+            .then(res => res.data.data)
+            .then(res => {
+              //if success
+              console.log(res)
+              setCaloriesBurnt(res.caloriesBurnt)
+              setCaloriesGained(res.caloriesGain)
+              setCaloriesGainedWeek(res.caloriesInAWeek)
+              setCaloriesLimit(res.caloriesGain * 2)
+              setCurrentSpending(res.spendingInAWeek)
+              setBudget(state.userDetails.budget)
+            })
+            .catch(err => console.log(err))
+    }
 
     const getNewsData = () => {
         var url = 'http://newsapi.org/v2/top-headlines?' +
@@ -67,7 +96,7 @@ function Homepage(props) {
     return (
         <ScrollView style={[styles.container, {fontFamily: 'Poppins_400Regular'}]}>
             <View style={styles.topContainer}>
-                <Text style={styles.title}>Hello, <Text style={styles.textBold}>Andreas</Text></Text>
+                 <Text style={styles.title}>Hello, <Text style={styles.textBold}>{state.userAccount.fullName}</Text></Text>
                 <Text style={styles.title}>You have burnt <Text style={[styles.textBold, {color: '#7C73E0'}]}>520</Text> Calories today</Text>
                 <Image
                     style={styles.topImage}
@@ -126,6 +155,7 @@ function Homepage(props) {
         </ScrollView>
     );
 }
+Homepage = withContext(Homepage)
 
 function Article(props){
     const {url} = props.route.params

@@ -26,6 +26,8 @@ export default class App extends Component{
     token: '',
     userAccountId: '',
     userDetailsId: '',
+    userAccount: {},
+    userDetails: {},
   }
 
   updateState = (key, value) => {
