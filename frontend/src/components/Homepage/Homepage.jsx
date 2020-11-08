@@ -7,9 +7,7 @@ import {
     ScrollView,
     TouchableOpacity
 } from 'react-native';
-import {
-    PieChart,
-} from 'react-native-chart-kit'
+import { PieChart } from 'react-native-chart-kit'
 import { WebView } from 'react-native-webview';
 import { createStackNavigator } from '@react-navigation/stack';
 import { useFonts, Poppins_400Regular } from '@expo-google-fonts/poppins';
@@ -27,13 +25,15 @@ import styles from './Homepage.style'
 // import {newsData} from './data'
 
 function Homepage(props) {
-    let [newsData, setNewsData] = useState([])
-    let [caloriesBurnt, setCaloriesBurnt] = useState(0)
-    let [caloriesGained, setCaloriesGained] = useState(0)
-    let [caloriesGainedWeek, setCaloriesGainedWeek] = useState(0)
-    let [caloriesLimit, setCaloriesLimit] = useState(0)
-    let [currentSpending, setCurrentSpending] = useState(0)
-    let [budget, setBudget] = useState(0)
+    const [newsData, setNewsData] = useState([])
+    const [caloriesBurnt, setCaloriesBurnt] = useState(0)
+    const [caloriesGained, setCaloriesGained] = useState(0)
+    const [caloriesGainedWeek, setCaloriesGainedWeek] = useState(0)
+    const [caloriesLimit, setCaloriesLimit] = useState(0)
+    const [currentSpending, setCurrentSpending] = useState(0)
+    const [budget, setBudget] = useState(0)
+    const [showWarning, setShowWarning] = useState(true)
+
 
     let [fontsLoaded] = useFonts({
         Poppins_400Regular,
@@ -42,7 +42,7 @@ function Homepage(props) {
     const {state} = props.context
 
     useEffect(() => {
-        // getNewsData()
+        getNewsData()
         getHomepageData()
     }, [])
 
@@ -55,16 +55,28 @@ function Homepage(props) {
               setCaloriesBurnt(res.caloriesBurnt)
               setCaloriesGained(res.caloriesGain)
               setCaloriesGainedWeek(res.caloriesInAWeek)
-              setCaloriesLimit(res.caloriesGain * 2)
+              setCaloriesLimit(calculateTargetCalories(60,60))
               setCurrentSpending(res.spendingInAWeek)
               setBudget(state.userDetails.budget)
             })
             .catch(err => console.log(err))
     }
+    
+    const calculateTargetCalories = (currentWeight, targetWeight, height = 1.65, age = 20, sex = 'male') => {
+        //BMR Harris-Benedict equations
+        // BMR Male (kcal/day) (Metric) = 66.5 + (13.75 × Weight, kg) + (5.003 × Height, cm) - (6.775 × Age)
+        // BMR Female (kcal/day) (Metric) = 655.1 + (9.563 × Weight, kg) + (1.850 × Height, cm) - (4.676 × Age)
+        // Sedentary (little to no exercise) = BMR × 1.2
+        // Light exercise (1-3 days per week) = BMR × 1.375
+        // Moderate exercise (3–5 days per week) = BMR × 1.55
+        // Heavy exercise (6–7 days per week) = BMR × 1.725
+        // Very heavy exercise (twice per day and/or extra heavy workouts) = BMR × 1.9
+        return 1000
+    }
 
     const getNewsData = () => {
         var url = 'http://newsapi.org/v2/top-headlines?' +
-          'country=us&category=health&' +
+          'country=sg&category=health&' +
           'apiKey=905be364027047889f2247ca6514c172'; //don't share this key, should be hide but too lazy
         axios.get(url)
             .then(res => res.data)
@@ -79,9 +91,13 @@ function Homepage(props) {
     }
 
 
-    const chartData = [
-        { name: 'Consumed', population: 250, color: '#ACA5F8', legendFontColor: '#7F7F7F', legendFontSize: 15 },
-        { name: 'Remaining', population: 100, color: '#F0F3F4', legendFontColor: '#7F7F7F', legendFontSize: 15 },
+    const caloriesChartData = [
+        { name: 'Consumed', population: caloriesGainedWeek, color: '#ACA5F8', legendFontColor: '#7F7F7F', legendFontSize: 15 },
+        { name: 'Remaining', population: Math.max(caloriesLimit - caloriesGainedWeek,0), color: '#F0F3F4', legendFontColor: '#7F7F7F', legendFontSize: 15 },
+    ]
+    const SpendingChartData = [
+        { name: 'Consumed', population: currentSpending, color: '#ACA5F8', legendFontColor: '#7F7F7F', legendFontSize: 15 },
+        { name: 'Remaining', population: Math.max(budget - currentSpending, 0), color: '#F0F3F4', legendFontColor: '#7F7F7F', legendFontSize: 15 },
     ]
     const chartConfig = {
         backgroundGradientFrom: '#1E2923',
@@ -96,45 +112,73 @@ function Homepage(props) {
     return (
         <ScrollView style={[styles.container, {fontFamily: 'Poppins_400Regular'}]}>
             <View style={styles.topContainer}>
-                 <Text style={styles.title}>Hello, <Text style={styles.textBold}>{state.userAccount.fullName}</Text></Text>
-                <Text style={styles.title}>You have burnt <Text style={[styles.textBold, {color: '#7C73E0'}]}>520</Text> Calories today</Text>
+                <Text style={styles.title}>Hello, <Text style={styles.textBold}>{state.userAccount.fullName}</Text></Text>
+                
+                    <Text style={styles.title}>You have burnt <Text style={[styles.textBold, {color: '#7C73E0'}]}>{caloriesBurnt}</Text> Calories today</Text>
+                
                 <Image
                     style={styles.topImage}
                     source={homepageImage}
                 />
             </View>
-            <View style={styles.chartContainer}>
-                <View style={styles.eachChart}>
-                    <Text style={styles.chartTitle}>Calories</Text>
-                    <PieChart
-                        data={chartData}
-                        width={Dimensions.get('window').width - 20}
-                        height={150}
-                        chartConfig={chartConfig}
-                        accessor="population"
-                        backgroundColor="transparent"
-                        paddingLeft="15"
-                        hasLegend = {true}
-                        style={{
-                            maxWidth: '50%',
-                            flexWrap: 'wrap'
-                        }}
-                    />
-                </View>
-                <View style={styles.eachChart}>
+            
+            {
+                <View style={styles.chartContainer}>
+                    <Text style={styles.chartTitle}>Net Calories</Text>
+                    <View style={styles.eachChart}>
+                        <PieChart
+                            data={caloriesChartData}
+                            width={Dimensions.get('window').width * 0.5}
+                            height={150}
+                            chartConfig={chartConfig}
+                            accessor="population"
+                            backgroundColor="transparent"
+                            paddingLeft="15"
+                            hasLegend = {false}
+                            style={{
+                                maxWidth: Dimensions.get('window').width * 0.5,
+                            }}
+                        />
+                        <View style={styles.legend}>
+                            <View style={{flexDirection: 'row', justifyContent: 'flex-start'}}>
+                                <View style={styles.colorChart}></View>
+                                <Text>{caloriesGainedWeek} Cal Net </Text>
+                            </View>
+                            <View style={{flexDirection: 'row', justifyContent: 'flex-start'}}>
+                                <View style={styles.whiteChart}></View>
+                                <Text>{caloriesLimit - caloriesGainedWeek} Cal Remaining</Text>
+                            </View>
+                        </View>
+                    </View>
+
                     <Text style={styles.chartTitle}>Spending</Text>
-                    <PieChart
-                        data={chartData}
-                        width={Dimensions.get('window').width - 20}
-                        height={150}
-                        chartConfig={chartConfig}
-                        accessor="population"
-                        backgroundColor="transparent"
-                        paddingLeft="15"
-                        hasLegend = {true}
-                    />
-                </View>
-            </View>
+                    <View style={styles.eachChart}>
+                        <PieChart
+                            data={SpendingChartData}
+                            width={Dimensions.get('window').width * 0.5}
+                            height={150}
+                            chartConfig={chartConfig}
+                            accessor="population"
+                            backgroundColor="transparent"
+                            paddingLeft="15"
+                            hasLegend = {false}
+                            style={{
+                                maxWidth: Dimensions.get('window').width * 0.5,
+                            }}
+                        />
+                        <View style={styles.legend}>
+                            <View style={{flexDirection: 'row', justifyContent: 'flex-start'}}>
+                                <View style={styles.colorChart}></View>
+                                <Text>{currentSpending} SGD Spent</Text>
+                            </View>
+                            <View style={{flexDirection: 'row', justifyContent: 'flex-start'}}>
+                                <View style={styles.whiteChart}></View>
+                                <Text>{budget - currentSpending} SGD Remaining</Text>
+                            </View>
+                        </View>
+                    </View>
+                </View> 
+            }
 
             <View style={styles.newsContainer}>
                 <Text style={[styles.chartTitle, {fontSize: 24, textAlign: 'left'}]}>News of the day</Text>

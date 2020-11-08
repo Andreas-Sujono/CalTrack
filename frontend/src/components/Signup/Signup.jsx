@@ -64,7 +64,7 @@ const Signup = (props) => {
             props.context.updateState('userAccount', res.userAccount)
             props.context.updateState('userDetails', res.userDetails)
 
-            props.navigation.navigate('BottomTabs', {startTutorial: true})
+            props.navigation.navigate('BottomTabs', {startTutorial: true, screen: 'Profile'})
           })
           .catch(err => {
               console.log(err)
@@ -78,7 +78,6 @@ const Signup = (props) => {
         return (
         <Loading/>
         )
-      
     return (
         <View style = {styles.container}>
 
