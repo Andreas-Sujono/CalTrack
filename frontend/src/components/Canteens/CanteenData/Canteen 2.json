@@ -1,708 +1,708 @@
 [
     {
-      "Canteen2_DrinkStall": [
+      "canteen2_DrinkStall": [
         {
-          "MENU": "Tea/Coffee",
-          "PRICE": 0.7,
-          "CALORIES": 100,
-          "IMAGES": "https://media-cdn.tripadvisor.com/media/photo-s/0b/81/8d/46/hot-coffee-sugar-included.jpg"
+          "menu": "Tea/Coffee",
+          "price": 0.7,
+          "calories": 100,
+          "images": "https://media-cdn.tripadvisor.com/media/photo-s/0b/81/8d/46/hot-coffee-sugar-included.jpg"
         },
         {
-          "MENU": "Tea/Coffee \"C",
-          "PRICE": 0.9,
-          "CALORIES": 60,
-          "IMAGES": "https://4scoin37ye-flywheel.netdna-ssl.com/wp-content/uploads/2014/09/teh-c.jpg"
+          "menu": "Tea/Coffee \"C",
+          "price": 0.9,
+          "calories": 60,
+          "images": "https://4scoin37ye-flywheel.netdna-ssl.com/wp-content/uploads/2014/09/teh-c.jpg"
         },
         {
-          "MENU": "Tea/Coffee \"O",
-          "PRICE": 0.8,
-          "CALORIES": 70,
-          "IMAGES": "https://images.says.com/uploads/story_source/source_image/388688/95b5.jpg"
+          "menu": "Tea/Coffee \"O",
+          "price": 0.8,
+          "calories": 70,
+          "images": "https://images.says.com/uploads/story_source/source_image/388688/95b5.jpg"
         },
         {
-          "MENU": "Milo",
-          "PRICE": 1,
-          "CALORIES": 121,
-          "IMAGES": "https://image.shutterstock.com/image-photo/hot-milo-260nw-431221465.jpg"
+          "menu": "Milo",
+          "price": 1,
+          "calories": 121,
+          "images": "https://image.shutterstock.com/image-photo/hot-milo-260nw-431221465.jpg"
         },
         {
-          "MENU": "Milo \"C",
-          "PRICE": 1.1,
-          "CALORIES": 119,
-          "IMAGES": "https://image.shutterstock.com/z/stock-photo-air-milo-panas-1331838032.jpg"
+          "menu": "Milo \"C",
+          "price": 1.1,
+          "calories": 119,
+          "images": "https://image.shutterstock.com/z/stock-photo-air-milo-panas-1331838032.jpg"
         },
         {
-          "MENU": "Hot Crysanthemum Tea",
-          "PRICE": 0.7,
-          "CALORIES": 90,
-          "IMAGES": "https://www.ohhowcivilized.com/wp-content/uploads/0220-chrysanthemum-tea-14.jpg"
+          "menu": "Hot Crysanthemum Tea",
+          "price": 0.7,
+          "calories": 90,
+          "images": "https://www.ohhowcivilized.com/wp-content/uploads/0220-chrysanthemum-tea-14.jpg"
         },
         {
-          "MENU": "Ginger Tea-Hot",
-          "PRICE": 0.7,
-          "CALORIES": 80,
-          "IMAGES": "https://static.toiimg.com/thumb/msid-69376628,imgsize-211488,width-800,height-600,resizemode-75/69376628.jpg"
+          "menu": "Ginger Tea-Hot",
+          "price": 0.7,
+          "calories": 80,
+          "images": "https://static.toiimg.com/thumb/msid-69376628,imgsize-211488,width-800,height-600,resizemode-75/69376628.jpg"
         },
         {
-          "MENU": "Almond Tea-Hot",
-          "PRICE": 1.1,
-          "CALORIES": 80,
-          "IMAGES": "https://www.herbalteasonline.com/wp-content/uploads/2016/07/Almond-Tea.jpg"
+          "menu": "Almond Tea-Hot",
+          "price": 1.1,
+          "calories": 80,
+          "images": "https://www.herbalteasonline.com/wp-content/uploads/2016/07/Almond-Tea.jpg"
         },
         {
-          "MENU": "Milk-Hot",
-          "PRICE": 0.8,
-          "CALORIES": 130,
-          "IMAGES": "https://qph.fs.quoracdn.net/main-qimg-ca187fac69a1c35a804d3b433c75be68"
+          "menu": "Milk-Hot",
+          "price": 0.8,
+          "calories": 130,
+          "images": "https://qph.fs.quoracdn.net/main-qimg-ca187fac69a1c35a804d3b433c75be68"
         },
         {
-          "MENU": "Hot water",
-          "PRICE": 0.3,
-          "CALORIES": 0,
-          "IMAGES": "https://www.tami.com.sg/wp-content/uploads/2020/01/hot-water-benefits-1280x720-1.jpg"
+          "menu": "Hot water",
+          "price": 0.3,
+          "calories": 0,
+          "images": "https://www.tami.com.sg/wp-content/uploads/2020/01/hot-water-benefits-1280x720-1.jpg"
         },
         {
-          "MENU": "Iced water",
-          "PRICE": 0.4,
-          "CALORIES": 0,
-          "IMAGES": "https://post.greatist.com/wp-content/uploads/sites/3/2020/02/325038_2200-1200x628.jpg"
+          "menu": "Iced water",
+          "price": 0.4,
+          "calories": 0,
+          "images": "https://post.greatist.com/wp-content/uploads/sites/3/2020/02/325038_2200-1200x628.jpg"
         },
         {
-          "MENU": "Iced Cea/Coffee \"O",
-          "PRICE": 0.9,
-          "CALORIES": 70,
-          "IMAGES": "https://cdn.shopify.com/s/files/1/2043/4539/products/OGPL62818499_Local_Drink_Ice_Coffee_Acrylic_Magnet_1667x.jpg?v=1569309163"
+          "menu": "Iced Cea/Coffee \"O",
+          "price": 0.9,
+          "calories": 70,
+          "images": "https://cdn.shopify.com/s/files/1/2043/4539/products/OGPL62818499_Local_Drink_Ice_Coffee_Acrylic_Magnet_1667x.jpg?v=1569309163"
         },
         {
-          "MENU": "Ices Tea/Coffee",
-          "PRICE": 1,
-          "CALORIES": 100,
-          "IMAGES": "https://pyxis.nymag.com/v1/imgs/2d3/02b/f608e54246f840d36dd543c9737677f998-23-ice-coffee.rsquare.w700.jpg"
+          "menu": "Ices Tea/Coffee",
+          "price": 1,
+          "calories": 100,
+          "images": "https://pyxis.nymag.com/v1/imgs/2d3/02b/f608e54246f840d36dd543c9737677f998-23-ice-coffee.rsquare.w700.jpg"
         },
         {
-          "MENU": "Iced Cea/Coffee\"C",
-          "PRICE": 1.1,
-          "CALORIES": 60,
-          "IMAGES": "https://previews.123rf.com/images/krichie/krichie1612/krichie161200002/69449474-iced-latte-coffee-in-clear-plastic-cup-with-water-drop-and-straw-isolated-on-white-background.jpg"
+          "menu": "Iced Cea/Coffee\"C",
+          "price": 1.1,
+          "calories": 60,
+          "images": "https://previews.123rf.com/images/krichie/krichie1612/krichie161200002/69449474-iced-latte-coffee-in-clear-plastic-cup-with-water-drop-and-straw-isolated-on-white-background.jpg"
         },
         {
-          "MENU": "Iced Milo",
-          "PRICE": 1.2,
-          "CALORIES": 121,
-          "IMAGES": "https://s3media.freemalaysiatoday.com/wp-content/uploads/2018/06/ice-milo.jpg"
+          "menu": "Iced Milo",
+          "price": 1.2,
+          "calories": 121,
+          "images": "https://s3media.freemalaysiatoday.com/wp-content/uploads/2018/06/ice-milo.jpg"
         },
         {
-          "MENU": "Iced Milo \"C",
-          "PRICE": 1.3,
-          "CALORIES": 119,
-          "IMAGES": "https://www.wikihow.com/images/thumb/d/dd/Prepare-Milo-Step-17.jpg/aid275883-v4-1200px-Prepare-Milo-Step-17.jpg"
+          "menu": "Iced Milo \"C",
+          "price": 1.3,
+          "calories": 119,
+          "images": "https://www.wikihow.com/images/thumb/d/dd/Prepare-Milo-Step-17.jpg/aid275883-v4-1200px-Prepare-Milo-Step-17.jpg"
         },
         {
-          "MENU": "Iced Milo Dinosaur",
-          "PRICE": 1.5,
-          "CALORIES": 270,
-          "IMAGES": "https://2.bp.blogspot.com/-nUYcNsoo_IM/W0Q9zC4OZdI/AAAAAAAACmg/RXWXgCpLajUotLSue7DXAYSjsNOuAgXRgCLcBGAs/s1600/Milo%2BDinosaur%2B_wm.jpg"
+          "menu": "Iced Milo Dinosaur",
+          "price": 1.5,
+          "calories": 270,
+          "images": "https://2.bp.blogspot.com/-nUYcNsoo_IM/W0Q9zC4OZdI/AAAAAAAACmg/RXWXgCpLajUotLSue7DXAYSjsNOuAgXRgCLcBGAs/s1600/Milo%2BDinosaur%2B_wm.jpg"
         },
         {
-          "MENU": "Homemade Green Bean (cold)",
-          "PRICE": 1,
-          "CALORIES": 239,
-          "IMAGES": "https://souperdiaries.com/wp-content/uploads/2015/09/Green-Bean-Soup-Recipe.jpg"
+          "menu": "Homemade Green Bean (cold)",
+          "price": 1,
+          "calories": 239,
+          "images": "https://souperdiaries.com/wp-content/uploads/2015/09/Green-Bean-Soup-Recipe.jpg"
         },
         {
-          "MENU": "Homemade Red Bean (cold)",
-          "PRICE": 1,
-          "CALORIES": 300,
-          "IMAGES": "https://www.itsmydish.com/wp-content/uploads/2016/08/red-bean-soup-closeup1.jpg"
+          "menu": "Homemade Red Bean (cold)",
+          "price": 1,
+          "calories": 300,
+          "images": "https://www.itsmydish.com/wp-content/uploads/2016/08/red-bean-soup-closeup1.jpg"
         },
         {
-          "MENU": "Homemade Barley (cold)",
-          "PRICE": 1,
-          "CALORIES": 323,
-          "IMAGES": "https://1.bp.blogspot.com/_QZKXh0zB5qY/Srfrs0TUCDI/AAAAAAAAAjs/zihCsa5ev0Y/s320/DSC03560.JPG"
+          "menu": "Homemade Barley (cold)",
+          "price": 1,
+          "calories": 323,
+          "images": "https://1.bp.blogspot.com/_QZKXh0zB5qY/Srfrs0TUCDI/AAAAAAAAAjs/zihCsa5ev0Y/s320/DSC03560.JPG"
         },
         {
-          "MENU": "Homemade Soya Bean (cold)",
-          "PRICE": 1,
-          "CALORIES": 169,
-          "IMAGES": "https://aromasian.com/wp-content/uploads/2017/06/soybean-milk.jpg"
+          "menu": "Homemade Soya Bean (cold)",
+          "price": 1,
+          "calories": 169,
+          "images": "https://aromasian.com/wp-content/uploads/2017/06/soybean-milk.jpg"
         },
         {
-          "MENU": "Homemade Lemon Tea (cold)",
-          "PRICE": 1.2,
-          "CALORIES": 160,
-          "IMAGES": "https://www.whiskaffair.com/wp-content/uploads/2020/03/Lemon-Tea-4.jpg"
+          "menu": "Homemade Lemon Tea (cold)",
+          "price": 1.2,
+          "calories": 160,
+          "images": "https://www.whiskaffair.com/wp-content/uploads/2020/03/Lemon-Tea-4.jpg"
         },
         {
-          "MENU": "Homemade Grass Jelly (cold)",
-          "PRICE": 1.2,
-          "CALORIES": 94,
-          "IMAGES": "https://sites.google.com/site/ddmission05/_/rsrc/1318304544344/home/grass-jelly/grass_jelly.jpg?height=272&width=400"
+          "menu": "Homemade Grass Jelly (cold)",
+          "price": 1.2,
+          "calories": 94,
+          "images": "https://sites.google.com/site/ddmission05/_/rsrc/1318304544344/home/grass-jelly/grass_jelly.jpg?height=272&width=400"
         },
         {
-          "MENU": "Homemade Longan (cold)",
-          "PRICE": 1.2,
-          "CALORIES": 78,
-          "IMAGES": "https://live.staticflickr.com/1245/534352073_b8be2acd68_z.jpg"
+          "menu": "Homemade Longan (cold)",
+          "price": 1.2,
+          "calories": 78,
+          "images": "https://live.staticflickr.com/1245/534352073_b8be2acd68_z.jpg"
         },
         {
-          "MENU": "Lime Juice",
-          "PRICE": 1.2,
-          "CALORIES": 103,
-          "IMAGES": "https://5.imimg.com/data5/OV/WJ/MY-29578/lime-juice-500x500.jpg"
+          "menu": "Lime Juice",
+          "price": 1.2,
+          "calories": 103,
+          "images": "https://5.imimg.com/data5/OV/WJ/MY-29578/lime-juice-500x500.jpg"
         },
         {
-          "MENU": "Bandung",
-          "PRICE": 1.2,
-          "CALORIES": 153,
-          "IMAGES": "https://i.pinimg.com/originals/06/57/41/06574135fc236f81a7a6bcca991942e7.jpg"
+          "menu": "Bandung",
+          "price": 1.2,
+          "calories": 153,
+          "images": "https://i.pinimg.com/originals/06/57/41/06574135fc236f81a7a6bcca991942e7.jpg"
         },
         {
-          "MENU": "Water Chestnut Drink",
-          "PRICE": 1.2,
-          "CALORIES": 147,
-          "IMAGES": "https://s3.burpple.com/foods/21fac96ee4c6453f98412234_original.?1365134116"
+          "menu": "Water Chestnut Drink",
+          "price": 1.2,
+          "calories": 147,
+          "images": "https://s3.burpple.com/foods/21fac96ee4c6453f98412234_original.?1365134116"
         },
         {
-          "MENU": "Pearl Milk Tea",
-          "PRICE": 1.8,
-          "CALORIES": 232,
-          "IMAGES": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/719f1aa1501e443bb1856bce121e74d6/BFV41761_DeliciousAsianDrinks_FBFINAL_v5.jpg?output-format=auto&output-quality=auto"
+          "menu": "Pearl Milk Tea",
+          "price": 1.8,
+          "calories": 232,
+          "images": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/719f1aa1501e443bb1856bce121e74d6/BFV41761_DeliciousAsianDrinks_FBFINAL_v5.jpg?output-format=auto&output-quality=auto"
         },
         {
-          "MENU": "Canned Drinks",
-          "PRICE": 1.2,
-          "CALORIES": 139,
-          "IMAGES": "https://cdn.shopify.com/s/files/1/0269/1534/0353/products/Assorted-Canned-Drinks_1000x.jpg?v=1585909006"
+          "menu": "Canned Drinks",
+          "price": 1.2,
+          "calories": 139,
+          "images": "https://cdn.shopify.com/s/files/1/0269/1534/0353/products/Assorted-Canned-Drinks_1000x.jpg?v=1585909006"
         },
         {
-          "MENU": "Mineral Water",
-          "PRICE": 1,
-          "CALORIES": 0,
-          "IMAGES": "https://cf.shopee.sg/file/15f0793f41382d193d3a333231070ed3"
+          "menu": "Mineral Water",
+          "price": 1,
+          "calories": 0,
+          "images": "https://cf.shopee.sg/file/15f0793f41382d193d3a333231070ed3"
         },
         {
-          "MENU": "Big Pau",
-          "PRICE": 1.3,
-          "CALORIES": 170,
-          "IMAGES": "https://i1.wp.com/eatwhattonight.com/wp-content/uploads/2017/04/Big-Pau_4.jpg"
+          "menu": "Big Pau",
+          "price": 1.3,
+          "calories": 170,
+          "images": "https://i1.wp.com/eatwhattonight.com/wp-content/uploads/2017/04/Big-Pau_4.jpg"
         },
         {
-          "MENU": "Small Pau",
-          "PRICE": 0.7,
-          "CALORIES": 102,
-          "IMAGES": "https://cdn1.sg.orstatic.com/userphoto/photo/0/LB/0047OS36C9D1E75CCD4798px.jpg"
+          "menu": "Small Pau",
+          "price": 0.7,
+          "calories": 102,
+          "images": "https://cdn1.sg.orstatic.com/userphoto/photo/0/LB/0047OS36C9D1E75CCD4798px.jpg"
         },
         {
-          "MENU": "Char Siew Pau",
-          "PRICE": 0.7,
-          "CALORIES": 150,
-          "IMAGES": "https://3.bp.blogspot.com/-aqF6cPxhibY/UEGPy8wYCBI/AAAAAAAACf8/AzxJJbP-YEM/s1600/charsiewpau_easy2.jpg"
+          "menu": "Char Siew Pau",
+          "price": 0.7,
+          "calories": 150,
+          "images": "https://3.bp.blogspot.com/-aqF6cPxhibY/UEGPy8wYCBI/AAAAAAAACf8/AzxJJbP-YEM/s1600/charsiewpau_easy2.jpg"
         },
         {
-          "MENU": "Tau Sar Pau",
-          "PRICE": 0.7,
-          "CALORIES": 109,
-          "IMAGES": "https://www.8days.sg/blob/12465480/93dca9fe99ff4e0fe2b6562f1cf62f61/tau-sar-pau-hand-data.jpg"
+          "menu": "Tau Sar Pau",
+          "price": 0.7,
+          "calories": 109,
+          "images": "https://www.8days.sg/blob/12465480/93dca9fe99ff4e0fe2b6562f1cf62f61/tau-sar-pau-hand-data.jpg"
         },
         {
-          "MENU": "Lian Yong Pau",
-          "PRICE": 0.8,
-          "CALORIES": 108,
-          "IMAGES": "https://miro.medium.com/max/1000/1*PGvrNe6OkBsk5pPzLIxWgQ.jpeg"
+          "menu": "Lian Yong Pau",
+          "price": 0.8,
+          "calories": 108,
+          "images": "https://miro.medium.com/max/1000/1*PGvrNe6OkBsk5pPzLIxWgQ.jpeg"
         },
         {
-          "MENU": "Pandan Pau",
-          "PRICE": 0.8,
-          "CALORIES": 124,
-          "IMAGES": "https://mlhrej5cvwuc.i.optimole.com/Wm1FTmI.fl8Y~13944/w:auto/h:auto/q:90/https://www.pa-food.com/wp-content/uploads/2019/10/Products-steamed-bun-mini-pandan-coconut-product-presentation.jpg"
+          "menu": "Pandan Pau",
+          "price": 0.8,
+          "calories": 124,
+          "images": "https://mlhrej5cvwuc.i.optimole.com/Wm1FTmI.fl8Y~13944/w:auto/h:auto/q:90/https://www.pa-food.com/wp-content/uploads/2019/10/Products-steamed-bun-mini-pandan-coconut-product-presentation.jpg"
         },
         {
-          "MENU": "Vegetable Pau",
-          "PRICE": 0.9,
-          "CALORIES": 130,
-          "IMAGES": "https://delixius.sg/wp-content/uploads/VEGETABLE-PAU.jpg"
+          "menu": "Vegetable Pau",
+          "price": 0.9,
+          "calories": 130,
+          "images": "https://delixius.sg/wp-content/uploads/VEGETABLE-PAU.jpg"
         },
         {
-          "MENU": "Chicken Pau",
-          "PRICE": 1.1,
-          "CALORIES": 155,
-          "IMAGES": "https://bigdreamstinysteps.files.wordpress.com/2013/04/img_9997.jpg"
+          "menu": "Chicken Pau",
+          "price": 1.1,
+          "calories": 155,
+          "images": "https://bigdreamstinysteps.files.wordpress.com/2013/04/img_9997.jpg"
         },
         {
-          "MENU": "Siew Mai",
-          "PRICE": 0.7,
-          "CALORIES": 82,
-          "IMAGES": "https://recipetineats.com/wp-content/uploads/2020/02/Siu-Mai_Chinese-steamed-dumplings_3.jpg"
+          "menu": "Siew Mai",
+          "price": 0.7,
+          "calories": 82,
+          "images": "https://recipetineats.com/wp-content/uploads/2020/02/Siu-Mai_Chinese-steamed-dumplings_3.jpg"
         }
       ]
     },
 
     {
-        "Canteen2_Western": [
+        "canteen2_Western": [
             {
-              "MENU": "Fish & Chips",
-              "PRICE": 4.8,
-              "CALORIES": 681,
-              "IMAGES": "https://www.delonghi.com/Global/recipes/multifry/173.jpg"
+              "menu": "Fish & Chips",
+              "price": 4.8,
+              "calories": 681,
+              "images": "https://www.delonghi.com/Global/recipes/multifry/173.jpg"
             },
             {
-              "MENU": "Chicken Chop",
-              "PRICE": 4.8,
-              "CALORIES": 460,
-              "IMAGES": "https://d2wtgwi3o396m5.cloudfront.net/recipe/bf2ae123-0553-4605-a564-e790d69d29fb.jpg"
+              "menu": "Chicken Chop",
+              "price": 4.8,
+              "calories": 460,
+              "images": "https://d2wtgwi3o396m5.cloudfront.net/recipe/bf2ae123-0553-4605-a564-e790d69d29fb.jpg"
             },
             {
-              "MENU": "Chicken Wings Rice",
-              "PRICE": 4.5,
-              "CALORIES": 579,
-              "IMAGES": "https://www.holiao.la/wp-content/uploads/2018/12/victors_chicken1.jpg"
+              "menu": "Chicken Wings Rice",
+              "price": 4.5,
+              "calories": 579,
+              "images": "https://www.holiao.la/wp-content/uploads/2018/12/victors_chicken1.jpg"
             },
             {
-              "MENU": "Cheesy Chicken Cutlet",
-              "PRICE": 4.8,
-              "CALORIES": 540,
-              "IMAGES": "https://media-cdn.tripadvisor.com/media/photo-s/09/34/7f/e9/kichiri.jpg"
+              "menu": "Cheesy Chicken Cutlet",
+              "price": 4.8,
+              "calories": 540,
+              "images": "https://media-cdn.tripadvisor.com/media/photo-s/09/34/7f/e9/kichiri.jpg"
             },
             {
-              "MENU": "Big Fat Sausage",
-              "PRICE": 5,
-              "CALORIES": 490,
-              "IMAGES": "https://airfryer.cooking/wp-content/uploads/2017/12/Sausages_large.jpg"
+              "menu": "Big Fat Sausage",
+              "price": 5,
+              "calories": 490,
+              "images": "https://airfryer.cooking/wp-content/uploads/2017/12/Sausages_large.jpg"
             },
             {
-              "MENU": "Meat Balls",
-              "PRICE": 6.5,
-              "CALORIES": 500,
-              "IMAGES": "https://hips.hearstapps.com/hmg-prod/images/italian-meatballs-329-1547011036.jpg"
+              "menu": "Meat Balls",
+              "price": 6.5,
+              "calories": 500,
+              "images": "https://hips.hearstapps.com/hmg-prod/images/italian-meatballs-329-1547011036.jpg"
             },
             {
-              "MENU": "Beef Steak",
-              "PRICE": 6.8,
-              "CALORIES": 614,
-              "IMAGES": "https://images-gmi-pmc.edge-generalmills.com/4ae8b08c-8187-44bb-bc5e-e61271649b5e.jpg"
+              "menu": "Beef Steak",
+              "price": 6.8,
+              "calories": 614,
+              "images": "https://images-gmi-pmc.edge-generalmills.com/4ae8b08c-8187-44bb-bc5e-e61271649b5e.jpg"
             },
             {
-              "MENU": "Aglio Olio",
-              "PRICE": 3.8,
-              "CALORIES": 249,
-              "IMAGES": "https://theplantbasedschool.com/wp-content/uploads/2020/06/Pasta-aglio-olio-e-peperoncino.jpg"
+              "menu": "Aglio Olio",
+              "price": 3.8,
+              "calories": 249,
+              "images": "https://theplantbasedschool.com/wp-content/uploads/2020/06/Pasta-aglio-olio-e-peperoncino.jpg"
             },
             {
-              "MENU": "Carbonara",
-              "PRICE": 4.8,
-              "CALORIES": 420,
-              "IMAGES": "https://www.jocooks.com/wp-content/uploads/2012/05/creamy-carbonara-1.jpg"
+              "menu": "Carbonara",
+              "price": 4.8,
+              "calories": 420,
+              "images": "https://www.jocooks.com/wp-content/uploads/2012/05/creamy-carbonara-1.jpg"
             },
             {
-              "MENU": "Meat Balls Pasta",
-              "PRICE": 5.5,
-              "CALORIES": 488,
-              "IMAGES": "https://www.cookingclassy.com/wp-content/uploads/2019/09/meatballs-21.jpg"
+              "menu": "Meat Balls Pasta",
+              "price": 5.5,
+              "calories": 488,
+              "images": "https://www.cookingclassy.com/wp-content/uploads/2019/09/meatballs-21.jpg"
             },
             {
-              "MENU": "Sambal Seafood Pasta",
-              "PRICE": 6.8,
-              "CALORIES": 451,
-              "IMAGES": "https://2.bp.blogspot.com/-KTK5FMaVu68/UfvofP1NTII/AAAAAAAAmxM/kfMFLHbVT_M/s1600/Sambal+prawn+with+spaghetti+1.jpg"
+              "menu": "Sambal Seafood Pasta",
+              "price": 6.8,
+              "calories": 451,
+              "images": "https://2.bp.blogspot.com/-KTK5FMaVu68/UfvofP1NTII/AAAAAAAAmxM/kfMFLHbVT_M/s1600/Sambal+prawn+with+spaghetti+1.jpg"
             },
             {
-              "MENU": "Fusion Mala Pasta",
-              "PRICE": 6.8,
-              "CALORIES": 470,
-              "IMAGES": "https://eatbook.sg/wp-content/uploads/2018/07/Workbench-Bistro-Egg-Mala-pasta-1024x682.jpg"
+              "menu": "Fusion Mala Pasta",
+              "price": 6.8,
+              "calories": 470,
+              "images": "https://eatbook.sg/wp-content/uploads/2018/07/Workbench-Bistro-Egg-Mala-pasta-1024x682.jpg"
             },
             {
-              "MENU": "Tom Yum Prawn Pasta",
-              "PRICE": 6.8,
-              "CALORIES": 450,
-              "IMAGES": "https://i.ytimg.com/vi/wglGBqgYWtk/maxresdefault.jpg"
+              "menu": "Tom Yum Prawn Pasta",
+              "price": 6.8,
+              "calories": 450,
+              "images": "https://i.ytimg.com/vi/wglGBqgYWtk/maxresdefault.jpg"
             },
             {
-              "MENU": "Smocked Duck Pasta",
-              "PRICE": 7.5,
-              "CALORIES": 520,
-              "IMAGES": "https://s3.burpple.com/foods/2e817656d9a80aeb32fe1694800_original.?1543977221"
+              "menu": "Smocked Duck Pasta",
+              "price": 7.5,
+              "calories": 520,
+              "images": "https://s3.burpple.com/foods/2e817656d9a80aeb32fe1694800_original.?1543977221"
             },
             {
-              "MENU": "Veggie Baked Rice",
-              "PRICE": 4.5,
-              "CALORIES": 421,
-              "IMAGES": "https://www.goya.com/media/4169/creamy-baked-rice-and-vegetables.jpg?quality=80"
+              "menu": "Veggie Baked Rice",
+              "price": 4.5,
+              "calories": 421,
+              "images": "https://www.goya.com/media/4169/creamy-baked-rice-and-vegetables.jpg?quality=80"
             },
             {
-              "MENU": "Sausage Baked Rice",
-              "PRICE": 4.8,
-              "CALORIES": 584,
-              "IMAGES": "https://www.halaltag.com/images/photo/266-photo.jpg"
+              "menu": "Sausage Baked Rice",
+              "price": 4.8,
+              "calories": 584,
+              "images": "https://www.halaltag.com/images/photo/266-photo.jpg"
             },
             {
-              "MENU": "Creamy Chicken Mac & Cheese",
-              "PRICE": 4.5,
-              "CALORIES": 400,
-              "IMAGES": "https://www.jocooks.com/wp-content/uploads/2012/12/chicken-mac-and-cheese-1-15.jpg"
+              "menu": "Creamy Chicken Mac & Cheese",
+              "price": 4.5,
+              "calories": 400,
+              "images": "https://www.jocooks.com/wp-content/uploads/2012/12/chicken-mac-and-cheese-1-15.jpg"
             },
             {
-              "MENU": "Creamy Tomato Beef Mac & Cheese",
-              "PRICE": 6.5,
-              "CALORIES": 550,
-              "IMAGES": "https://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/35/36/60/pic7YqY73.jpg"
+              "menu": "Creamy Tomato Beef Mac & Cheese",
+              "price": 6.5,
+              "calories": 550,
+              "images": "https://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/35/36/60/pic7YqY73.jpg"
             },
             {
-              "MENU": "Smocked Duck Mac & Cheese",
-              "PRICE": 6.8,
-              "CALORIES": 567,
-              "IMAGES": "https://live.staticflickr.com/1644/25070079655_e9164b0406_b.jpg"
+              "menu": "Smocked Duck Mac & Cheese",
+              "price": 6.8,
+              "calories": 567,
+              "images": "https://live.staticflickr.com/1644/25070079655_e9164b0406_b.jpg"
             },
             {
-              "MENU": "Soup of the Day",
-              "PRICE": 2,
-              "CALORIES": 246,
-              "IMAGES": "https://lh3.googleusercontent.com/proxy/OouievAImDXvAG-2nhKox5dJkmwVBOopbd-kJ_-09mRqR1mCJNl_aZnlfdtCtpFywsrEhcdyFrIgDwZEpcDswyvM7fLLJ_Cg_a1KhBwS6nXwSXal-MDZKZKvtk6vgzMBavrWDw"
+              "menu": "Soup of the Day",
+              "price": 2,
+              "calories": 246,
+              "images": "https://lh3.googleusercontent.com/proxy/OouievAImDXvAG-2nhKox5dJkmwVBOopbd-kJ_-09mRqR1mCJNl_aZnlfdtCtpFywsrEhcdyFrIgDwZEpcDswyvM7fLLJ_Cg_a1KhBwS6nXwSXal-MDZKZKvtk6vgzMBavrWDw"
             },
             {
-              "MENU": "Garden Greens",
-              "PRICE": 2.8,
-              "CALORIES": 80,
-              "IMAGES": "https://cook.fnr.sndimg.com/content/dam/images/cook/fullset/2012/6/1/1/CCWSTSP2_grilled-saute-of-garden-greens-with-smoked-bacon-recipe_s4x3.jpg.rend.hgtvcom.826.620.suffix/1351632230388.jpeg"
+              "menu": "Garden Greens",
+              "price": 2.8,
+              "calories": 80,
+              "images": "https://cook.fnr.sndimg.com/content/dam/images/cook/fullset/2012/6/1/1/CCWSTSP2_grilled-saute-of-garden-greens-with-smoked-bacon-recipe_s4x3.jpg.rend.hgtvcom.826.620.suffix/1351632230388.jpeg"
             },
             {
-              "MENU": "Cheesy Fries",
-              "PRICE": 2.8,
-              "CALORIES": 200,
-              "IMAGES": "https://images.media-allrecipes.com/userphotos/2080244.jpg"
+              "menu": "Cheesy Fries",
+              "price": 2.8,
+              "calories": 200,
+              "images": "https://images.media-allrecipes.com/userphotos/2080244.jpg"
             },
             {
-              "MENU": "Onion Rings",
-              "PRICE": 2.5,
-              "CALORIES": 275,
-              "IMAGES": "https://www.mylatinatable.com/wp-content/uploads/2016/01/foto-heroe-1024x693-2-500x375.jpg"
+              "menu": "Onion Rings",
+              "price": 2.5,
+              "calories": 275,
+              "images": "https://www.mylatinatable.com/wp-content/uploads/2016/01/foto-heroe-1024x693-2-500x375.jpg"
             },
             {
-              "MENU": "Chicken Nugget",
-              "PRICE": 3,
-              "CALORIES": 200,
-              "IMAGES": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/9/12/1/FN_Picky-Eaters-Chicken-Nuggets_s4x3.jpg.rend.hgtvcom.826.620.suffix/1383770571120.jpeg"
+              "menu": "Chicken Nugget",
+              "price": 3,
+              "calories": 200,
+              "images": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/9/12/1/FN_Picky-Eaters-Chicken-Nuggets_s4x3.jpg.rend.hgtvcom.826.620.suffix/1383770571120.jpeg"
             },
             {
-              "MENU": "Cheesy Sticks",
-              "PRICE": 3.8,
-              "CALORIES": 268,
-              "IMAGES": "https://www.spendwithpennies.com/wp-content/uploads/2013/10/Cheese-Sticks-SpendWithPennies-2-22.jpg"
+              "menu": "Cheesy Sticks",
+              "price": 3.8,
+              "calories": 268,
+              "images": "https://www.spendwithpennies.com/wp-content/uploads/2013/10/Cheese-Sticks-SpendWithPennies-2-22.jpg"
             },
             {
-              "MENU": "Chicky Wings",
-              "PRICE": 4.5,
-              "CALORIES": 245,
-              "IMAGES": "https://simplybites.files.wordpress.com/2012/08/dscn69782.jpg"
+              "menu": "Chicky Wings",
+              "price": 4.5,
+              "calories": 245,
+              "images": "https://simplybites.files.wordpress.com/2012/08/dscn69782.jpg"
             },
             {
-              "MENU": "Snack Platter",
-              "PRICE": 6.9,
-              "CALORIES": 797,
-              "IMAGES": "https://lh4.ggpht.com/lo4PwM8qkpz6dJiQaXcUbOFSL7YRKSrCSjWSdVqo9bMxTHp3VztmLoch4WMKQgVbqJr29QG_6It7fU5tqZUmLrhbsQ=s800"
+              "menu": "Snack Platter",
+              "price": 6.9,
+              "calories": 797,
+              "images": "https://lh4.ggpht.com/lo4PwM8qkpz6dJiQaXcUbOFSL7YRKSrCSjWSdVqo9bMxTHp3VztmLoch4WMKQgVbqJr29QG_6It7fU5tqZUmLrhbsQ=s800"
             }
           ]
     },
 
     {
-        "Canteen2_ChickenRice":[
+        "canteen2_ChickenRice":[
             {
-              "MENU": "Chicken Rice",
-              "PRICE": 3,
-              "CALORIES": 618,
-              "IMAGES": "https://www.healthhub.sg/sites/assets/Assets/Categories/Pregnancy/Article008_images_mainimage.jpg"
+              "menu": "Chicken Rice",
+              "price": 3,
+              "calories": 618,
+              "images": "https://www.healthhub.sg/sites/assets/Assets/Categories/Pregnancy/Article008_images_mainimage.jpg"
             },
             {
-              "MENU": "Roasted Pork Rice",
-              "PRICE": 3.5,
-              "CALORIES": 636,
-              "IMAGES": "https://media-cdn.tripadvisor.com/media/photo-s/14/55/e8/16/roast-pork-rice.jpg"
+              "menu": "Roasted Pork Rice",
+              "price": 3.5,
+              "calories": 636,
+              "images": "https://media-cdn.tripadvisor.com/media/photo-s/14/55/e8/16/roast-pork-rice.jpg"
             },
             {
-              "MENU": "Char Siew Rice",
-              "PRICE": 3.5,
-              "CALORIES": 606,
-              "IMAGES": "https://3.bp.blogspot.com/-aDcMkIo3vrw/W63Sz_fRjNI/AAAAAAAD7zQ/7r4sXpx1wfsu5Z5V8DRzmvubSfFWSl0jwCLcBGAs/s1600/Char%2BSiew%2BRice.jpg"
+              "menu": "Char Siew Rice",
+              "price": 3.5,
+              "calories": 606,
+              "images": "https://3.bp.blogspot.com/-aDcMkIo3vrw/W63Sz_fRjNI/AAAAAAAD7zQ/7r4sXpx1wfsu5Z5V8DRzmvubSfFWSl0jwCLcBGAs/s1600/Char%2BSiew%2BRice.jpg"
             },
             {
-              "MENU": "Chicken Cutlet Rice",
-              "PRICE": 3.5,
-              "CALORIES": 679,
-              "IMAGES": "https://farm3.static.flickr.com/2513/3862434502_73ba5d3489.jpg"
+              "menu": "Chicken Cutlet Rice",
+              "price": 3.5,
+              "calories": 679,
+              "images": "https://farm3.static.flickr.com/2513/3862434502_73ba5d3489.jpg"
             },
             {
-              "MENU": "Chicken Noodle/Kway Teow",
-              "PRICE": 3.5,
-              "CALORIES": 620,
-              "IMAGES": "https://theauthenticme.files.wordpress.com/2012/11/wpid-photo-nov-22-2012-1045-pm1.jpg"
+              "menu": "Chicken Noodle/Kway Teow",
+              "price": 3.5,
+              "calories": 620,
+              "images": "https://theauthenticme.files.wordpress.com/2012/11/wpid-photo-nov-22-2012-1045-pm1.jpg"
             },
             {
-              "MENU": "Chicken Cutlet Noodle/Kway Teow",
-              "PRICE": 3.5,
-              "CALORIES": 672,
-              "IMAGES": "https://www.misstamchiak.com/wp-content/uploads/2016/10/redring-treasures-chicken-cutlet-red-sauce-noodles-e1478361874549.jpg"
+              "menu": "Chicken Cutlet Noodle/Kway Teow",
+              "price": 3.5,
+              "calories": 672,
+              "images": "https://www.misstamchiak.com/wp-content/uploads/2016/10/redring-treasures-chicken-cutlet-red-sauce-noodles-e1478361874549.jpg"
             },
             {
-              "MENU": "Braised Egg (1 pc)",
-              "PRICE": 0.7,
-              "CALORIES": 95,
-              "IMAGES": "https://mykoreankitchen.com/wp-content/uploads/2015/02/1.Korean-Style-Braised-Eggs1-480x270.jpg"
+              "menu": "Braised Egg (1 pc)",
+              "price": 0.7,
+              "calories": 95,
+              "images": "https://mykoreankitchen.com/wp-content/uploads/2015/02/1.Korean-Style-Braised-Eggs1-480x270.jpg"
             },
             {
-              "MENU": "Chicken Innards",
-              "PRICE": 0.7,
-              "CALORIES": 126,
-              "IMAGES": "https://www.yourphnompenh.com/order/files/2017/11/P6-Chicken-Innards.jpg"
+              "menu": "Chicken Innards",
+              "price": 0.7,
+              "calories": 126,
+              "images": "https://www.yourphnompenh.com/order/files/2017/11/P6-Chicken-Innards.jpg"
             }
           ]
     },
 
     {
-        "Canteen2_AyamPenyet":[
+        "canteen2_AyamPenyet":[
             {
-              "MENU": "Ayam Penyet",
-              "PRICE": 5,
-              "CALORIES": 650,
-              "IMAGES": "https://sethlui.com/wp-content/uploads/2019/02/indonesian-express-2-800x533.jpg"
+              "menu": "Ayam Penyet",
+              "price": 5,
+              "calories": 650,
+              "images": "https://sethlui.com/wp-content/uploads/2019/02/indonesian-express-2-800x533.jpg"
             },
             {
-              "MENU": "Mee Soto",
-              "PRICE": 3.5,
-              "CALORIES": 520,
-              "IMAGES": "https://4.bp.blogspot.com/-ua2sBEgOtPA/VtFRrW5uEZI/AAAAAAADEXU/sFHfNPVi-lg/s1600/DSC_0008jk.jpg"
+              "menu": "Mee Soto",
+              "price": 3.5,
+              "calories": 520,
+              "images": "https://4.bp.blogspot.com/-ua2sBEgOtPA/VtFRrW5uEZI/AAAAAAADEXU/sFHfNPVi-lg/s1600/DSC_0008jk.jpg"
             },
             {
-              "MENU": "Mee Rebus",
-              "PRICE": 3.5,
-              "CALORIES": 555,
-              "IMAGES": "https://ucarecdn.com/76a65f56-fcfa-44b9-aa1f-c63938b4b797/-/scale_crop/1280x960/center/-/quality/normal/-/format/jpeg/mee-rebus.jpg"
+              "menu": "Mee Rebus",
+              "price": 3.5,
+              "calories": 555,
+              "images": "https://ucarecdn.com/76a65f56-fcfa-44b9-aa1f-c63938b4b797/-/scale_crop/1280x960/center/-/quality/normal/-/format/jpeg/mee-rebus.jpg"
             },
             {
-              "MENU": "Dory Penyet",
-              "PRICE": 5,
-              "CALORIES": 550,
-              "IMAGES": "https://cdn4.sg.orstatic.com/userphoto/photo/0/6C/00195704E6AED8CE57AE82px.jpg"
+              "menu": "Dory Penyet",
+              "price": 5,
+              "calories": 550,
+              "images": "https://cdn4.sg.orstatic.com/userphoto/photo/0/6C/00195704E6AED8CE57AE82px.jpg"
             },
             {
-              "MENU": "Nasi Lemak",
-              "PRICE": 4,
-              "CALORIES": 579,
-              "IMAGES": "https://www.foodrepublic.com/wp-content/uploads/2017/03/nasilemak.jpg"
+              "menu": "Nasi Lemak",
+              "price": 4,
+              "calories": 579,
+              "images": "https://www.foodrepublic.com/wp-content/uploads/2017/03/nasilemak.jpg"
             },
             {
-              "MENU": "Veg Lontong",
-              "PRICE": 1.5,
-              "CALORIES": 226,
-              "IMAGES": "https://bp1.blogger.com/_FNsvDU8eTGQ/Rx14FLXaXZI/AAAAAAAAAkA/x008dsnHgDc/w1200-h630-p-k-no-nu/DSCN18250001.JPG"
+              "menu": "Veg Lontong",
+              "price": 1.5,
+              "calories": 226,
+              "images": "https://bp1.blogger.com/_FNsvDU8eTGQ/Rx14FLXaXZI/AAAAAAAAAkA/x008dsnHgDc/w1200-h630-p-k-no-nu/DSCN18250001.JPG"
             },
             {
-              "MENU": "Laksa",
-              "PRICE": 3.5,
-              "CALORIES": 550,
-              "IMAGES": "https://cdn.theculturetrip.com/wp-content/uploads/2017/11/malaysias-mouthwatering-laksa.jpg"
+              "menu": "Laksa",
+              "price": 3.5,
+              "calories": 550,
+              "images": "https://cdn.theculturetrip.com/wp-content/uploads/2017/11/malaysias-mouthwatering-laksa.jpg"
             },
             {
-              "MENU": "Curry Chicken",
-              "PRICE": 4,
-              "CALORIES": 342,
-              "IMAGES": "https://ucarecdn.com/14e38f9b-c29d-401c-8155-fc76d843a784/-/scale_crop/1280x960/center/-/quality/normal/-/format/jpeg/malaysian-curry-chicken.jpg"
+              "menu": "Curry Chicken",
+              "price": 4,
+              "calories": 342,
+              "images": "https://ucarecdn.com/14e38f9b-c29d-401c-8155-fc76d843a784/-/scale_crop/1280x960/center/-/quality/normal/-/format/jpeg/malaysian-curry-chicken.jpg"
             },
             {
-              "MENU": "Fried Rice",
-              "PRICE": 3,
-              "CALORIES": 321,
-              "IMAGES": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/9/12/0/FNK_Fried-Rice_s4x3.jpg.rend.hgtvcom.616.493.suffix/1594918949644.jpeg"
+              "menu": "Fried Rice",
+              "price": 3,
+              "calories": 321,
+              "images": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/9/12/0/FNK_Fried-Rice_s4x3.jpg.rend.hgtvcom.616.493.suffix/1594918949644.jpeg"
             },
             {
-              "MENU": "Fried Bee Hoon",
-              "PRICE": 0.8,
-              "CALORIES": 252,
-              "IMAGES": "https://live.staticflickr.com/159/422164322_77d9805ef1_z.jpg"
+              "menu": "Fried Bee Hoon",
+              "price": 0.8,
+              "calories": 252,
+              "images": "https://live.staticflickr.com/159/422164322_77d9805ef1_z.jpg"
             },
             {
-              "MENU": "Macaroni Soup",
-              "PRICE": 3,
-              "CALORIES": 168,
-              "IMAGES": "https://4scoin37ye-flywheel.netdna-ssl.com/wp-content/uploads/2012/05/chickenmacasoup.jpg"
+              "menu": "Macaroni Soup",
+              "price": 3,
+              "calories": 168,
+              "images": "https://4scoin37ye-flywheel.netdna-ssl.com/wp-content/uploads/2012/05/chickenmacasoup.jpg"
             },
             {
-              "MENU": "Chicken Wing",
-              "PRICE": 1.5,
-              "CALORIES": 110,
-              "IMAGES": "https://statics.igg.com/forum/attachment/cc/2016/07/30/1469856171335.jpg"
+              "menu": "Chicken Wing",
+              "price": 1.5,
+              "calories": 110,
+              "images": "https://statics.igg.com/forum/attachment/cc/2016/07/30/1469856171335.jpg"
             },
             {
-              "MENU": "Chicken Drumstick",
-              "PRICE": 2.5,
-              "CALORIES": 140,
-              "IMAGES": "https://4.imimg.com/data4/IK/WT/MY-5901085/1-500x500.jpg"
+              "menu": "Chicken Drumstick",
+              "price": 2.5,
+              "calories": 140,
+              "images": "https://4.imimg.com/data4/IK/WT/MY-5901085/1-500x500.jpg"
             },
             {
-              "MENU": "Satay (10 sticks)",
-              "PRICE": 10,
-              "CALORIES": 365,
-              "IMAGES": "https://burpple-2.imgix.net/foods/1cf99ab5b6e9c384e4e1735450_original.?w=645&dpr=1&fit=crop&q=80&auto=format"
+              "menu": "Satay (10 sticks)",
+              "price": 10,
+              "calories": 365,
+              "images": "https://burpple-2.imgix.net/foods/1cf99ab5b6e9c384e4e1735450_original.?w=645&dpr=1&fit=crop&q=80&auto=format"
             }
           ]
     },
 
     {
-        "Canteen2_XiaoLongBao":[
+        "canteen2_XiaoLongBao":[
             {
-              "MENU": "Signature Beef La Mian",
-              "PRICE": 4.8,
-              "CALORIES": 550,
-              "IMAGES": "https://eatbook.sg/wp-content/uploads/2017/11/Nuodle-beef.jpg"
+              "menu": "Signature Beef La Mian",
+              "price": 4.8,
+              "calories": 550,
+              "images": "https://eatbook.sg/wp-content/uploads/2017/11/Nuodle-beef.jpg"
             },
             {
-              "MENU": "Xiao Long Bao (6pcs)",
-              "PRICE": 4.5,
-              "CALORIES": 468,
-              "IMAGES": "https://i.ytimg.com/vi/3ROqyeagshU/maxresdefault.jpg"
+              "menu": "Xiao Long Bao (6pcs)",
+              "price": 4.5,
+              "calories": 468,
+              "images": "https://i.ytimg.com/vi/3ROqyeagshU/maxresdefault.jpg"
             },
             {
-              "MENU": "Shanghai Deep Fried Dumpling (6pcs)",
-              "PRICE": 4.5,
-              "CALORIES": 514,
-              "IMAGES": "https://www.thespruceeats.com/thmb/od-OPGSsouWn77d0wuQD8q1wdWE=/4494x2528/smart/filters:no_upscale()/chinese-pan-fried-dumplings-694499_hero-01-f8489a47cef14c06909edff8c6fa3fa9.jpg"
+              "menu": "Shanghai Deep Fried Dumpling (6pcs)",
+              "price": 4.5,
+              "calories": 514,
+              "images": "https://www.thespruceeats.com/thmb/od-OPGSsouWn77d0wuQD8q1wdWE=/4494x2528/smart/filters:no_upscale()/chinese-pan-fried-dumplings-694499_hero-01-f8489a47cef14c06909edff8c6fa3fa9.jpg"
             },
             {
-              "MENU": "Beijing Steamed Dumpling (10 pcs)",
-              "PRICE": 4,
-              "CALORIES": 350,
-              "IMAGES": "https://intothemiddlekingdom.files.wordpress.com/2013/02/20121101-pb010268.jpg"
+              "menu": "Beijing Steamed Dumpling (10 pcs)",
+              "price": 4,
+              "calories": 350,
+              "images": "https://intothemiddlekingdom.files.wordpress.com/2013/02/20121101-pb010268.jpg"
             },
             {
-              "MENU": "Fine Homemade Shan Dong Pancake",
-              "PRICE": 3.5,
-              "CALORIES": 300,
-              "IMAGES": "https://www.archanaskitchen.com/images/archanaskitchen/1-Author/sibyl_sunitha/Shandong_Style_Scallion_Pancakes_Recipe.jpg"
+              "menu": "Fine Homemade Shan Dong Pancake",
+              "price": 3.5,
+              "calories": 300,
+              "images": "https://www.archanaskitchen.com/images/archanaskitchen/1-Author/sibyl_sunitha/Shandong_Style_Scallion_Pancakes_Recipe.jpg"
             },
             {
-              "MENU": "Minced Meat La Mian with Special Sauce",
-              "PRICE": 4.5,
-              "CALORIES": 532,
-              "IMAGES": "https://recipetineats.com/wp-content/uploads/2016/12/Chinese-Pork-and-Noodles-7.jpg"
+              "menu": "Minced Meat La Mian with Special Sauce",
+              "price": 4.5,
+              "calories": 532,
+              "images": "https://recipetineats.com/wp-content/uploads/2016/12/Chinese-Pork-and-Noodles-7.jpg"
             },
             {
-              "MENU": "Fresh Meat Dumpling with Chilli Oil",
-              "PRICE": 4.3,
-              "CALORIES": 330,
-              "IMAGES": "https://burpple-3.imgix.net/foods/177651c2130c9d60e641455684_original.?w=645&dpr=1&fit=crop&q=80&auto=format"
+              "menu": "Fresh Meat Dumpling with Chilli Oil",
+              "price": 4.3,
+              "calories": 330,
+              "images": "https://burpple-3.imgix.net/foods/177651c2130c9d60e641455684_original.?w=645&dpr=1&fit=crop&q=80&auto=format"
             },
             {
-              "MENU": "Tomato Egg La Mian/Shaved Noodles",
-              "PRICE": 4.5,
-              "CALORIES": 479,
-              "IMAGES": "https://thewoksoflife.com/wp-content/uploads/2016/12/tomato-egg-drop-noodle-soup-7.jpg"
+              "menu": "Tomato Egg La Mian/Shaved Noodles",
+              "price": 4.5,
+              "calories": 479,
+              "images": "https://thewoksoflife.com/wp-content/uploads/2016/12/tomato-egg-drop-noodle-soup-7.jpg"
             },
             {
-              "MENU": "Shanghai La Mian/ Shaved Noodle",
-              "PRICE": 4.5,
-              "CALORIES": 508,
-              "IMAGES": "https://burpple-3.imgix.net/foods/43e676928356e837b3a1752946_original.?w=400&h=400&fit=crop&q=80&auto=format"
+              "menu": "Shanghai La Mian/ Shaved Noodle",
+              "price": 4.5,
+              "calories": 508,
+              "images": "https://burpple-3.imgix.net/foods/43e676928356e837b3a1752946_original.?w=400&h=400&fit=crop&q=80&auto=format"
             },
             {
-              "MENU": "Chilli Oil Dumpling La Mian/Shaved noodle",
-              "PRICE": 4.5,
-              "CALORIES": 430,
-              "IMAGES": "https://titillatedtastebuds.files.wordpress.com/2012/11/img_4874.jpg"
+              "menu": "Chilli Oil Dumpling La Mian/Shaved noodle",
+              "price": 4.5,
+              "calories": 430,
+              "images": "https://titillatedtastebuds.files.wordpress.com/2012/11/img_4874.jpg"
             },
             {
-              "MENU": "Chicken Fried La Mian/ Shaved Noodle",
-              "PRICE": 5.5,
-              "CALORIES": 610,
-              "IMAGES": "https://lh3.ggpht.com/WysJDoykvNx656P83aAEnfXXADBMRflHS93NVGlv7f9OXX_Xo9tzMlkRIeJ71R4vl3l_MvfYW7QweMY6V7_fnaHc=s800"
+              "menu": "Chicken Fried La Mian/ Shaved Noodle",
+              "price": 5.5,
+              "calories": 610,
+              "images": "https://lh3.ggpht.com/WysJDoykvNx656P83aAEnfXXADBMRflHS93NVGlv7f9OXX_Xo9tzMlkRIeJ71R4vl3l_MvfYW7QweMY6V7_fnaHc=s800"
             },
             {
-              "MENU": "Beef Fried La Mian/ Shaved Noodle",
-              "PRICE": 6,
-              "CALORIES": 650,
-              "IMAGES": "https://i0.wp.com/easyfoodcook.com/wp-content/uploads/2020/04/Cumin-beef-stir-fry-with-hand-pulled-noodle-recipe-chinese-fried-Lamian-noodles-scaled.jpg"
+              "menu": "Beef Fried La Mian/ Shaved Noodle",
+              "price": 6,
+              "calories": 650,
+              "images": "https://i0.wp.com/easyfoodcook.com/wp-content/uploads/2020/04/Cumin-beef-stir-fry-with-hand-pulled-noodle-recipe-chinese-fried-Lamian-noodles-scaled.jpg"
             }
           ]
     },
 
     {
-        "Canteen2_Thai":[
+        "canteen2_Thai":[
             {
-              "MENU": "Thai Chicken Soup",
-              "PRICE": 5.8,
-              "CALORIES": 561,
-              "IMAGES": "https://reciperunner.com/wp-content/uploads/2019/02/Thai-Chicken-Soup-Photo.jpg"
+              "menu": "Thai Chicken Soup",
+              "price": 5.8,
+              "calories": 561,
+              "images": "https://reciperunner.com/wp-content/uploads/2019/02/Thai-Chicken-Soup-Photo.jpg"
             },
             {
-              "MENU": "Steam Fish",
-              "PRICE": 18.8,
-              "CALORIES": 1276,
-              "IMAGES": "https://www.eatingthaifood.com/wp-content/uploads/2016/01/thai-steamed-fish-recipe-10-683x1024.jpg"
+              "menu": "Steam Fish",
+              "price": 18.8,
+              "calories": 1276,
+              "images": "https://www.eatingthaifood.com/wp-content/uploads/2016/01/thai-steamed-fish-recipe-10-683x1024.jpg"
             },
             {
-              "MENU": "Tom Yum Soup (Red)",
-              "PRICE": 5.5,
-              "CALORIES": 285,
-              "IMAGES": "https://rasamalaysia.com/wp-content/uploads/images/thumbs/tom_yum_thumb-480x480.jpg"
+              "menu": "Tom Yum Soup (Red)",
+              "price": 5.5,
+              "calories": 285,
+              "images": "https://rasamalaysia.com/wp-content/uploads/images/thumbs/tom_yum_thumb-480x480.jpg"
             },
             {
-              "MENU": "Tom Yum Soup (Clear)",
-              "PRICE": 5,
-              "CALORIES": 285,
-              "IMAGES": "https://thaicaliente.com/wp-content/uploads/2018/01/Tom-Yum-Goong.jpg"
+              "menu": "Tom Yum Soup (Clear)",
+              "price": 5,
+              "calories": 285,
+              "images": "https://thaicaliente.com/wp-content/uploads/2018/01/Tom-Yum-Goong.jpg"
             },
             {
-              "MENU": "Phad Thai",
-              "PRICE": 5,
-              "CALORIES": 506,
-              "IMAGES": "https://hot-thai-kitchen.com/wp-content/uploads/2019/09/pad-thai-2019-sm.jpg"
+              "menu": "Phad Thai",
+              "price": 5,
+              "calories": 506,
+              "images": "https://hot-thai-kitchen.com/wp-content/uploads/2019/09/pad-thai-2019-sm.jpg"
             },
             {
-              "MENU": "Thai Sweet & Sour Sliced Fish",
-              "PRICE": 5,
-              "CALORIES": 435,
-              "IMAGES": "https://2.bp.blogspot.com/-QjUXQTvCIJ8/WrlO5wlTRvI/AAAAAAAABDk/WFNMA5Gk4-4yrObYNSi388Vxb5hixHg0ACLcBGAs/w1200-h630-p-k-no-nu/sweet_and_super_sour_fish___by_jeffzz111.jpg"
+              "menu": "Thai Sweet & Sour Sliced Fish",
+              "price": 5,
+              "calories": 435,
+              "images": "https://2.bp.blogspot.com/-QjUXQTvCIJ8/WrlO5wlTRvI/AAAAAAAABDk/WFNMA5Gk4-4yrObYNSi388Vxb5hixHg0ACLcBGAs/w1200-h630-p-k-no-nu/sweet_and_super_sour_fish___by_jeffzz111.jpg"
             },
             {
-              "MENU": "Thai Honey Chicken",
-              "PRICE": 5,
-              "CALORIES": 600,
-              "IMAGES": "https://www.recipetineats.com/wp-content/uploads/2020/08/Honey-Chicken_0-SQ.jpg"
+              "menu": "Thai Honey Chicken",
+              "price": 5,
+              "calories": 600,
+              "images": "https://www.recipetineats.com/wp-content/uploads/2020/08/Honey-Chicken_0-SQ.jpg"
             },
             {
-              "MENU": "Thai Basil Chicken",
-              "PRICE": 5,
-              "CALORIES": 360,
-              "IMAGES": "https://www.lemonblossoms.com/wp-content/uploads/2019/04/Thai-Basil-Chicken-S1.jpg"
+              "menu": "Thai Basil Chicken",
+              "price": 5,
+              "calories": 360,
+              "images": "https://www.lemonblossoms.com/wp-content/uploads/2019/04/Thai-Basil-Chicken-S1.jpg"
             },
             {
-              "MENU": "Pineapple Fried Rice",
-              "PRICE": 3,
-              "CALORIES": 363,
-              "IMAGES": "https://cookieandkate.com/images/2015/02/thai-pineapple-fried-rice-1.jpg"
+              "menu": "Pineapple Fried Rice",
+              "price": 3,
+              "calories": 363,
+              "images": "https://cookieandkate.com/images/2015/02/thai-pineapple-fried-rice-1.jpg"
             },
             {
-              "MENU": "Thai Fish Cake",
-              "PRICE": 4,
-              "CALORIES": 270,
-              "IMAGES": "https://hot-thai-kitchen.com/wp-content/uploads/2017/05/fish-cakes-sm.jpg"
+              "menu": "Thai Fish Cake",
+              "price": 4,
+              "calories": 270,
+              "images": "https://hot-thai-kitchen.com/wp-content/uploads/2017/05/fish-cakes-sm.jpg"
             },
             {
-              "MENU": "Thai Fried Spring Roll",
-              "PRICE": 2,
-              "CALORIES": 130,
-              "IMAGES": "https://hot-thai-kitchen.com/wp-content/uploads/2014/10/Spring-Roll-Web.jpg"
+              "menu": "Thai Fried Spring Roll",
+              "price": 2,
+              "calories": 130,
+              "images": "https://hot-thai-kitchen.com/wp-content/uploads/2014/10/Spring-Roll-Web.jpg"
             },
             {
-              "MENU": "Mango Salad",
-              "PRICE": 5,
-              "CALORIES": 380,
-              "IMAGES": "https://cdn77-s3.lazycatkitchen.com/wp-content/uploads/2015/08/thai-mango-salad-portion-top-down-1000x666.jpg"
+              "menu": "Mango Salad",
+              "price": 5,
+              "calories": 380,
+              "images": "https://cdn77-s3.lazycatkitchen.com/wp-content/uploads/2015/08/thai-mango-salad-portion-top-down-1000x666.jpg"
             },
             {
-              "MENU": "Thai Fried Tofu",
-              "PRICE": 3,
-              "CALORIES": 310,
-              "IMAGES": "https://hot-thai-kitchen.com/wp-content/uploads/2015/05/fried-tofu-sm.jpg"
+              "menu": "Thai Fried Tofu",
+              "price": 3,
+              "calories": 310,
+              "images": "https://hot-thai-kitchen.com/wp-content/uploads/2015/05/fried-tofu-sm.jpg"
             }
           ]
     }

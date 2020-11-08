@@ -5,13 +5,13 @@
     "image": "https://www.ntu.edu.sg/has/FnB/SiteAssets/Pages/HallCanteens/QC(280x180_UT).jpg"
   }]},
 
-  {"SouthSpine" : [
+  {"South Spine" : [
   {
     "address": "50 Nanyang Ave, Block N3.1, Singapore 639798",
     "stalls": "Korean Food\", \"Drink and Beverages\", \"Chicken Rice",
     "image": "https://sg1-cdn.pgimgs.com/listing/20968719/UPHO.95379376.V800/Koufu-the-South-Spine-NTU-Boon-Lay-Jurong-Tuas-Singapore.jpg"
   }]},
-  {"NorthSpine" :[
+  {"North Spine" :[
   {
     "address": "76 Nanyang Drive, N2.1, #02-03, Nanyang Technological University, 637331",
     "stalls": "",
@@ -76,5 +76,17 @@
     "address": "38 Nanyang Cres, Singapore 637121",
     "stalls": "",
     "image": "https://www.ntu.edu.sg/has/FnB/Publishingimages/Pioneer_Food_Court_280x180.png"
-  }]}
+  }]},
+  {"Nanyang Executive \n Centre" : [
+    {
+      "address": "360 Nanyang View, Singapore 639673",
+      "stalls": "",
+      "image": "https://www3.ntu.edu.sg/apcst2007/index_files/image057.jpg"
+    }]},
+  {"North Spine \n Plaza" : [
+    {
+      "address": "76 Nanyang Dr, Singapore 637331",
+      "stalls": "",
+      "image": "https://enewsletter.ntu.edu.sg/ntulink/Jun-Aug%202016/PublishingImages/DUNKIN%20055-VVS-NTU_NorthSpine-10926-Edit(LO).jpg"
+    }]}
 ]

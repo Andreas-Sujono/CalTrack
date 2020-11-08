@@ -3,69 +3,82 @@
     "NorthSpine_XianCuisine": [
 
       {
-        "MENU": "Biang Biang Noodle",
-        "PRICE": 3.5,
-        "IMAGE": "https://redhousespice.com/wp-content/uploads/2020/02/Xian-biang-biang-noodles-recipe-card.jpg"
+        "menu": "Biang Biang Noodle",
+        "calories":300,
+        "price": 3.5,
+        "image": "https://redhousespice.com/wp-content/uploads/2020/02/Xian-biang-biang-noodles-recipe-card.jpg"
       },
       {
-        "MENU": "Wonton Soup",
-        "PRICE": 3.5,
-        "IMAGE": "https://www.recipetineats.com/wp-content/uploads/2016/09/Wontons_1-1.jpg"
+        "menu": "Wonton Soup",
+        "calories":300,
+        "price": 3.5,
+        "image": "https://www.recipetineats.com/wp-content/uploads/2016/09/Wontons_1-1.jpg"
       },
       {
-        "MENU": "Chinese Hamburger",
-        "PRICE": 3,
-        "IMAGE": "https://www.chinasichuanfood.com/wp-content/uploads/2014/10/chinese-hamburger-pork-belly-buns-16th-1-500x375.jpg"
+        "menu": "Chinese Hamburger",
+        "calories":300,
+        "price": 3,
+        "image": "https://www.chinasichuanfood.com/wp-content/uploads/2014/10/chinese-hamburger-pork-belly-buns-16th-1-500x375.jpg"
       },
       {
-        "MENU": "Pan Cakes",
-        "PRICE": 1,
-        "IMAGE": "https://images-gmi-pmc.edge-generalmills.com/edfaaf9f-9bde-426a-8d67-3284e9e496ae.jpg"
+        "menu": "Pan Cakes",
+        "calories":300,
+        "price": 1,
+        "image": "https://images-gmi-pmc.edge-generalmills.com/edfaaf9f-9bde-426a-8d67-3284e9e496ae.jpg"
       },
       {
-        "MENU": "Red Bean Cake",
-        "PRICE": 0.8,
-        "IMAGE": "https://www.thespruceeats.com/thmb/cYEbsdLM_udd0ns_xbK8hjYqU5g=/3456x3456/smart/filters:no_upscale()/asian-food-steamed-bun--steamed-bun-with-red-bean-paste-filling-894770146-5ac2a2b9a474be00361e780a.jpg"
+        "menu": "Red Bean Cake",
+        "calories":300,
+        "price": 0.8,
+        "image": "https://www.thespruceeats.com/thmb/cYEbsdLM_udd0ns_xbK8hjYqU5g=/3456x3456/smart/filters:no_upscale()/asian-food-steamed-bun--steamed-bun-with-red-bean-paste-filling-894770146-5ac2a2b9a474be00361e780a.jpg"
       },
       {
-        "MENU": "Spicy & Sour Noodle",
-        "PRICE": 4.2,
-        "IMAGE": "https://redhousespice.com/wp-content/uploads/2017/03/Hot-and-sour-glass-noodle-soup-landscape1.jpg"
+        "menu": "Spicy & Sour Noodle",
+        "calories":300,
+        "price": 4.2,
+        "image": "https://redhousespice.com/wp-content/uploads/2017/03/Hot-and-sour-glass-noodle-soup-landscape1.jpg"
       },
       {
-        "MENU": "Pork Rib Noodle",
-        "PRICE": 4.2,
-        "IMAGE": "https://img-global.cpcdn.com/recipes/1836b133a9014860/1200x630cq70/photo.jpg"
+        "menu": "Pork Rib Noodle",
+        "calories":300,
+        "price": 4.2,
+        "image": "https://img-global.cpcdn.com/recipes/1836b133a9014860/1200x630cq70/photo.jpg"
       },
       {
-        "MENU": "Shrimp Seaweed Soup",
-        "PRICE": 1,
-        "IMAGE": "https://4scoin37ye-flywheel.netdna-ssl.com/wp-content/uploads/2010/03/4366762937_bcab722787_o.jpg"
+        "menu": "Shrimp Seaweed Soup",
+        "calories":300,
+        "price": 1,
+        "image": "https://4scoin37ye-flywheel.netdna-ssl.com/wp-content/uploads/2010/03/4366762937_bcab722787_o.jpg"
       },
       {
-        "MENU": "Prok Dumpling",
-        "PRICE": 5.4,
-        "IMAGE": "https://images.media-allrecipes.com/userphotos/5269261.jpg"
+        "menu": "Prok Dumpling",
+        "calories":300,
+        "price": 5.4,
+        "image": "https://images.media-allrecipes.com/userphotos/5269261.jpg"
       },
       {
-        "MENU": "Sour Soup Dumping",
-        "PRICE": 5,
-        "IMAGE": "https://static01.nyt.com/images/2019/03/19/dining/kc-hot-sour-soup/kc-hot-sour-soup-articleLarge.jpg"
+        "menu": "Sour Soup Dumping",
+        "calories":300,
+        "price": 5,
+        "image": "https://static01.nyt.com/images/2019/03/19/dining/kc-hot-sour-soup/kc-hot-sour-soup-articleLarge.jpg"
       },
       {
-        "MENU": "Fried Egg with Tomato Noodle",
-        "PRICE": 4.2,
-        "IMAGE": "https://www.chinasichuanfood.com/wp-content/uploads/2014/07/scramed-egg-tomato-noodles-6th-1.jpg"
+        "menu": "Fried Egg with Tomato Noodle",
+        "calories":300,
+        "price": 4.2,
+        "image": "https://www.chinasichuanfood.com/wp-content/uploads/2014/07/scramed-egg-tomato-noodles-6th-1.jpg"
       },
       {
-        "MENU": "Zha Jiang Noodle",
-        "PRICE": 4.2,
-        "IMAGE": "https://www.chinasichuanfood.com/wp-content/uploads/2014/08/Zhajiangmian-2.jpg"
+        "menu": "Zha Jiang Noodle",
+        "calories":300,
+        "price": 4.2,
+        "image": "https://www.chinasichuanfood.com/wp-content/uploads/2014/08/Zhajiangmian-2.jpg"
       },
       {
-        "MENU": "Sesame Liang Pi",
-        "PRICE": 3.2,
-        "IMAGE": "https://redhousespice.com/wp-content/uploads/2017/10/Liang-Pi-cold-skin-noodles-landscape-1.jpg"
+        "menu": "Sesame Liang Pi",
+        "calories":300,
+        "price": 3.2,
+        "image": "https://redhousespice.com/wp-content/uploads/2017/10/Liang-Pi-cold-skin-noodles-landscape-1.jpg"
       }
     ]
   },
@@ -73,94 +86,243 @@
     "NorthSpine_Japanese": [
 
       {
-        "MENU": "Salmon Fish + Chicken Karage/Chicken Bento",
-        "PRICE": 5.2,
-        "IMAGE": "https://d1sag4ddilekf6.cloudfront.net/compressed/items/SGITE20191120075833052480/photo/ca1633b9006840659bc1a61bbaa041c9_1574236713978773374.jpeg"
+        "menu": "Salmon Fish + Chicken Karage/Chicken Bento",
+        "calories":300,
+        "price": 5.2,
+        "image": "https://d1sag4ddilekf6.cloudfront.net/compressed/items/SGITE20191120075833052480/photo/ca1633b9006840659bc1a61bbaa041c9_1574236713978773374.jpeg"
       },
       {
-        "MENU": "Fish Fillet + Chicken Bento",
-        "PRICE": 5.2,
-        "IMAGE": "https://d1sag4ddilekf6.cloudfront.net/compressed/items/SGDD08826ITM0737416/photo/upload-photo-icon_5e03eb8e588d47e392d633e0af995586_1554888825861484405.jpeg"
+        "menu": "Fish Fillet + Chicken Bento",
+        "calories":300,
+        "price": 5.2,
+        "image": "https://d1sag4ddilekf6.cloudfront.net/compressed/items/SGDD08826ITM0737416/photo/upload-photo-icon_5e03eb8e588d47e392d633e0af995586_1554888825861484405.jpeg"
       },
       {
-        "MENU": "Chicken Cutlet Ramen",
-        "PRICE": 4.8,
-        "IMAGE": "https://www.theflavorbender.com/wp-content/uploads/2019/01/Easy-Chicken-Ramen-Featured.jpg"
+        "menu": "Chicken Cutlet Ramen",
+        "calories":300,
+        "price": 4.8,
+        "image": "https://www.theflavorbender.com/wp-content/uploads/2019/01/Easy-Chicken-Ramen-Featured.jpg"
       },
       {
-        "MENU": "Oyako Don",
-        "PRICE": 4.8,
-        "IMAGE": "https://www.seriouseats.com/recipes/images/2016/08/20160802-oyakodon-4.jpg"
+        "menu": "Oyako Don",
+        "calories":300,
+        "price": 4.8,
+        "image": "https://www.seriouseats.com/recipes/images/2016/08/20160802-oyakodon-4.jpg"
       },
       {
-        "MENU": "Salmon Don",
-        "PRICE": 4.8,
-        "IMAGE": "https://www.justonecookbook.com/wp-content/uploads/2020/09/Salmon-Ikura-Don-7225-I.jpg"
+        "menu": "Salmon Don",
+        "calories":300,
+        "price": 4.8,
+        "image": "https://www.justonecookbook.com/wp-content/uploads/2020/09/Salmon-Ikura-Don-7225-I.jpg"
       },
       {
-        "MENU": "Saba + Chicken Cutlet Bento",
-        "PRICE": 5.2,
-        "IMAGE": "https://sushidelivery.sg/wp-content/uploads/2020/01/32b-scaled.jpg"
+        "menu": "Saba + Chicken Cutlet Bento",
+        "calories":300,
+        "price": 5.2,
+        "image": "https://sushidelivery.sg/wp-content/uploads/2020/01/32b-scaled.jpg"
       },
       {
-        "MENU": "Fish Fillet + Chicken Cutlet Bento",
-        "PRICE": 5.2,
-        "IMAGE": "https://japan.recipetineats.com/wp-content/uploads/2018/08/Tonkatsu_Bento_0212.jpg"
+        "menu": "Fish Fillet + Chicken Cutlet Bento",
+        "calories":300,
+        "price": 5.2,
+        "image": "https://japan.recipetineats.com/wp-content/uploads/2018/08/Tonkatsu_Bento_0212.jpg"
       },
       {
-        "MENU": "Chicken Udon",
-        "PRICE": 4.8,
-        "IMAGE": "https://omnivorescookbook.com/wp-content/uploads/2019/08/1405_Easy-Chicken-Udon-Soup_550.jpg"
+        "menu": "Chicken Udon",
+        "calories":300,
+        "price": 4.8,
+        "image": "https://omnivorescookbook.com/wp-content/uploads/2019/08/1405_Easy-Chicken-Udon-Soup_550.jpg"
       },
       {
-        "MENU": "Pork Cutlet/Chicken Cutlet Curry Rice",
-        "PRICE": 4.2,
-        "IMAGE": "https://japan.recipetineats.com/wp-content/uploads/2020/04/Katsu_Curry_0858sq-500x500.jpg"
+        "menu": "Pork Cutlet/Chicken Cutlet Curry Rice",
+        "calories":300,
+        "price": 4.2,
+        "image": "https://japan.recipetineats.com/wp-content/uploads/2020/04/Katsu_Curry_0858sq-500x500.jpg"
       },
       {
-        "MENU": "Hotplate Sab a Set",
-        "PRICE": 5.5,
-        "IMAGE": "https://s3.burpple.com/foods/3917bbf5d36cacae968289_original.?1396344912"
+        "menu": "Hotplate Sab a Set",
+        "calories":300,
+        "price": 5.5,
+        "image": "https://s3.burpple.com/foods/3917bbf5d36cacae968289_original.?1396344912"
       },
       {
-        "MENU": "Hotplate Pork Set",
-        "PRICE": 5.8,
-        "IMAGE": "https://i2.wp.com/eatwhattonight.com/wp-content/uploads/2017/04/Korean-Pork-Bulgogi_2.jpg"
+        "menu": "Hotplate Pork Set",
+        "calories":300,
+        "price": 5.8,
+        "image": "https://i2.wp.com/eatwhattonight.com/wp-content/uploads/2017/04/Korean-Pork-Bulgogi_2.jpg"
       },
       {
-        "MENU": "Hotplate Chiicken + Beef Set",
-        "PRICE": 5.8,
-        "IMAGE": "https://d1sag4ddilekf6.cloudfront.net/compressed/items/SGITE2019050616263634448/photo/c80c22f57d5a4a01b2a74a3bea169388_1558578418435987945.jpeg"
+        "menu": "Hotplate Chiicken + Beef Set",
+        "calories":300,
+        "price": 5.8,
+        "image": "https://d1sag4ddilekf6.cloudfront.net/compressed/items/SGITE2019050616263634448/photo/c80c22f57d5a4a01b2a74a3bea169388_1558578418435987945.jpeg"
       },
       {
-        "MENU": "Bimbibap",
-        "PRICE": 4.8,
-        "IMAGE": "https://recipetineats.com/wp-content/uploads/2019/05/Bibimbap_3.jpg"
+        "menu": "Bimbibap",
+        "calories":300,
+        "price": 4.8,
+        "image": "https://recipetineats.com/wp-content/uploads/2019/05/Bibimbap_3.jpg"
       },
       {
-        "MENU": "Chicken/Pork Rice Set",
-        "PRICE": 4.2,
-        "IMAGE": "https://boontongkee.com.sg/wp-content/uploads/2019/01/Chicken-Rice-Set-7-S.jpg"
+        "menu": "Chicken/Pork Rice Set",
+        "calories":300,
+        "price": 4.2,
+        "image": "https://boontongkee.com.sg/wp-content/uploads/2019/01/Chicken-Rice-Set-7-S.jpg"
       },
       {
-        "MENU": "Kimchi Fried Rice",
-        "PRICE": 4,
-        "IMAGE": "https://healthynibblesandbits.com/wp-content/uploads/2017/01/Kimchi-Fried-Rice-FF.jpg"
+        "menu": "Kimchi Fried Rice",
+        "calories":300,
+        "price": 4,
+        "image": "https://healthynibblesandbits.com/wp-content/uploads/2017/01/Kimchi-Fried-Rice-FF.jpg"
       },
       {
-        "MENU": "Hotplate Chicken Set",
-        "PRICE": 5.2,
-        "IMAGE": "https://burpple-3.imgix.net/foods/2ec8d89be6909875803a1664691_original.?w=645&dpr=1&fit=crop&q=80&auto=format"
+        "menu": "Hotplate Chicken Set",
+        "calories":300,
+        "price": 5.2,
+        "image": "https://burpple-3.imgix.net/foods/2ec8d89be6909875803a1664691_original.?w=645&dpr=1&fit=crop&q=80&auto=format"
       },
       {
-        "MENU": "Hotplate Beef Set",
-        "PRICE": 6.2,
-        "IMAGE": "https://cfcdn2.azsg.opensnap.com/azsg/snapphoto/photo/LK/H1RP/3D8KZ4F9787A7ACA2077A7lv.jpg"
+        "menu": "Hotplate Beef Set",
+        "calories":300,
+        "price": 6.2,
+        "image": "https://cfcdn2.azsg.opensnap.com/azsg/snapphoto/photo/LK/H1RP/3D8KZ4F9787A7ACA2077A7lv.jpg"
       },
       {
-        "MENU": "Hotplate Saba + Chicken Set",
-        "PRICE": 5.2,
-        "IMAGE": "https://d1sag4ddilekf6.cloudfront.net/compressed/items/SGITE2019061808215403095/photo/e9f6cb84cfda46d5a3f7b8a0c4172e95_1570790449393076772.jpeg"
+        "menu": "Hotplate Saba + Chicken Set",
+        "calories":300,
+        "price": 5.2,
+        "image": "https://d1sag4ddilekf6.cloudfront.net/compressed/items/SGITE2019061808215403095/photo/e9f6cb84cfda46d5a3f7b8a0c4172e95_1570790449393076772.jpeg"
+      }
+    ]
+  },
+
+  {
+    "NorthSpine_BanMian": [
+      {
+        "menu": "Ban Mian",
+        "price": 3.3,
+        "calories": 476,
+        "image": "https://s3-ap-southeast-1.amazonaws.com/whyqsg/uploads/stalls/2f7a599f4f72ed073abbece94c0b9837.jpg"
+      },
+      {
+        "menu": "Mee Hoon Kway",
+        "price": 3.3,
+        "calories": 476,
+        "image": "https://www.misstamchiak.com/wp-content/uploads/2017/03/P1090714.jpg"
+      },
+      {
+        "menu": "U Mian",
+        "price": 3.3,
+        "calories": 475,
+        "image": "https://cfcdn2.azsg.opensnap.com/azsg/snapphoto/photo/LQ/H6D8/3E5A4ZC3CE1649B72A381Clv.jpg"
+      },
+      {
+        "menu": "Mee Sua",
+        "price": 3.3,
+        "calories": 450,
+        "image": "https://www.straitstimes.com/sites/default/files/styles/article_pictrure_780x520_/public/articles/2018/05/20/ST_20180520_EQCHEAP20_3996203.jpg?itok=EBUoe48Z&timestamp=1526744412"
+      },
+      {
+        "menu": "Yi Mian",
+        "price": 3.3,
+        "calories": 482,
+        "image": "https://www.ecomall.my/image/cache/data/product-30653/image%20(1)-800x800.png"
+      },
+      {
+        "menu": "Koka Mian",
+        "price": 3.3,
+        "calories": 480,
+        "image": "https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_450,h_300/https://danielfooddiary.com/wp-content/uploads/2020/05/kekoumian3.jpg"
+      },
+      {
+        "menu": "Thin Bee Hoon",
+        "price": 3.3,
+        "calories": 450,
+        "image": "https://4scoin37ye-flywheel.netdna-ssl.com/wp-content/uploads/2009/02/beehoonstewedpork3.jpg"
+      },
+      {
+        "menu": "Steam Dumplings (6 pcs)",
+        "price": 3.6,
+        "calories": 420,
+        "image": "https://images.media-allrecipes.com/userphotos/5269261.jpg"
+      },
+      {
+        "menu": "Fried Dumplings (6 pcs)",
+        "price": 3.6,
+        "calories": 474,
+        "image": "https://leechenbistro.com/wp-content/uploads/2018/12/004-Fried-Pork-Dumplings.jpg"
+      },
+      {
+        "menu": "Fish Porridge",
+        "price": 4.3,
+        "calories": 268,
+        "image": "https://lh3.googleusercontent.com/proxy/p9qdefPXcm7G8fFa32CPeh652UzynvQVhdUV_6Ppx-Ud2sj4LL1agtz38sshiuD41tuuwkMf3MxB_b3Zgl5Nn9lek4T2O7HqsBFR5kU_MRpsDDBq-Ull3WrodlhFP32T7_KZb9DVNlx-Lg18UIQ2-3oWva3x"
+      },
+      {
+        "menu": "Seafood Soup",
+        "price": 4.3,
+        "calories": 302,
+        "image": "https://images.eatthismuch.com/site_media/img/411253_Shamarie84_73483bd8-ef26-4ddd-b0bf-c97b57fb7fc7.png"
+      },
+      {
+        "menu": "Sliced Fish Soup",
+        "price": 4.3,
+        "calories": 340,
+        "image": "https://z8e5v5j3.stackpathcdn.com/wp-content/uploads/2018/03/Han-Kee-Fish-Soup-3.jpg"
+      },
+      {
+        "menu": "Fried Fish Soup",
+        "price": 4.3,
+        "calories": 349,
+        "image": "https://s3.burpple.com/foods/5573be3ceedccbf8fd01422062_original.?1466914965"
+      },
+      {
+        "menu": "Fried Fish Bee Hoon",
+        "price": 4.3,
+        "calories": 470,
+        "image": "https://s3.burpple.com/foods/177651a7ec97e897d501244901_original.?1430239223"
+      },
+      {
+        "menu": "Sliced Fish Ban Mian",
+        "price": 4.3,
+        "calories": 475,
+        "image": "https://cfcdn2.azsg.opensnap.com/azsg/snapphoto/photo/LD/GWBD/3C5SUBA715DA3AA2E6B551lv.jpg"
+      },
+      {
+        "menu": "Sliced FIsh Bee Hoon",
+        "price": 4.3,
+        "calories": 460,
+        "image": "https://emylogues.files.wordpress.com/2015/02/20130817_202103.jpg"
+      },
+      {
+        "menu": "Zha Jiang Mian",
+        "price": 3.8,
+        "calories": 482,
+        "image": "https://whattocooktoday.com/wp-content/uploads/2015/05/IMG_8833-500x375.jpg"
+      },
+      {
+        "menu": "Spicy & Sour Noodle",
+        "price": 3.8,
+        "calories": 400,
+        "image": "https://img-global.cpcdn.com/recipes/326a5a06cda28037/400x400cq70/photo.jpg"
+      },
+      {
+        "menu": "Tom Yum Ban Mian",
+        "price": 4.3,
+        "calories": 490,
+        "image": "https://s3.burpple.com/foods/32a0a7a15c2875c268252430_original.?1360246994"
+      },
+      {
+        "menu": "Dumpling Ban Mian",
+        "price": 3.8,
+        "calories": 478,
+        "image": "https://s3.burpple.com/foods/4bfc8203cdfd76b5fe61411681_original.?1464249606"
+      },
+      {
+        "menu": "Rice",
+        "price": 0.5,
+        "calories": 160,
+        "image": "https://images.ctfassets.net/3s5io6mnxfqz/4w2HQFnzRAsjqgWjNtuy1v/41becac8b5d850dd15302b785119435f/AdobeStock_268001268.jpeg"
       }
     ]
   }
