@@ -9,391 +9,321 @@
     "menu": "Beef Combo",
     "price": 6,
     "calories": 540,
-    "image": ""
+    "image": "https://s23209.pcdn.co/wp-content/uploads/2019/04/Korean-Beef-BulgogiIMG_9246.jpg"
   },
   {
     "menu": "Fish",
     "price": 5,
     "calories": 116,
-    "image": ""
+    "image": "https://futuredish.com/wp-content/uploads/2018/12/Korean-Grilled-Mackerel.jpg"
   },
   {
     "menu": "Kimchi Jigae",
     "price": 4.5,
     "calories": 357,
-    "image": ""
+    "image": "https://www.koreanbapsang.com/wp-content/uploads/2014/03/DSC_5089.jpg"
   },
   {
     "menu": "Bibimbap",
     "price": 4,
     "calories": 560,
-    "image": ""
+    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.recipetineats.com%2Fbibimbap%2F&psig=AOvVaw3yzlIhkXk-yw9ES6x5CPlP&ust=1602140655373000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOCMm5j1oewCFQAAAAAdAAAAABAD"
   },
   {
     "menu": "Ramyeon",
     "price": 3.5,
     "calories": 475,
-    "image": ""
+    "image": "https://glebekitchen.com/wp-content/uploads/2018/08/koreanramenfront.jpg"
   },
   {
     "menu": "Kimbab",
     "price": 3,
     "calories": 340,
-    "image": ""
+    "image": "https://mykoreankitchen.com/wp-content/uploads/2006/10/3.-Korean-Kimbap-500x375.jpg"
   },
   {
     "menu": "Chicken Bulgogi",
     "price": 4.8,
     "calories": 433,
-    "image": ""
+    "image": "https://mykoreankitchen.com/wp-content/uploads/2019/09/2.-Korean-BBQ-Chicken-Bulgogi.jpg"
   },
   {
     "menu": "Chicken Combo",
     "price": 5.5,
     "calories": 600,
-    "image": ""
+    "image": "https://lifeisshorteatsweet.files.wordpress.com/2014/03/dsc00866es.jpg"
   },
   {
     "menu": "Samgye Tang",
     "price": 5.8,
     "calories": 201,
-    "image": ""
+    "image": "https://mykoreankitchen.com/wp-content/uploads/2017/07/2.-Samgyetang-Korean-Ginseng-Chicken-Soup.jpg"
   },
   {
     "menu": "Sondubu",
     "price": 4.5,
     "calories": 252,
-    "image": ""
+    "image": "https://mykoreankitchen.com/wp-content/uploads/2006/11/1.-Sundubu-Jjigae-Korean-spicy-soft-tofu-stew-500x500.jpg"
   },
   {
     "menu": "Kimchi Bokkeum Bab",
     "price": 4,
     "calories": 567,
-    "image": ""
+    "image": "https://i0.wp.com/coupleeatsfood.com/wp-content/uploads/2017/10/Kimchi-Fried-Rice-Kimchi-Bokkeumbap-Recipe-1-e1516483454546.jpg?fit=1200%2C1200"
   }]},
-  {
-    "menu": "",
-    "price": "",
-    "calories": "",
-    "image": ""
-  },
-  {
-    "menu": "",
-    "price": "",
-    "calories": "",
-    "image": ""
-  },
-  {
-    "menu": "",
-    "price": "",
-    "calories": "",
-    "image": ""
-  },
   {"QuadCafe_Noodles" : [
-  {
-    "menu": "menu",
-    "price": "price",
-    "calories": "calories",
-    "image": "image"
-  },
   {
     "menu": "LanZhou Beef La Mian",
     "price": 5,
     "calories": 1248,
-    "image": ""
+    "image": "https://redhousespice.com/wp-content/uploads/2020/01/Lanzhou-beef-noodle-soup-foodgawker-500x500.jpg"
   },
   {
     "menu": "ShangHai Fried Noodle",
     "price": 5.5,
     "calories": 1160,
-    "image": ""
+    "image": "https://www.sbs.com.au/food/sites/sbs.com.au.food/files/styles/full/public/chi_lk_ricenoodles_shanghaifriednoodles.jpg?itok=DA3BTPEr"
   },
   {
     "menu": "ChongQing Noodle",
     "price": 5,
     "calories": 490,
-    "image": ""
+    "image": "https://redhousespice.com/wp-content/uploads/2019/12/chongqing-noodles-Red-House-Spice-15.jpg"
   },
   {
     "menu": "GuiZhou Beef Rice Noodle",
     "price": 5.5,
     "calories": 739,
-    "image": ""
+    "image": "https://www.chinadaily.com.cn/life/images/attachement/jpg/site1/20110217/0013729c00250ec70ebd28.jpg"
   },
   {
     "menu": "Beijing Mixed Sauce Noodle",
     "price": 4.5,
     "calories": 446,
-    "image": ""
+    "image": "https://lh3.googleusercontent.com/proxy/_YulVRgOYiBQdUXanLSUetTLEe3_437ZvfHQIa84cyHxVvXmlO9IKXb1O0KppYCMBDCqX4LyuDUVPSc0pAS3q4uDEppeaTt4JUt_JxzgLfrxVuYnH3NZAx43m3VrCnD602CrNr3ZJ_oLAk2l0SQXFvZR63izhPM"
   },
   {
     "menu": "Dry Fried Hofen",
     "price": 4.5,
     "calories": 585,
-    "image": ""
+    "image": "https://chinasichuanfood.com/wp-content/uploads/2014/03/beef-chow-fun-9.jpg"
   },
   {
     "menu": "Dry Fried Rice Noodle",
     "price": 4.5,
     "calories": 373,
-    "image": ""
+    "image": "https://delishar.com/wp-content/uploads/2016/04/Dry-Beef-Hor-Fun-3-1080x720.jpg"
   },
   {
     "menu": "Oil Spilled La Mian",
     "price": 4.5,
     "calories": 759,
-    "image": ""
+    "image": "https://eatbook.sg/wp-content/uploads/2019/03/Xi-An-Xiao-Chi-oil-spilled-noodles.jpg"
   },
   {
     "menu": "Signatur Fried Rice With Tomato Sauce",
     "price": 4.5,
     "calories": 550,
-    "image": ""
+    "image": "https://ucarecdn.com/9a0a3c73-4365-4b71-a504-be2116faace8/-/scale_crop/1280x1280/center/-/quality/normal/-/format/jpeg/tomato-fried-rice.jpg"
   },
   {
     "menu": "Sauerkraut Fish",
     "price": 5,
     "calories": 307,
-    "image": ""
+    "image": "https://live2makan.files.wordpress.com/2018/06/l2m-cn-taier-10.jpg"
   },
   {
     "menu": "Rice Noodle with Sauerkraut Fish",
     "price": 5,
     "calories": 592,
-    "image": ""
+    "image": "https://chinasichuanfood.com/wp-content/uploads/2015/10/shredded-cabbage-glass-noodle-stir-fry-2-copy.jpg"
   }]},
-  {
-    "menu": "",
-    "price": "",
-    "calories": "",
-    "image": ""
-  },
-  {
-    "menu": "",
-    "price": "",
-    "calories": "",
-    "image": ""
-  },
-  {
-    "menu": "",
-    "price": "",
-    "calories": "",
-    "image": ""
-  },
-  {
-    "menu": "menu",
-    "price": "price",
-    "calories": "calories",
-    "image": "image"
-  },
+  {"QuadCafe_ChineseFood" : [
   {
     "menu": "Beef Noodle soup",
     "price": 5.5,
-    "calories": 0,
-    "image": ""
+    "calories": 360,
+    "image": "https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2Farchive%2F7f26445739d6933033ccd5d576b434c2ca75453d"
   },
   {
     "menu": "Bamee/Youmee",
     "price": 4,
-    "calories": 0,
-    "image": ""
+    "calories": 331,
+    "image": "https://img.delicious.com.au/I1ULxXzq/w1200/del/2017/07/malaysian-chicken-mee-goreng-49049-2.jpg"
   },
   {
     "menu": "Dumplings Noodle",
     "price": 4,
-    "calories": 0,
-    "image": ""
+    "calories": 420,
+    "image": "https://i1.wp.com/eatwhattonight.com/wp-content/uploads/2015/12/Dumpling-Soup-41.jpg?fit=2144%2C1424&ssl=1"
   },
   {
     "menu": "Noodles",
     "price": 3.5,
-    "calories": 0,
-    "image": ""
+    "calories": 300,
+    "image": "https://girlinthelittleredkitchen.com/wp-content/uploads/2016/01/Chicken-Mushroom-Dumpling-and-Noodle-Soup-3.jpg"
   },
   {
     "menu": "Oyster Sauce Chicken Noodle",
     "price": 3.8,
-    "calories": 0,
-    "image": ""
+    "calories": 390,
+    "image": "https://ninecooks.typepad.com/.a/6a00d83451fa5069e2013486f511ce970c-pi"
   },
   {
     "menu": "Liangpi",
     "price": 3.5,
-    "calories": 0,
-    "image": ""
+    "calories": 478,
+    "image": "https://redhousespice.com/wp-content/uploads/2017/10/Liang-Pi-cold-skin-noodles-foodgawker.jpg"
   },
   {
     "menu": "Vegetable Noodles",
     "price": 3.5,
-    "calories": 0,
-    "image": ""
+    "calories": 450,
+    "image": "https://www.cookwithmanali.com/wp-content/uploads/2014/11/Hakka-Noodles-1.jpg"
   },
   {
     "menu": "Dumplings",
     "price": 4.5,
-    "calories": 0,
-    "image": ""
+    "calories": 490,
+    "image": "https://www.thespruceeats.com/thmb/9QNIgey99zFXHrzS6hTB9Wl6mSE=/3000x3000/smart/filters:no_upscale()/chinese-pan-fried-dumplings-694499_hero-01-f8489a47cef14c06909edff8c6fa3fa9.jpg"
   },
   {
     "menu": "Beef/Cold Noodles",
     "price": 4.5,
-    "calories": 0,
-    "image": ""
+    "calories": 464,
+    "image": "https://www.hirokoliston.com/wp-content/uploads/2012/06/Beef_Udon.jpg"
   },
   {
     "menu": "Sauce Chicken Noodles",
     "price": 5,
-    "calories": 0,
-    "image": ""
+    "calories": 442,
+    "image": "https://www.straitstimes.com/sites/default/files/styles/article_pictrure_780x520_/public/articles/2017/01/16/soysaucechickenmain_0.jpg?itok=lvISxwQJ&timestamp=1484891967"
   },
   {
     "menu": "Mala Tang",
     "price": 5,
-    "calories": 0,
-    "image": ""
+    "calories": 450,
+    "image": "https://www.elevatedtrips.com/wp-content/uploads/ma-la-tang.jpg"
   },
   {
     "menu": "Dried dumpling",
     "price": 5,
-    "calories": 0,
-    "image": ""
+    "calories": 480,
+    "image": "https://www.thespruceeats.com/thmb/-wP4Xq8Ari_nRUlaeY3JFQ76750=/4494x3000/filters:fill(auto,1)/chinese-pan-fried-dumplings-694499_hero-01-f8489a47cef14c06909edff8c6fa3fa9.jpg"
   },
   {
     "menu": "Braised Beef Rice",
     "price": 4.5,
-    "calories": 0,
-    "image": ""
-  },
-  {
-    "menu": "",
-    "price": "",
-    "calories": "",
-    "image": ""
-  },
-  {
-    "menu": "",
-    "price": "",
-    "calories": "",
-    "image": ""
-  },
-  {
-    "menu": "",
-    "price": "",
-    "calories": "",
-    "image": ""
-  },
-  {
-    "menu": "menu",
-    "price": "price",
-    "calories": "calories",
-    "image": "image"
-  },
+    "calories": 840,
+    "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2019/12/03/wu2403__asian-braised-beef_s4x3.jpg.rend.hgtvcom.826.620.suffix/1575405655621.jpeg"
+  }]},
+  {"QuadCafe_DrinkStall" : [
   {
     "menu": "Coffee",
     "price": 0.8,
-    "calories": 0,
-    "image": ""
+    "calories": 100,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/45/A_small_cup_of_coffee.JPG"
   },
   {
     "menu": "Tea",
     "price": 0.8,
-    "calories": 0,
-    "image": ""
+    "calories": 60,
+    "image": "https://c.ndtvimg.com/2019-02/7ivu40vg_tea_625x300_08_February_19.jpg"
   },
   {
     "menu": "Milo",
     "price": 1,
-    "calories": 0,
-    "image": ""
+    "calories": 70,
+    "image": "https://d1nqx6es26drid.cloudfront.net/app/uploads/2015/04/04115956/Milo-ver1.png"
   },
   {
     "menu": "Chinese Tea",
     "price": 0.6,
-    "calories": 0,
-    "image": ""
+    "calories": 100,
+    "image": "https://i0.wp.com/welcometochina.com.au/wp-content/uploads/2019/08/teacn-e1565703688121-768x350.jpg"
   },
   {
     "menu": "Chrysentium Tea",
     "price": 0.7,
-    "calories": 0,
-    "image": ""
+    "calories": 60,
+    "image": "https://cdn2.stylecraze.com/wp-content/uploads/2014/06/2107-9-Surprising-Benefits-Of-Chrysanthemum-Tea-is.jpg"
   },
   {
     "menu": "Ginger Tea",
     "price": 1.2,
-    "calories": 0,
-    "image": ""
+    "calories": 70,
+    "image": "https://selecthealth.org/-/media/selecthealth/blogs/post/2020/02/tumeric_tea_blog_lg.ashx"
   },
   {
     "menu": "Water Melon",
     "price": 0.6,
-    "calories": 0,
-    "image": ""
+    "calories": 100,
+    "image": "https://solidstarts.com/wp-content/uploads/when-can-babies-eat-watermelon-480x320.jpg"
   },
   {
     "menu": "Honeydew",
     "price": 0.6,
-    "calories": 0,
-    "image": ""
+    "calories": 60,
+    "image": "https://post.healthline.com/wp-content/uploads/2020/08/honeydew-732x549-thumbnail.jpg"
   },
   {
     "menu": "Papaya",
     "price": 0.6,
-    "calories": 0,
-    "image": ""
+    "calories": 70,
+    "image": "https://c.ndtvimg.com/2019-06/qlo3s8ko_papaya-seeds_625x300_06_June_19.jpg"
   },
   {
     "menu": "Pineapple",
     "price": 0.8,
-    "calories": 0,
-    "image": ""
+    "calories": 100,
+    "image": "https://cdn-prod.medicalnewstoday.com/content/images/articles/323/323783/fresh-pineapple-sliced-on-chopping-board.jpg"
   },
   {
     "menu": "Guava",
     "price": 0.8,
-    "calories": 0,
-    "image": ""
+    "calories": 60,
+    "image": "https://static.onecms.io/wp-content/uploads/sites/35/2020/06/25/guava-promo.jpg"
   },
   {
     "menu": "Banana",
     "price": 0.7,
-    "calories": 0,
-    "image": ""
+    "calories": 70,
+    "image": "https://cdn.mos.cms.futurecdn.net/42E9as7NaTaAi4A6JcuFwG-1200-80.jpg"
   },
   {
     "menu": "Apple",
     "price": 0.9,
-    "calories": 0,
-    "image": ""
+    "calories": 100,
+    "image": "https://static.toiimg.com/thumb/msid-71278886/71278886.jpg?width=500&resizemode=4"
   },
   {
     "menu": "Orange",
     "price": 0.9,
-    "calories": 0,
-    "image": ""
+    "calories": 60,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Orange-Fruit-Pieces.jpg"
   },
   {
     "menu": "Kiwi",
     "price": 1,
-    "calories": 0,
-    "image": ""
+    "calories": 70,
+    "image": "https://post.healthline.com/wp-content/uploads/2020/01/kiwi-fruit-732x549-thumbnail.jpg"
   },
   {
     "menu": "Rock Melon",
     "price": 1,
-    "calories": 0,
-    "image": ""
+    "calories": 100,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/28/Cantaloupes.jpg"
   },
   {
     "menu": "Red Dragon Fruit",
     "price": 1,
-    "calories": 0,
-    "image": ""
+    "calories": 60,
+    "image": "https://miro.medium.com/max/1200/1*tuQnpfsNwPEcVw19z-CtIQ.jpeg"
   },
   {
     "menu": "Fruit Cup",
     "price": 2.5,
-    "calories": 0,
-    "image": ""
-  }
+    "calories": 70,
+    "image": "https://www.manusmenu.com/wp-content/uploads/2019/03/1-Lofo-Fruit-Salad-with-Ginger-Lime-Syrup-1-1-of-1.jpg"
+  }]}
 ]

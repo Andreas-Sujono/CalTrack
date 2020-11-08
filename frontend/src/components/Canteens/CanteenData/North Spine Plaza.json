@@ -1,1088 +1,1066 @@
-[
+[{"NorthSpinePlaza_FunWorldCafe" :[
   {
-    "Fun World Cafe": "Ayam Masak Merah Rice Set",
-    "": 5.9,
-    "__1": 313,
-    "__2": "https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/F45E17AC-75AD-41D4-B3C0-8F0A0EF247DD/Derivates/11d0ce6c-c4cc-4ae8-8860-23105c39bc17.jpg"
+    "menu": "Ayam Masak Merah Rice Set",
+    "price": 5.9,
+    "calories": 313,
+    "image": "https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/F45E17AC-75AD-41D4-B3C0-8F0A0EF247DD/Derivates/11d0ce6c-c4cc-4ae8-8860-23105c39bc17.jpg"
   },
   {
-    "Fun World Cafe": "Chilli Crab Sauce Chicken w Rice",
-    "": 5.9,
-    "__1": 550,
-    "__2": "https://ucarecdn.com/8398c28c-7f9f-4800-9f1e-6d505a62718b/-/scale_crop/1280x720/center/-/quality/normal/-/format/jpeg/singapore-style-chilli-crab.jpg"
+    "menu": "Chilli Crab Sauce Chicken w Rice",
+    "price": 5.9,
+    "calories": 550,
+    "image": "https://ucarecdn.com/8398c28c-7f9f-4800-9f1e-6d505a62718b/-/scale_crop/1280x720/center/-/quality/normal/-/format/jpeg/singapore-style-chilli-crab.jpg"
   },
   {
-    "Fun World Cafe": "Japanese Curry Rice Set",
-    "": 5.9,
-    "__1": 517,
-    "__2": "https://v1.nitrocdn.com/KQYMGOLIdXGmoAcyJsPOrQDKktgCbwtG/assets/static/optimized/rev-e80bad3/wp-content/uploads/2020/03/Japanese-Chicken-Curry-2417-I.jpg"
+    "menu": "Japanese Curry Rice Set",
+    "price": 5.9,
+    "calories": 517,
+    "image": "https://v1.nitrocdn.com/KQYMGOLIdXGmoAcyJsPOrQDKktgCbwtG/assets/static/optimized/rev-e80bad3/wp-content/uploads/2020/03/Japanese-Chicken-Curry-2417-I.jpg"
   },
   {
-    "Fun World Cafe": "Salted Egg Mayo Chicken w Rice",
-    "": 5.9,
-    "__1": 818,
-    "__2": "https://i0.wp.com/www.springtomorrow.com/wp-content/uploads/2014/06/Salted-Egg-Chicken.jpg?fit=578%2C386&ssl=1"
+    "menu": "Salted Egg Mayo Chicken w Rice",
+    "price": 5.9,
+    "calories": 818,
+    "image": "https://i0.wp.com/www.springtomorrow.com/wp-content/uploads/2014/06/Salted-Egg-Chicken.jpg?fit=578%2C386&ssl=1"
   },
   {
-    "Fun World Cafe": "Prawn Paste Chicken w Rice",
-    "": 3.8,
-    "__1": 418,
-    "__2": "https://hw-media.herworld.com/public/chicken%20D.jpg"
+    "menu": "Prawn Paste Chicken w Rice",
+    "price": 3.8,
+    "calories": 418,
+    "image": "https://hw-media.herworld.com/public/chicken%20D.jpg"
   },
   {
-    "Fun World Cafe": "Signature Chicken Wing Nasi Lemak",
-    "": 3.8,
-    "__1": 656,
-    "__2": "https://burpple-3.imgix.net/foods/4f95fe3c23a754c997c1464402_original.?w=645&dpr=1&fit=crop&q=80&auto=format"
+    "menu": "Signature Chicken Wing Nasi Lemak",
+    "price": 3.8,
+    "calories": 656,
+    "image": "https://burpple-3.imgix.net/foods/4f95fe3c23a754c997c1464402_original.?w=645&dpr=1&fit=crop&q=80&auto=format"
   },
   {
-    "Fun World Cafe": "Green Curry Rice",
-    "": 5.9,
-    "__1": 551,
-    "__2": "https://pinchofyum.com/wp-content/uploads/Green-Curry-Recipe.jpg"
+    "menu": "Green Curry Rice",
+    "price": 5.9,
+    "calories": 551,
+    "image": "https://pinchofyum.com/wp-content/uploads/Green-Curry-Recipe.jpg"
   },
   {
-    "Fun World Cafe": "Green Curry Chicken",
-    "": 5.9,
-    "__1": 352,
-    "__2": "https://thelemonapron.com/wp-content/uploads/2018/02/Thai-Green-Curry-6-e1518632894974.jpg"
+    "menu": "Green Curry Chicken",
+    "price": 5.9,
+    "calories": 352,
+    "image": "https://thelemonapron.com/wp-content/uploads/2018/02/Thai-Green-Curry-6-e1518632894974.jpg"
   },
   {
-    "Fun World Cafe": "Bostock Toast",
-    "": 1.8,
-    "__1": 477,
-    "__2": "https://barefeetinthekitchen.com/wp-content/uploads/2017/10/Bostock-14-1-of-1.jpg"
+    "menu": "Bostock Toast",
+    "price": 1.8,
+    "calories": 477,
+    "image": "https://barefeetinthekitchen.com/wp-content/uploads/2017/10/Bostock-14-1-of-1.jpg"
   },
   {
-    "Fun World Cafe": "Caramel Thick Toast",
-    "": 2,
-    "__1": 260,
-    "__2": "https://www.loveandoliveoil.com/wp-content/uploads/2015/06/salted-caramel-french-toastH.jpg"
+    "menu": "Caramel Thick Toast",
+    "price": 2,
+    "calories": 260,
+    "image": "https://www.loveandoliveoil.com/wp-content/uploads/2015/06/salted-caramel-french-toastH.jpg"
   },
   {
-    "Fun World Cafe": "Chocolate Thick Toast",
-    "": 2,
-    "__1": 160,
-    "__2": "https://i.pinimg.com/originals/0a/1b/11/0a1b1103a5f6fd2506feaf29113fc233.jpg"
+    "menu": "Chocolate Thick Toast",
+    "price": 2,
+    "calories": 160,
+    "image": "https://i.pinimg.com/originals/0a/1b/11/0a1b1103a5f6fd2506feaf29113fc233.jpg"
   },
   {
-    "Fun World Cafe": "Ham & Cheese Thick Toast",
-    "": 2.5,
-    "__1": 259,
-    "__2": "https://imagesvc.meredithcorp.io/v3/mm/image?q=85&c=sc&poi=face&url=https%3A%2F%2Fcdn-image.foodandwine.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2F4_3_horizontal_-_1200x900%2Fpublic%2Fham-and-gruyere-french-toast-sandwiches-xl-r-199802.jpg%3Fitok%3DmCuvgU2X"
+    "menu": "Ham & Cheese Thick Toast",
+    "price": 2.5,
+    "calories": 259,
+    "image": "https://imagesvc.meredithcorp.io/v3/mm/image?q=85&c=sc&poi=face&url=https%3A%2F%2Fcdn-image.foodandwine.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2F4_3_horizontal_-_1200x900%2Fpublic%2Fham-and-gruyere-french-toast-sandwiches-xl-r-199802.jpg%3Fitok%3DmCuvgU2X"
   },
   {
-    "Fun World Cafe": "2 Soft Boiled Eggs",
-    "": 1.2,
-    "__1": 140,
-    "__2": "https://www.malaysianchinesekitchen.com/wp-content/uploads/2016/07/HalfBoiledEggs-1.jpg"
+    "menu": "2 Soft Boiled Eggs",
+    "price": 1.2,
+    "calories": 140,
+    "image": "https://www.malaysianchinesekitchen.com/wp-content/uploads/2016/07/HalfBoiledEggs-1.jpg"
   },
   {
-    "Fun World Cafe": "2 Slices of Bread",
-    "": 1.2,
-    "__1": 180,
-    "__2": "https://www.verywellfit.com/thmb/6S0IbVP09uDMav4qcZ9nwpRU804=/2002x2002/smart/filters:no_upscale()/bread-crop-23e1fc54583d435d938ee31bbe66779e.jpg"
+    "menu": "2 Slices of Bread",
+    "price": 1.2,
+    "calories": 180,
+    "image": "https://www.verywellfit.com/thmb/6S0IbVP09uDMav4qcZ9nwpRU804=/2002x2002/smart/filters:no_upscale()/bread-crop-23e1fc54583d435d938ee31bbe66779e.jpg"
   },
   {
-    "Fun World Cafe": "Egg Mayo Sandwiches",
-    "": 2,
-    "__1": 328,
-    "__2": "https://du7ybees82p4m.cloudfront.net/59241f45963bd5.70485514.jpg?width=910&height=512"
+    "menu": "Egg Mayo Sandwiches",
+    "price": 2,
+    "calories": 328,
+    "image": "https://du7ybees82p4m.cloudfront.net/59241f45963bd5.70485514.jpg?width=910&height=512"
   },
   {
-    "Fun World Cafe": "Tuna Sandwiches",
-    "": 2,
-    "__1": 332,
-    "__2": "https://starkist.com/sites/default/files/recipes/classic_tuna_sandwich.jpg"
+    "menu": "Tuna Sandwiches",
+    "price": 2,
+    "calories": 332,
+    "image": "https://starkist.com/sites/default/files/recipes/classic_tuna_sandwich.jpg"
   },
   {
-    "Fun World Cafe": "Ham & Cheese Sandwiches",
-    "": 2,
-    "__1": 296,
-    "__2": "https://www.simplyrecipes.com/wp-content/uploads/2013/04/green-eggs-ham-sandwich-horiz-a-1800.jpg"
+    "menu": "Ham & Cheese Sandwiches",
+    "price": 2,
+    "calories": 296,
+    "image": "https://www.simplyrecipes.com/wp-content/uploads/2013/04/green-eggs-ham-sandwich-horiz-a-1800.jpg"
   },
   {
-    "Fun World Cafe": "Fried Bee Hoon",
-    "": 0.9,
-    "__1": 452,
-    "__2": "https://www.seriouseats.com/recipes/images/2013/01/20130103-singapore-noodles-bee-hoon-primary.jpg"
+    "menu": "Fried Bee Hoon",
+    "price": 0.9,
+    "calories": 452,
+    "image": "https://www.seriouseats.com/recipes/images/2013/01/20130103-singapore-noodles-bee-hoon-primary.jpg"
   },
   {
-    "Fun World Cafe": "Fried Kway Teow",
-    "": 0.9,
-    "__1": 742,
-    "__2": "https://d2wtgwi3o396m5.cloudfront.net/recipe/844c8140-fc58-42d5-8eff-997aab276bc9.jpeg?d=1408x1120"
+    "menu": "Fried Kway Teow",
+    "price": 0.9,
+    "calories": 742,
+    "image": "https://d2wtgwi3o396m5.cloudfront.net/recipe/844c8140-fc58-42d5-8eff-997aab276bc9.jpeg?d=1408x1120"
   },
   {
-    "Fun World Cafe": "Fried Noodle",
-    "": 0.9,
-    "__1": 400,
-    "__2": "https://omnivorescookbook.com/wp-content/uploads/2020/06/200430_Beef-Pan-Fried-Noodles_550.jpg"
+    "menu": "Fried Noodle",
+    "price": 0.9,
+    "calories": 400,
+    "image": "https://omnivorescookbook.com/wp-content/uploads/2020/06/200430_Beef-Pan-Fried-Noodles_550.jpg"
   },
   {
-    "Fun World Cafe": "Crispy Chicken Chop Rice Set with 2 Veg",
-    "": 5,
-    "__1": 709,
-    "__2": "https://i0.wp.com/spicepaw.com/wp-content/uploads/2018/07/Crispy-Chicken-Chop-5.jpg?fit=3403%2C3402&ssl=1"
+    "menu": "Crispy Chicken Chop Rice Set with 2 Veg",
+    "price": 5,
+    "calories": 709,
+    "image": "https://i0.wp.com/spicepaw.com/wp-content/uploads/2018/07/Crispy-Chicken-Chop-5.jpg?fit=3403%2C3402&ssl=1"
   },
   {
-    "Fun World Cafe": "Salted Crispy Chicken Rice Set with 2 Veg",
-    "": 5,
-    "__1": 720,
-    "__2": "https://3.bp.blogspot.com/-NG-ZQUw6xGg/XCrQFefPSTI/AAAAAAAAdLA/7KJdAwJHUQEmHza8Frc1UpymziroGd3HQCLcBGAs/s1600/Fried%2BChicken%2BMaster%2B1.JPG"
+    "menu": "Salted Crispy Chicken Rice Set with 2 Veg",
+    "price": 5,
+    "calories": 720,
+    "image": "https://3.bp.blogspot.com/-NG-ZQUw6xGg/XCrQFefPSTI/AAAAAAAAdLA/7KJdAwJHUQEmHza8Frc1UpymziroGd3HQCLcBGAs/s1600/Fried%2BChicken%2BMaster%2B1.JPG"
   },
   {
-    "Fun World Cafe": "Crispy Chicken Chop",
-    "": 4,
-    "__1": 509,
-    "__2": "https://i0.wp.com/spicepaw.com/wp-content/uploads/2018/07/Crispy-Chicken-Chop-5.jpg?fit=3403%2C3402&ssl=1"
+    "menu": "Crispy Chicken Chop",
+    "price": 4,
+    "calories": 509,
+    "image": "https://i0.wp.com/spicepaw.com/wp-content/uploads/2018/07/Crispy-Chicken-Chop-5.jpg?fit=3403%2C3402&ssl=1"
   },
   {
-    "Fun World Cafe": "Salted Crispy Chicken",
-    "": 3,
-    "__1": 520,
-    "__2": "https://3.bp.blogspot.com/-NG-ZQUw6xGg/XCrQFefPSTI/AAAAAAAAdLA/7KJdAwJHUQEmHza8Frc1UpymziroGd3HQCLcBGAs/s1600/Fried%2BChicken%2BMaster%2B1.JPG"
+    "menu": "Salted Crispy Chicken",
+    "price": 3,
+    "calories": 520,
+    "image": "https://3.bp.blogspot.com/-NG-ZQUw6xGg/XCrQFefPSTI/AAAAAAAAdLA/7KJdAwJHUQEmHza8Frc1UpymziroGd3HQCLcBGAs/s1600/Fried%2BChicken%2BMaster%2B1.JPG"
   },
   {
-    "Fun World Cafe": "Spring Onion Fish Fillet Rice",
-    "": 5,
-    "__1": 287,
-    "__2": "https://i1.wp.com/www.angsarap.net/wp-content/uploads/2018/08/Spring-Onion-Ginger-Fish-Fillets-Wide.jpg?fit=1080%2C720&ssl=1"
+    "menu": "Spring Onion Fish Fillet Rice",
+    "price": 5,
+    "calories": 287,
+    "image": "https://i1.wp.com/www.angsarap.net/wp-content/uploads/2018/08/Spring-Onion-Ginger-Fish-Fillets-Wide.jpg?fit=1080%2C720&ssl=1"
   },
   {
-    "Fun World Cafe": "Sambal Fish Rice",
-    "": 5,
-    "__1": 440,
-    "__2": "https://www.thespruceeats.com/thmb/nK3mrZ1poDA3D5k3QKZX3t1FBtU=/2000x1500/smart/filters:no_upscale()/sambal-fish-56c416cd5f9b5829f8728c90.jpg"
+    "menu": "Sambal Fish Rice",
+    "price": 5,
+    "calories": 440,
+    "image": "https://www.thespruceeats.com/thmb/nK3mrZ1poDA3D5k3QKZX3t1FBtU=/2000x1500/smart/filters:no_upscale()/sambal-fish-56c416cd5f9b5829f8728c90.jpg"
   },
   {
-    "Fun World Cafe": "Hong Kong Crispy Noodle with Gravy",
-    "": 5,
-    "__1": 510,
-    "__2": "https://www.savoringspoon.com/wp-content/uploads/2017/04/HK-Crispy-Noodle-Final2.jpg"
+    "menu": "Hong Kong Crispy Noodle with Gravy",
+    "price": 5,
+    "calories": 510,
+    "image": "https://www.savoringspoon.com/wp-content/uploads/2017/04/HK-Crispy-Noodle-Final2.jpg"
   },
   {
-    "Fun World Cafe": "Lemon Chicken Rice",
-    "": 5,
-    "__1": 466,
-    "__2": "https://www.crunchycreamysweet.com/wp-content/uploads/2017/09/honey-lemon-chicken-rice-bowls-recipe-a.jpg"
+    "menu": "Lemon Chicken Rice",
+    "price": 5,
+    "calories": 466,
+    "image": "https://www.crunchycreamysweet.com/wp-content/uploads/2017/09/honey-lemon-chicken-rice-bowls-recipe-a.jpg"
   },
   {
-    "Fun World Cafe": "Sliced Fish Hor Fun",
-    "": 5,
-    "__1": 708,
-    "__2": "https://sethlui.com/wp-content/uploads/2019/02/maddies-kitchen-9-800x533.jpg"
+    "menu": "Sliced Fish Hor Fun",
+    "price": 5,
+    "calories": 708,
+    "image": "https://sethlui.com/wp-content/uploads/2019/02/maddies-kitchen-9-800x533.jpg"
   },
   {
-    "Fun World Cafe": "Seafood Hor Fun",
-    "": 5,
-    "__1": 748,
-    "__2": "https://thedomesticgoddesswannabe.com/wp-content/uploads/2013/06/2013-05-28-18.56.58.jpg"
+    "menu": "Seafood Hor Fun",
+    "price": 5,
+    "calories": 748,
+    "image": "https://thedomesticgoddesswannabe.com/wp-content/uploads/2013/06/2013-05-28-18.56.58.jpg"
   },
   {
-    "Fun World Cafe": "Black Pepper Sliced Pork Rice",
-    "": 5,
-    "__1": 460,
-    "__2": "https://foodandjourneys.net/wp-content/uploads/2017/01/Salt-and-Pepper-Pork-Belly-MPIC.jpg"
+    "menu": "Black Pepper Sliced Pork Rice",
+    "price": 5,
+    "calories": 460,
+    "image": "https://foodandjourneys.net/wp-content/uploads/2017/01/Salt-and-Pepper-Pork-Belly-MPIC.jpg"
   },
   {
-    "Fun World Cafe": "Sweet and Sour Fish Fillet Rice",
-    "": 5,
-    "__1": 359,
-    "__2": "https://media-cdn.tripadvisor.com/media/photo-s/12/02/96/df/sweet-sour-fish-fillets.jpg"
+    "menu": "Sweet and Sour Fish Fillet Rice",
+    "price": 5,
+    "calories": 359,
+    "image": "https://media-cdn.tripadvisor.com/media/photo-s/12/02/96/df/sweet-sour-fish-fillets.jpg"
   },
   {
-    "Fun World Cafe": "Sweet and Sour Chicken Rice",
-    "": 5,
-    "__1": 380,
-    "__2": "https://www.averiecooks.com/wp-content/uploads/2017/01/sweetsourchicken-3.jpg"
+    "menu": "Sweet and Sour Chicken Rice",
+    "price": 5,
+    "calories": 380,
+    "image": "https://www.averiecooks.com/wp-content/uploads/2017/01/sweetsourchicken-3.jpg"
   },
   {
-    "Fun World Cafe": "Kung Pao Chicken Rice",
-    "": 5,
-    "__1": 437,
-    "__2": "https://www.onceuponachef.com/images/2018/05/Kung-Pao-Chicken-16-scaled.jpg"
+    "menu": "Kung Pao Chicken Rice",
+    "price": 5,
+    "calories": 437,
+    "image": "https://www.onceuponachef.com/images/2018/05/Kung-Pao-Chicken-16-scaled.jpg"
   },
   {
-    "Fun World Cafe": "Spinach Seafood Soup",
-    "": 4.5,
-    "__1": 163,
-    "__2": "https://burpple.imgix.net/foods/27bc4239077c37c16501815822_original.?w=645&dpr=1&fit=crop&q=80&auto=format"
+    "menu": "Spinach Seafood Soup",
+    "price": 4.5,
+    "calories": 163,
+    "image": "https://burpple.imgix.net/foods/27bc4239077c37c16501815822_original.?w=645&dpr=1&fit=crop&q=80&auto=format"
   },
   {
-    "Fun World Cafe": "Spinach Yong Tofu Soup",
-    "": 4.5,
-    "__1": 165,
-    "__2": "https://burpple-2.imgix.net/foods/469dbd7ecc1b6ecdd641698594_original.?w=420&dpr=1&fit=crop&q=80&auto=format"
+    "menu": "Spinach Yong Tofu Soup",
+    "price": 4.5,
+    "calories": 165,
+    "image": "https://burpple-2.imgix.net/foods/469dbd7ecc1b6ecdd641698594_original.?w=420&dpr=1&fit=crop&q=80&auto=format"
   },
   {
-    "Fun World Cafe": "Spinach Century & Salted Egg Soup",
-    "": 4.5,
-    "__1": 161,
-    "__2": "https://hw-media.herworld.com/public/century_salted_egg_spinach_t.jpg"
+    "menu": "Spinach Century & Salted Egg Soup",
+    "price": 4.5,
+    "calories": 161,
+    "image": "https://hw-media.herworld.com/public/century_salted_egg_spinach_t.jpg"
   },
   {
-    "Fun World Cafe": "Meatball Spinach Soup",
-    "": 4,
-    "__1": 220,
-    "__2": "https://i2.wp.com/themissinglokness.com/wp-content/uploads/2017/11/BJG_9950-680x1020.jpg?resize=680%2C1020&ssl=1"
+    "menu": "Meatball Spinach Soup",
+    "price": 4,
+    "calories": 220,
+    "image": "https://i2.wp.com/themissinglokness.com/wp-content/uploads/2017/11/BJG_9950-680x1020.jpg?resize=680%2C1020&ssl=1"
   },
   {
-    "Fun World Cafe": "Signature Spinach Soup",
-    "": 6,
-    "__1": 200,
-    "__2": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fcdn-image.foodandwine.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Fmedium_2x%2Fpublic%2F2014-r-xl-turkey-and-spinach-soup.jpg%3Fitok%3DRSDL-ogO"
+    "menu": "Signature Spinach Soup",
+    "price": 6,
+    "calories": 200,
+    "image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fcdn-image.foodandwine.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Fmedium_2x%2Fpublic%2F2014-r-xl-turkey-and-spinach-soup.jpg%3Fitok%3DRSDL-ogO"
   },
   {
-    "Fun World Cafe": "Seafood Rice Noodles",
-    "": 5,
-    "__1": 223,
-    "__2": "https://themom100.com/wp-content/uploads/2019/03/asian-stir-fried-shrimp-and-rice-noodles-461.jpg"
+    "menu": "Seafood Rice Noodles",
+    "price": 5,
+    "calories": 223,
+    "image": "https://themom100.com/wp-content/uploads/2019/03/asian-stir-fried-shrimp-and-rice-noodles-461.jpg"
   },
   {
-    "Fun World Cafe": "Smooth Egg Hor Fun",
-    "": 5,
-    "__1": 548,
-    "__2": "https://media-cdn.tripadvisor.com/media/photo-s/13/a6/58/5a/slippery-egg-hor-fun.jpg"
+    "menu": "Smooth Egg Hor Fun",
+    "price": 5,
+    "calories": 548,
+    "image": "https://media-cdn.tripadvisor.com/media/photo-s/13/a6/58/5a/slippery-egg-hor-fun.jpg"
   },
   {
-    "Fun World Cafe": "Seafood Hokkien Noodle with Gravy",
-    "": 5,
-    "__1": 617,
-    "__2": "https://www.misstamchiak.com/wp-content/uploads/2016/12/16069838051_c75eb4dd99_o-e1481721167937.jpg"
+    "menu": "Seafood Hokkien Noodle with Gravy",
+    "price": 5,
+    "calories": 617,
+    "image": "https://www.misstamchiak.com/wp-content/uploads/2016/12/16069838051_c75eb4dd99_o-e1481721167937.jpg"
   },
   {
-    "Fun World Cafe": "Simmered Pork Rice",
-    "": 5,
-    "__1": 700,
-    "__2": "https://www.bearnakedfood.com/wp-content/uploads/2017/05/DSCF4178.jpg"
+    "menu": "Simmered Pork Rice",
+    "price": 5,
+    "calories": 700,
+    "image": "https://www.bearnakedfood.com/wp-content/uploads/2017/05/DSCF4178.jpg"
   },
   {
-    "Fun World Cafe": "Samba Sudong Rice",
-    "": 5,
-    "__1": 731,
-    "__2": "https://i.ytimg.com/vi/MM5LtfeEMXs/maxresdefault.jpg"
+    "menu": "Samba Sudong Rice",
+    "price": 5,
+    "calories": 731,
+    "image": "https://i.ytimg.com/vi/MM5LtfeEMXs/maxresdefault.jpg"
   },
   {
-    "Fun World Cafe": "Black Pepper Fillet Rice",
-    "": 5,
-    "__1": 310,
-    "__2": "https://recipetineats.com/wp-content/uploads/2015/07/Chinese-Honey-Pepper-Beef_3.jpg"
+    "menu": "Black Pepper Fillet Rice",
+    "price": 5,
+    "calories": 310,
+    "image": "https://recipetineats.com/wp-content/uploads/2015/07/Chinese-Honey-Pepper-Beef_3.jpg"
   },
   {
-    "Fun World Cafe": "Assorted Noodles",
-    "": 5,
-    "__1": 237,
-    "__2": "https://thefoodgallery.files.wordpress.com/2015/06/20150615_rand.jpg"
+    "menu": "Assorted Noodles",
+    "price": 5,
+    "calories": 237,
+    "image": "https://thefoodgallery.files.wordpress.com/2015/06/20150615_rand.jpg"
   },
   {
-    "Fun World Cafe": "Sliced Fish Bee Hoon with Gravy",
-    "": 5,
-    "__1": 349,
-    "__2": "https://4scoin37ye-flywheel.netdna-ssl.com/wp-content/uploads/2018/12/slicedfishnoodlesoup3.jpg"
+    "menu": "Sliced Fish Bee Hoon with Gravy",
+    "price": 5,
+    "calories": 349,
+    "image": "https://4scoin37ye-flywheel.netdna-ssl.com/wp-content/uploads/2018/12/slicedfishnoodlesoup3.jpg"
   },
   {
-    "Fun World Cafe": "Seafood Bee Hoon with Gravy",
-    "": 5,
-    "__1": 370,
-    "__2": "https://2.bp.blogspot.com/-XIqOS9SI988/ViMGGHyk-VI/AAAAAAAAJsE/gbpBehfkNns/s1600/DSC01969.png"
+    "menu": "Seafood Bee Hoon with Gravy",
+    "price": 5,
+    "calories": 370,
+    "image": "https://2.bp.blogspot.com/-XIqOS9SI988/ViMGGHyk-VI/AAAAAAAAJsE/gbpBehfkNns/s1600/DSC01969.png"
   },
   {
-    "Fun World Cafe": "Taiwan Pure Black Tea",
-    "": 2.2,
-    "__1": 73,
-    "__2": "https://cdn.shopify.com/s/files/1/0251/0722/products/Red_Jade_Black_Tea_-_Lifestyle_01.jpg?v=1597764690"
+    "menu": "Taiwan Pure Black Tea",
+    "price": 2.2,
+    "calories": 73,
+    "image": "https://cdn.shopify.com/s/files/1/0251/0722/products/Red_Jade_Black_Tea_-_Lifestyle_01.jpg?v=1597764690"
   },
   {
-    "Fun World Cafe": "Pure Jasmine Tea",
-    "": 2.2,
-    "__1": 0,
-    "__2": "https://www.thespruceeats.com/thmb/ivA_xkCdmInBzIg9z6VC7tXxrQc=/3739x3739/smart/filters:no_upscale()/jasmine-tea-96590095-599c976d0d327a0011b5dacb.jpg"
+    "menu": "Pure Jasmine Tea",
+    "price": 2.2,
+    "calories": 0,
+    "image": "https://www.thespruceeats.com/thmb/ivA_xkCdmInBzIg9z6VC7tXxrQc=/3739x3739/smart/filters:no_upscale()/jasmine-tea-96590095-599c976d0d327a0011b5dacb.jpg"
   },
   {
-    "Fun World Cafe": "Golden Oolong Tea",
-    "": 2.2,
-    "__1": 0,
-    "__2": "https://post.healthline.com/wp-content/uploads/2020/09/AN538-Oolong-Tea-732x549-thumb.jpg"
+    "menu": "Golden Oolong Tea",
+    "price": 2.2,
+    "calories": 0,
+    "image": "https://post.healthline.com/wp-content/uploads/2020/09/AN538-Oolong-Tea-732x549-thumb.jpg"
   },
   {
-    "Fun World Cafe": "Pineapple Boom Fruit Tea",
-    "": 3.2,
-    "__1": 50,
-    "__2": "https://spectrum-sitecore-spectrumbrands.netdna-ssl.com/~/media/SmallAppliancesUS/Russell%20Hobbs/Images/Recipes/Sip/Pineapple%20Tea/PineappleTeaRecipe_01.jpg"
+    "menu": "Pineapple Boom Fruit Tea",
+    "price": 3.2,
+    "calories": 50,
+    "image": "https://spectrum-sitecore-spectrumbrands.netdna-ssl.com/~/media/SmallAppliancesUS/Russell%20Hobbs/Images/Recipes/Sip/Pineapple%20Tea/PineappleTeaRecipe_01.jpg"
   },
   {
-    "Fun World Cafe": "Lemon Boom Fruit Tea",
-    "": 3.2,
-    "__1": 50,
-    "__2": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Lemon-Spiced-Tea_EXPS_HCA19_49476_B06_22_3b-1-696x696.jpg"
+    "menu": "Lemon Boom Fruit Tea",
+    "price": 3.2,
+    "calories": 50,
+    "image": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Lemon-Spiced-Tea_EXPS_HCA19_49476_B06_22_3b-1-696x696.jpg"
   },
   {
-    "Fun World Cafe": "Orange Boom Fruit Tea",
-    "": 3.2,
-    "__1": 50,
-    "__2": "https://www.onionringsandthings.com/wp-content/uploads/2016/06/strawberry-orange-refrigerator-iced-tea-1a-1.jpg"
+    "menu": "Orange Boom Fruit Tea",
+    "price": 3.2,
+    "calories": 50,
+    "image": "https://www.onionringsandthings.com/wp-content/uploads/2016/06/strawberry-orange-refrigerator-iced-tea-1a-1.jpg"
   },
   {
-    "Fun World Cafe": "Grapefruit Boom Fruit Tea",
-    "": 3.2,
-    "__1": 50,
-    "__2": "https://www.onionringsandthings.com/wp-content/uploads/2016/06/strawberry-orange-refrigerator-iced-tea-1a-1.jpg"
+    "menu": "Grapefruit Boom Fruit Tea",
+    "price": 3.2,
+    "calories": 50,
+    "image": "https://www.onionringsandthings.com/wp-content/uploads/2016/06/strawberry-orange-refrigerator-iced-tea-1a-1.jpg"
   },
   {
-    "Fun World Cafe": "Red Berry Boom (Strawberry)",
-    "": 4.2,
-    "__1": 50,
-    "__2": "https://letthebakingbegin.com/wp-content/uploads/2016/05/Strawberry-Iced-Tea-refreshing-drink-made-of-fresh-strawberries-and-brewed-tea-Let-the-Baking-Begin_-3-500x500.jpg"
+    "menu": "Red Berry Boom (Strawberry)",
+    "price": 4.2,
+    "calories": 50,
+    "image": "https://letthebakingbegin.com/wp-content/uploads/2016/05/Strawberry-Iced-Tea-refreshing-drink-made-of-fresh-strawberries-and-brewed-tea-Let-the-Baking-Begin_-3-500x500.jpg"
   },
   {
-    "Fun World Cafe": "Love Berry Boom (Blue Berry & Strawberry)",
-    "": 4.2,
-    "__1": 50,
-    "__2": "https://letthebakingbegin.com/wp-content/uploads/2016/05/Strawberry-Iced-Tea-refreshing-drink-made-of-fresh-strawberries-and-brewed-tea-Let-the-Baking-Begin_-3-500x500.jpg"
+    "menu": "Love Berry Boom (Blue Berry & Strawberry)",
+    "price": 4.2,
+    "calories": 50,
+    "image": "https://letthebakingbegin.com/wp-content/uploads/2016/05/Strawberry-Iced-Tea-refreshing-drink-made-of-fresh-strawberries-and-brewed-tea-Let-the-Baking-Begin_-3-500x500.jpg"
   },
   {
-    "Fun World Cafe": "Purple Grape Boom",
-    "": 4.2,
-    "__1": 50,
-    "__2": "https://www.theculinarycompass.com/wp-content/uploads/2016/06/IMG_2807-copy-720x720.jpg"
+    "menu": "Purple Grape Boom",
+    "price": 4.2,
+    "calories": 50,
+    "image": "https://www.theculinarycompass.com/wp-content/uploads/2016/06/IMG_2807-copy-720x720.jpg"
   },
   {
-    "Fun World Cafe": "Golden Mango Boom",
-    "": 4.2,
-    "__1": 50,
-    "__2": "https://static.toiimg.com/thumb/59219157.cms?width=1200&height=900"
+    "menu": "Golden Mango Boom",
+    "price": 4.2,
+    "calories": 50,
+    "image": "https://static.toiimg.com/thumb/59219157.cms?width=1200&height=900"
   },
   {
-    "Fun World Cafe": "Taiwan Black Tea Macchiato",
-    "": 2.7,
-    "__1": 75,
-    "__2": "https://img1.thelist.com/img/gallery/when-you-drink-black-tea-every-day-this-is-what-happens-to-your-body/intro-1578590561.jpg"
+    "menu": "Taiwan Black Tea Macchiato",
+    "price": 2.7,
+    "calories": 75,
+    "image": "https://img1.thelist.com/img/gallery/when-you-drink-black-tea-every-day-this-is-what-happens-to-your-body/intro-1578590561.jpg"
   },
   {
-    "Fun World Cafe": "Taiwan Black Tea Latte",
-    "": 2.3,
-    "__1": 75,
-    "__2": "https://img1.thelist.com/img/gallery/when-you-drink-black-tea-every-day-this-is-what-happens-to-your-body/intro-1578590561.jpg"
+    "menu": "Taiwan Black Tea Latte",
+    "price": 2.3,
+    "calories": 75,
+    "image": "https://img1.thelist.com/img/gallery/when-you-drink-black-tea-every-day-this-is-what-happens-to-your-body/intro-1578590561.jpg"
   },
   {
-    "Fun World Cafe": "Lychee Black Tea",
-    "": 2.7,
-    "__1": 75,
-    "__2": "https://img1.thelist.com/img/gallery/when-you-drink-black-tea-every-day-this-is-what-happens-to-your-body/intro-1578590561.jpg"
+    "menu": "Lychee Black Tea",
+    "price": 2.7,
+    "calories": 75,
+    "image": "https://img1.thelist.com/img/gallery/when-you-drink-black-tea-every-day-this-is-what-happens-to-your-body/intro-1578590561.jpg"
   },
   {
-    "Fun World Cafe": "Lychee Black Tea Macchiato",
-    "": 3,
-    "__1": 75,
-    "__2": "https://img1.thelist.com/img/gallery/when-you-drink-black-tea-every-day-this-is-what-happens-to-your-body/intro-1578590561.jpg"
+    "menu": "Lychee Black Tea Macchiato",
+    "price": 3,
+    "calories": 75,
+    "image": "https://img1.thelist.com/img/gallery/when-you-drink-black-tea-every-day-this-is-what-happens-to-your-body/intro-1578590561.jpg"
   },
   {
-    "Fun World Cafe": "Honey Lemon Black Tea",
-    "": 2.3,
-    "__1": 75,
-    "__2": "https://img1.thelist.com/img/gallery/when-you-drink-black-tea-every-day-this-is-what-happens-to-your-body/intro-1578590561.jpg"
+    "menu": "Honey Lemon Black Tea",
+    "price": 2.3,
+    "calories": 75,
+    "image": "https://img1.thelist.com/img/gallery/when-you-drink-black-tea-every-day-this-is-what-happens-to-your-body/intro-1578590561.jpg"
   },
   {
-    "Fun World Cafe": "Orange Black Tea Macchiato",
-    "": 2.9,
-    "__1": 75,
-    "__2": "https://img1.thelist.com/img/gallery/when-you-drink-black-tea-every-day-this-is-what-happens-to-your-body/intro-1578590561.jpg"
+    "menu": "Orange Black Tea Macchiato",
+    "price": 2.9,
+    "calories": 75,
+    "image": "https://img1.thelist.com/img/gallery/when-you-drink-black-tea-every-day-this-is-what-happens-to-your-body/intro-1578590561.jpg"
   },
   {
-    "Fun World Cafe": "Taiwan Green Tea",
-    "": 2.2,
-    "__1": 22,
-    "__2": "https://www.vegetariantimes.com/.image/t_share/MTcyMjIzODc1MzQ4NzAyNzQ1/benefits-of-green-tea.jpg"
+    "menu": "Taiwan Green Tea",
+    "price": 2.2,
+    "calories": 22,
+    "image": "https://www.vegetariantimes.com/.image/t_share/MTcyMjIzODc1MzQ4NzAyNzQ1/benefits-of-green-tea.jpg"
   },
   {
-    "Fun World Cafe": "Lemon Green Tea Macchiato",
-    "": 2.9,
-    "__1": 50,
-    "__2": "https://www.vegetariantimes.com/.image/t_share/MTcyMjIzODc1MzQ4NzAyNzQ1/benefits-of-green-tea.jpg"
+    "menu": "Lemon Green Tea Macchiato",
+    "price": 2.9,
+    "calories": 50,
+    "image": "https://www.vegetariantimes.com/.image/t_share/MTcyMjIzODc1MzQ4NzAyNzQ1/benefits-of-green-tea.jpg"
   },
   {
-    "Fun World Cafe": "Honey Lemon Green Tea",
-    "": 2.5,
-    "__1": 50,
-    "__2": "https://www.vegetariantimes.com/.image/t_share/MTcyMjIzODc1MzQ4NzAyNzQ1/benefits-of-green-tea.jpg"
+    "menu": "Honey Lemon Green Tea",
+    "price": 2.5,
+    "calories": 50,
+    "image": "https://www.vegetariantimes.com/.image/t_share/MTcyMjIzODc1MzQ4NzAyNzQ1/benefits-of-green-tea.jpg"
   },
   {
-    "Fun World Cafe": "Passionfruits Green Tea w/ White Pearl",
-    "": 3.2,
-    "__1": 50,
-    "__2": "https://www.vegetariantimes.com/.image/t_share/MTcyMjIzODc1MzQ4NzAyNzQ1/benefits-of-green-tea.jpg"
+    "menu": "Passionfruits Green Tea w/ White Pearl",
+    "price": 3.2,
+    "calories": 50,
+    "image": "https://www.vegetariantimes.com/.image/t_share/MTcyMjIzODc1MzQ4NzAyNzQ1/benefits-of-green-tea.jpg"
   },
   {
-    "Fun World Cafe": "Red Dragon Fruits Green Tea Milk w/ White Pearl",
-    "": 3.2,
-    "__1": 50,
-    "__2": "https://www.vegetariantimes.com/.image/t_share/MTcyMjIzODc1MzQ4NzAyNzQ1/benefits-of-green-tea.jpg"
+    "menu": "Red Dragon Fruits Green Tea Milk w/ White Pearl",
+    "price": 3.2,
+    "calories": 50,
+    "image": "https://www.vegetariantimes.com/.image/t_share/MTcyMjIzODc1MzQ4NzAyNzQ1/benefits-of-green-tea.jpg"
   },
   {
-    "Fun World Cafe": "Taiwan Brown Sugar Milk w/ Pearl",
-    "": 3,
-    "__1": 50,
-    "__2": "https://www.foxyfolksy.com/wp-content/uploads/2020/06/brown-sugar-milk-tea.jpg"
+    "menu": "Taiwan Brown Sugar Milk w/ Pearl",
+    "price": 3,
+    "calories": 50,
+    "image": "https://www.foxyfolksy.com/wp-content/uploads/2020/06/brown-sugar-milk-tea.jpg"
   },
   {
-    "Fun World Cafe": "Taiwan Brown Sugar Milk Tea w/ Pearl",
-    "": 2.9,
-    "__1": 50,
-    "__2": "https://www.foxyfolksy.com/wp-content/uploads/2020/06/brown-sugar-milk-tea.jpg"
+    "menu": "Taiwan Brown Sugar Milk Tea w/ Pearl",
+    "price": 2.9,
+    "calories": 50,
+    "image": "https://www.foxyfolksy.com/wp-content/uploads/2020/06/brown-sugar-milk-tea.jpg"
   },
   {
-    "Fun World Cafe": "Taiwan Purple Sweet Potato Latte w/ White Pearl",
-    "": 3.6,
-    "__1": 50,
-    "__2": "https://mykoreankitchen.com/wp-content/uploads/2015/10/1.-Sweet-Potato-Latte-500x500.jpg"
+    "menu": "Taiwan Purple Sweet Potato Latte w/ White Pearl",
+    "price": 3.6,
+    "calories": 50,
+    "image": "https://mykoreankitchen.com/wp-content/uploads/2015/10/1.-Sweet-Potato-Latte-500x500.jpg"
   },
   {
-    "Fun World Cafe": "Pink Peach Boom",
-    "": 3.7,
-    "__1": 50,
-    "__2": "https://images.summitmedia-digital.com/spotph/images/2020/02/18/sbux20-ap-spring20-pr-images-copy-1582012039.jpg"
+    "menu": "Pink Peach Boom",
+    "price": 3.7,
+    "calories": 50,
+    "image": "https://images.summitmedia-digital.com/spotph/images/2020/02/18/sbux20-ap-spring20-pr-images-copy-1582012039.jpg"
   },
   {
-    "Fun World Cafe": "Soursop Juice",
-    "": 3,
-    "__1": 30,
-    "__2": "https://www.lifesavvy.com/thumbcache/0/0/3bc6542fdecd854c6e9b68e7b4442744/p/uploads/2019/07/4c1b9c6f.jpg"
+    "menu": "Soursop Juice",
+    "price": 3,
+    "calories": 30,
+    "image": "https://www.lifesavvy.com/thumbcache/0/0/3bc6542fdecd854c6e9b68e7b4442744/p/uploads/2019/07/4c1b9c6f.jpg"
   },
   {
-    "Fun World Cafe": "Avocado Juice",
-    "": 3.5,
-    "__1": 171,
-    "__2": "https://www.lifesavvy.com/thumbcache/0/0/3bc6542fdecd854c6e9b68e7b4442744/p/uploads/2019/07/4c1b9c6f.jpg"
+    "menu": "Avocado Juice",
+    "price": 3.5,
+    "calories": 171,
+    "image": "https://www.lifesavvy.com/thumbcache/0/0/3bc6542fdecd854c6e9b68e7b4442744/p/uploads/2019/07/4c1b9c6f.jpg"
   },
   {
-    "Fun World Cafe": "Orange Juice",
-    "": 2.5,
-    "__1": 45,
-    "__2": "https://www.lifesavvy.com/thumbcache/0/0/3bc6542fdecd854c6e9b68e7b4442744/p/uploads/2019/07/4c1b9c6f.jpg"
+    "menu": "Orange Juice",
+    "price": 2.5,
+    "calories": 45,
+    "image": "https://www.lifesavvy.com/thumbcache/0/0/3bc6542fdecd854c6e9b68e7b4442744/p/uploads/2019/07/4c1b9c6f.jpg"
   },
   {
-    "Fun World Cafe": "Red Dragon Fruit Juice",
-    "": 2.5,
-    "__1": 45,
-    "__2": "https://www.lifesavvy.com/thumbcache/0/0/3bc6542fdecd854c6e9b68e7b4442744/p/uploads/2019/07/4c1b9c6f.jpg"
+    "menu": "Red Dragon Fruit Juice",
+    "price": 2.5,
+    "calories": 45,
+    "image": "https://www.lifesavvy.com/thumbcache/0/0/3bc6542fdecd854c6e9b68e7b4442744/p/uploads/2019/07/4c1b9c6f.jpg"
   },
   {
-    "Fun World Cafe": "Green Apple Fruit Juice",
-    "": 2.5,
-    "__1": 45,
-    "__2": "https://www.lifesavvy.com/thumbcache/0/0/3bc6542fdecd854c6e9b68e7b4442744/p/uploads/2019/07/4c1b9c6f.jpg"
+    "menu": "Green Apple Fruit Juice",
+    "price": 2.5,
+    "calories": 45,
+    "image": "https://www.lifesavvy.com/thumbcache/0/0/3bc6542fdecd854c6e9b68e7b4442744/p/uploads/2019/07/4c1b9c6f.jpg"
   },
   {
-    "Fun World Cafe": "Papaya Juice",
-    "": 2.5,
-    "__1": 45,
-    "__2": "https://www.lifesavvy.com/thumbcache/0/0/3bc6542fdecd854c6e9b68e7b4442744/p/uploads/2019/07/4c1b9c6f.jpg"
+    "menu": "Papaya Juice",
+    "price": 2.5,
+    "calories": 45,
+    "image": "https://www.lifesavvy.com/thumbcache/0/0/3bc6542fdecd854c6e9b68e7b4442744/p/uploads/2019/07/4c1b9c6f.jpg"
   },
   {
-    "Fun World Cafe": "Pear Juice",
-    "": 3,
-    "__1": 45,
-    "__2": "https://www.lifesavvy.com/thumbcache/0/0/3bc6542fdecd854c6e9b68e7b4442744/p/uploads/2019/07/4c1b9c6f.jpg"
+    "menu": "Pear Juice",
+    "price": 3,
+    "calories": 45,
+    "image": "https://www.lifesavvy.com/thumbcache/0/0/3bc6542fdecd854c6e9b68e7b4442744/p/uploads/2019/07/4c1b9c6f.jpg"
   },
   {
-    "Fun World Cafe": "Star Fruit Juice",
-    "": 3,
-    "__1": 45,
-    "__2": "https://www.lifesavvy.com/thumbcache/0/0/3bc6542fdecd854c6e9b68e7b4442744/p/uploads/2019/07/4c1b9c6f.jpg"
+    "menu": "Star Fruit Juice",
+    "price": 3,
+    "calories": 45,
+    "image": "https://www.lifesavvy.com/thumbcache/0/0/3bc6542fdecd854c6e9b68e7b4442744/p/uploads/2019/07/4c1b9c6f.jpg"
   },
   {
-    "Fun World Cafe": "Mango Juice",
-    "": 3.5,
-    "__1": 45,
-    "__2": "https://www.lifesavvy.com/thumbcache/0/0/3bc6542fdecd854c6e9b68e7b4442744/p/uploads/2019/07/4c1b9c6f.jpg"
+    "menu": "Mango Juice",
+    "price": 3.5,
+    "calories": 45,
+    "image": "https://www.lifesavvy.com/thumbcache/0/0/3bc6542fdecd854c6e9b68e7b4442744/p/uploads/2019/07/4c1b9c6f.jpg"
   },
   {
-    "Fun World Cafe": "Banana Juice",
-    "": 2,
-    "__1": 45,
-    "__2": "https://www.lifesavvy.com/thumbcache/0/0/3bc6542fdecd854c6e9b68e7b4442744/p/uploads/2019/07/4c1b9c6f.jpg"
+    "menu": "Banana Juice",
+    "price": 2,
+    "calories": 45,
+    "image": "https://www.lifesavvy.com/thumbcache/0/0/3bc6542fdecd854c6e9b68e7b4442744/p/uploads/2019/07/4c1b9c6f.jpg"
   },
   {
-    "Fun World Cafe": "Passion Fruit Juice",
-    "": 3.5,
-    "__1": 45,
-    "__2": "https://www.lifesavvy.com/thumbcache/0/0/3bc6542fdecd854c6e9b68e7b4442744/p/uploads/2019/07/4c1b9c6f.jpg"
+    "menu": "Passion Fruit Juice",
+    "price": 3.5,
+    "calories": 45,
+    "image": "https://www.lifesavvy.com/thumbcache/0/0/3bc6542fdecd854c6e9b68e7b4442744/p/uploads/2019/07/4c1b9c6f.jpg"
   },
   {
-    "Fun World Cafe": "Rock Melon Juice",
-    "": 2.5,
-    "__1": 45,
-    "__2": "https://www.lifesavvy.com/thumbcache/0/0/3bc6542fdecd854c6e9b68e7b4442744/p/uploads/2019/07/4c1b9c6f.jpg"
+    "menu": "Rock Melon Juice",
+    "price": 2.5,
+    "calories": 45,
+    "image": "https://www.lifesavvy.com/thumbcache/0/0/3bc6542fdecd854c6e9b68e7b4442744/p/uploads/2019/07/4c1b9c6f.jpg"
   },
   {
-    "Fun World Cafe": "Water Melon Juice",
-    "": 2.5,
-    "__1": 45,
-    "__2": "https://www.lifesavvy.com/thumbcache/0/0/3bc6542fdecd854c6e9b68e7b4442744/p/uploads/2019/07/4c1b9c6f.jpg"
+    "menu": "Water Melon Juice",
+    "price": 2.5,
+    "calories": 45,
+    "image": "https://www.lifesavvy.com/thumbcache/0/0/3bc6542fdecd854c6e9b68e7b4442744/p/uploads/2019/07/4c1b9c6f.jpg"
   },
   {
-    "Fun World Cafe": "Pineapple Juice",
-    "": 2.5,
-    "__1": 45,
-    "__2": "https://www.lifesavvy.com/thumbcache/0/0/3bc6542fdecd854c6e9b68e7b4442744/p/uploads/2019/07/4c1b9c6f.jpg"
+    "menu": "Pineapple Juice",
+    "price": 2.5,
+    "calories": 45,
+    "image": "https://www.lifesavvy.com/thumbcache/0/0/3bc6542fdecd854c6e9b68e7b4442744/p/uploads/2019/07/4c1b9c6f.jpg"
   },
   {
-    "Fun World Cafe": "Kiwi Juice",
-    "": 3,
-    "__1": 45,
-    "__2": "https://www.lifesavvy.com/thumbcache/0/0/3bc6542fdecd854c6e9b68e7b4442744/p/uploads/2019/07/4c1b9c6f.jpg"
+    "menu": "Kiwi Juice",
+    "price": 3,
+    "calories": 45,
+    "image": "https://www.lifesavvy.com/thumbcache/0/0/3bc6542fdecd854c6e9b68e7b4442744/p/uploads/2019/07/4c1b9c6f.jpg"
   },
   {
-    "Fun World Cafe": "Soursop + Red Dragon Fruit Juice",
-    "": 3.5,
-    "__1": 45,
-    "__2": "https://www.lifesavvy.com/thumbcache/0/0/3bc6542fdecd854c6e9b68e7b4442744/p/uploads/2019/07/4c1b9c6f.jpg"
+    "menu": "Soursop + Red Dragon Fruit Juice",
+    "price": 3.5,
+    "calories": 45,
+    "image": "https://www.lifesavvy.com/thumbcache/0/0/3bc6542fdecd854c6e9b68e7b4442744/p/uploads/2019/07/4c1b9c6f.jpg"
   },
   {
-    "Fun World Cafe": "Avocado + Yogurt",
-    "": 4,
-    "__1": 50,
-    "__2": "https://www.chatelaine.com/wp-content/uploads/2015/02/parsnip-yogurt_avocado-yogurt.jpg"
+    "menu": "Avocado + Yogurt",
+    "price": 4,
+    "calories": 50,
+    "image": "https://www.chatelaine.com/wp-content/uploads/2015/02/parsnip-yogurt_avocado-yogurt.jpg"
   },
   {
-    "Fun World Cafe": "Green Apple + Yakult",
-    "": 3,
-    "__1": 40,
-    "__2": "https://www.chatelaine.com/wp-content/uploads/2015/02/parsnip-yogurt_avocado-yogurt.jpg"
+    "menu": "Green Apple + Yakult",
+    "price": 3,
+    "calories": 40,
+    "image": "https://www.chatelaine.com/wp-content/uploads/2015/02/parsnip-yogurt_avocado-yogurt.jpg"
   },
   {
-    "Fun World Cafe": "Red Apple + Orange Juice",
-    "": 3,
-    "__1": 47,
-    "__2": "https://www.lifesavvy.com/thumbcache/0/0/3bc6542fdecd854c6e9b68e7b4442744/p/uploads/2019/07/4c1b9c6f.jpg"
+    "menu": "Red Apple + Orange Juice",
+    "price": 3,
+    "calories": 47,
+    "image": "https://www.lifesavvy.com/thumbcache/0/0/3bc6542fdecd854c6e9b68e7b4442744/p/uploads/2019/07/4c1b9c6f.jpg"
   },
   {
-    "Fun World Cafe": "Papaya + Milk Juice",
-    "": 2.5,
-    "__1": 50,
-    "__2": "https://www.lifesavvy.com/thumbcache/0/0/3bc6542fdecd854c6e9b68e7b4442744/p/uploads/2019/07/4c1b9c6f.jpg"
+    "menu": "Papaya + Milk Juice",
+    "price": 2.5,
+    "calories": 50,
+    "image": "https://www.lifesavvy.com/thumbcache/0/0/3bc6542fdecd854c6e9b68e7b4442744/p/uploads/2019/07/4c1b9c6f.jpg"
   },
   {
-    "Fun World Cafe": "Mango + Milk Juice",
-    "": 4,
-    "__1": 50,
-    "__2": "https://www.lifesavvy.com/thumbcache/0/0/3bc6542fdecd854c6e9b68e7b4442744/p/uploads/2019/07/4c1b9c6f.jpg"
+    "menu": "Mango + Milk Juice",
+    "price": 4,
+    "calories": 50,
+    "image": "https://www.lifesavvy.com/thumbcache/0/0/3bc6542fdecd854c6e9b68e7b4442744/p/uploads/2019/07/4c1b9c6f.jpg"
   },
   {
-    "Fun World Cafe": "ABC Juice",
-    "": 3.5,
-    "__1": 50,
-    "__2": "https://www.lifesavvy.com/thumbcache/0/0/3bc6542fdecd854c6e9b68e7b4442744/p/uploads/2019/07/4c1b9c6f.jpg"
+    "menu": "ABC Juice",
+    "price": 3.5,
+    "calories": 50,
+    "image": "https://www.lifesavvy.com/thumbcache/0/0/3bc6542fdecd854c6e9b68e7b4442744/p/uploads/2019/07/4c1b9c6f.jpg"
   },
   {
-    "Fun World Cafe": "Passion Fruit + Pear Juice",
-    "": 4,
-    "__1": 50,
-    "__2": "https://www.lifesavvy.com/thumbcache/0/0/3bc6542fdecd854c6e9b68e7b4442744/p/uploads/2019/07/4c1b9c6f.jpg"
+    "menu": "Passion Fruit + Pear Juice",
+    "price": 4,
+    "calories": 50,
+    "image": "https://www.lifesavvy.com/thumbcache/0/0/3bc6542fdecd854c6e9b68e7b4442744/p/uploads/2019/07/4c1b9c6f.jpg"
   },
   {
-    "Fun World Cafe": "Water Melon + Sour Plum",
-    "": 3,
-    "__1": 50,
-    "__2": "https://www.lifesavvy.com/thumbcache/0/0/3bc6542fdecd854c6e9b68e7b4442744/p/uploads/2019/07/4c1b9c6f.jpg"
+    "menu": "Water Melon + Sour Plum",
+    "price": 3,
+    "calories": 50,
+    "image": "https://www.lifesavvy.com/thumbcache/0/0/3bc6542fdecd854c6e9b68e7b4442744/p/uploads/2019/07/4c1b9c6f.jpg"
   },
   {
-    "Fun World Cafe": "Banana + Red Apple + Milk Juice",
-    "": 3,
-    "__1": 50,
-    "__2": "https://www.lifesavvy.com/thumbcache/0/0/3bc6542fdecd854c6e9b68e7b4442744/p/uploads/2019/07/4c1b9c6f.jpg"
+    "menu": "Banana + Red Apple + Milk Juice",
+    "price": 3,
+    "calories": 50,
+    "image": "https://www.lifesavvy.com/thumbcache/0/0/3bc6542fdecd854c6e9b68e7b4442744/p/uploads/2019/07/4c1b9c6f.jpg"
   },
   {
-    "Fun World Cafe": "Kiwi + Banana Juice",
-    "": 4,
-    "__1": 50,
-    "__2": "https://www.lifesavvy.com/thumbcache/0/0/3bc6542fdecd854c6e9b68e7b4442744/p/uploads/2019/07/4c1b9c6f.jpg"
+    "menu": "Kiwi + Banana Juice",
+    "price": 4,
+    "calories": 50,
+    "image": "https://www.lifesavvy.com/thumbcache/0/0/3bc6542fdecd854c6e9b68e7b4442744/p/uploads/2019/07/4c1b9c6f.jpg"
   },
   {
-    "Fun World Cafe": "Passion Fruit + Orange Juice",
-    "": 4,
-    "__1": 50,
-    "__2": "https://www.lifesavvy.com/thumbcache/0/0/3bc6542fdecd854c6e9b68e7b4442744/p/uploads/2019/07/4c1b9c6f.jpg"
+    "menu": "Passion Fruit + Orange Juice",
+    "price": 4,
+    "calories": 50,
+    "image": "https://www.lifesavvy.com/thumbcache/0/0/3bc6542fdecd854c6e9b68e7b4442744/p/uploads/2019/07/4c1b9c6f.jpg"
   },
   {
-    "Fun World Cafe": "Green Apple + Celery + Bitter Gourd Juice",
-    "": 3,
-    "__1": 50,
-    "__2": "https://www.lifesavvy.com/thumbcache/0/0/3bc6542fdecd854c6e9b68e7b4442744/p/uploads/2019/07/4c1b9c6f.jpg"
+    "menu": "Green Apple + Celery + Bitter Gourd Juice",
+    "price": 3,
+    "calories": 50,
+    "image": "https://www.lifesavvy.com/thumbcache/0/0/3bc6542fdecd854c6e9b68e7b4442744/p/uploads/2019/07/4c1b9c6f.jpg"
   },
   {
-    "Fun World Cafe": "Pear + Ginger Juice",
-    "": 3.5,
-    "__1": 50,
-    "__2": "https://www.lifesavvy.com/thumbcache/0/0/3bc6542fdecd854c6e9b68e7b4442744/p/uploads/2019/07/4c1b9c6f.jpg"
+    "menu": "Pear + Ginger Juice",
+    "price": 3.5,
+    "calories": 50,
+    "image": "https://www.lifesavvy.com/thumbcache/0/0/3bc6542fdecd854c6e9b68e7b4442744/p/uploads/2019/07/4c1b9c6f.jpg"
   },
   {
-    "Fun World Cafe": "Beancurd Dessert",
-    "": 1.5,
-    "__1": 74,
-    "__2": "https://4scoin37ye-flywheel.netdna-ssl.com/wp-content/uploads/2012/07/soya_beancurd.jpg"
+    "menu": "Beancurd Dessert",
+    "price": 1.5,
+    "calories": 74,
+    "image": "https://4scoin37ye-flywheel.netdna-ssl.com/wp-content/uploads/2012/07/soya_beancurd.jpg"
   },
   {
-    "Fun World Cafe": "Grass Jelly Dessert",
-    "": 1.5,
-    "__1": 50,
-    "__2": "https://thewoksoflife.com/wp-content/uploads/2019/08/grass-jelly-dessert-8.jpg"
+    "menu": "Grass Jelly Dessert",
+    "price": 1.5,
+    "calories": 50,
+    "image": "https://thewoksoflife.com/wp-content/uploads/2019/08/grass-jelly-dessert-8.jpg"
   },
   {
-    "Fun World Cafe": "AI-YU Jelly Dessert",
-    "": 2,
-    "__1": 50,
-    "__2": "https://upload.wikimedia.org/wikipedia/commons/5/55/Aiyu_jelly_by_abon_in_Taiwan.jpg"
+    "menu": "AI-YU Jelly Dessert",
+    "price": 2,
+    "calories": 50,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/55/Aiyu_jelly_by_abon_in_Taiwan.jpg"
   },
   {
-    "Fun World Cafe": "Assorted Cup Fruit",
-    "": 1.5,
-    "__1": 70,
-    "__2": "https://leaf.nutrisystem.com/wp-content/uploads/2017/04/fruit-cups-healthy-food-facts.jpg"
+    "menu": "Assorted Cup Fruit",
+    "price": 1.5,
+    "calories": 70,
+    "image": "https://leaf.nutrisystem.com/wp-content/uploads/2017/04/fruit-cups-healthy-food-facts.jpg"
   },
   {
-    "Fun World Cafe": "Plain Waffle",
-    "": 2.5,
-    "__1": 380,
-    "__2": "https://www.bbcgoodfoodme.com/assets/legacy/recipe/recipe-image/2016/04/waffle-1.jpg"
+    "menu": "Plain Waffle",
+    "price": 2.5,
+    "calories": 380,
+    "image": "https://www.bbcgoodfoodme.com/assets/legacy/recipe/recipe-image/2016/04/waffle-1.jpg"
   },
   {
-    "Fun World Cafe": "Ice Cream Bubble Waffle with Brown Sugar Black Pearl",
-    "": 4.5,
-    "__1": 640,
-    "__2": "https://bakingamoment.com/wp-content/uploads/2018/07/IMG_9113-best-waffle-recipe-square.jpg"
+    "menu": "Ice Cream Bubble Waffle with Brown Sugar Black Pearl",
+    "price": 4.5,
+    "calories": 640,
+    "image": "https://bakingamoment.com/wp-content/uploads/2018/07/IMG_9113-best-waffle-recipe-square.jpg"
   },
   {
-    "Fun World Cafe": "Ice Cream Waffle with Strawberries",
-    "": 4.5,
-    "__1": 575,
-    "__2": "https://bakingamoment.com/wp-content/uploads/2018/07/IMG_9113-best-waffle-recipe-square.jpg"
+    "menu": "Ice Cream Waffle with Strawberries",
+    "price": 4.5,
+    "calories": 575,
+    "image": "https://bakingamoment.com/wp-content/uploads/2018/07/IMG_9113-best-waffle-recipe-square.jpg"
   },
   {
-    "Fun World Cafe": "Oreo Bubble Waffle with Ice Cream",
-    "": 4.5,
-    "__1": 614,
-    "__2": "https://bakingamoment.com/wp-content/uploads/2018/07/IMG_9113-best-waffle-recipe-square.jpg"
+    "menu": "Oreo Bubble Waffle with Ice Cream",
+    "price": 4.5,
+    "calories": 614,
+    "image": "https://bakingamoment.com/wp-content/uploads/2018/07/IMG_9113-best-waffle-recipe-square.jpg"
   },
   {
-    "Fun World Cafe": "Kopi",
-    "": 1.1,
-    "__1": 50,
-    "__2": "https://static.thehoneycombers.com/wp-content/uploads/sites/2/2017/05/coffee-roasters-singapore-1-768x454.jpg"
+    "menu": "Kopi",
+    "price": 1.1,
+    "calories": 50,
+    "image": "https://static.thehoneycombers.com/wp-content/uploads/sites/2/2017/05/coffee-roasters-singapore-1-768x454.jpg"
   },
   {
-    "Fun World Cafe": "Kopi O",
-    "": 1,
-    "__1": 1,
-    "__2": "https://static.thehoneycombers.com/wp-content/uploads/sites/2/2017/05/coffee-roasters-singapore-1-768x454.jpg"
+    "menu": "Kopi O",
+    "price": 1,
+    "calories": 1,
+    "image": "https://static.thehoneycombers.com/wp-content/uploads/sites/2/2017/05/coffee-roasters-singapore-1-768x454.jpg"
   },
   {
-    "Fun World Cafe": "Kopi C",
-    "": 1.2,
-    "__1": 60,
-    "__2": "https://static.thehoneycombers.com/wp-content/uploads/sites/2/2017/05/coffee-roasters-singapore-1-768x454.jpg"
+    "menu": "Kopi C",
+    "price": 1.2,
+    "calories": 60,
+    "image": "https://static.thehoneycombers.com/wp-content/uploads/sites/2/2017/05/coffee-roasters-singapore-1-768x454.jpg"
   },
   {
-    "Fun World Cafe": "Kopi Cino",
-    "": 1.6,
-    "__1": 60,
-    "__2": "https://static.thehoneycombers.com/wp-content/uploads/sites/2/2017/05/coffee-roasters-singapore-1-768x454.jpg"
+    "menu": "Kopi Cino",
+    "price": 1.6,
+    "calories": 60,
+    "image": "https://static.thehoneycombers.com/wp-content/uploads/sites/2/2017/05/coffee-roasters-singapore-1-768x454.jpg"
   },
   {
-    "Fun World Cafe": "Bru Coffee (Nescafe)",
-    "": 1.6,
-    "__1": 60,
-    "__2": "https://static.thehoneycombers.com/wp-content/uploads/sites/2/2017/05/coffee-roasters-singapore-1-768x454.jpg"
+    "menu": "Bru Coffee (Nescafe)",
+    "price": 1.6,
+    "calories": 60,
+    "image": "https://static.thehoneycombers.com/wp-content/uploads/sites/2/2017/05/coffee-roasters-singapore-1-768x454.jpg"
   },
   {
-    "Fun World Cafe": "Teh",
-    "": 1.1,
-    "__1": 100,
-    "__2": "https://static.toiimg.com/photo/72294806.cms"
+    "menu": "Teh",
+    "price": 1.1,
+    "calories": 100,
+    "image": "https://static.toiimg.com/photo/72294806.cms"
   },
   {
-    "Fun World Cafe": "Teh O",
-    "": 1,
-    "__1": 50,
-    "__2": "https://static.toiimg.com/photo/72294806.cms"
+    "menu": "Teh O",
+    "price": 1,
+    "calories": 50,
+    "image": "https://static.toiimg.com/photo/72294806.cms"
   },
   {
-    "Fun World Cafe": "Tea C",
-    "": 1.2,
-    "__1": 100,
-    "__2": "https://static.toiimg.com/photo/72294806.cms"
+    "menu": "Tea C",
+    "price": 1.2,
+    "calories": 100,
+    "image": "https://static.toiimg.com/photo/72294806.cms"
   },
   {
-    "Fun World Cafe": "Tea Cino",
-    "": 1.6,
-    "__1": 100,
-    "__2": "https://static.toiimg.com/photo/72294806.cms"
+    "menu": "Tea Cino",
+    "price": 1.6,
+    "calories": 100,
+    "image": "https://static.toiimg.com/photo/72294806.cms"
   },
   {
-    "Fun World Cafe": "Masala Tea / Chai",
-    "": 2,
-    "__1": 100,
-    "__2": "https://static.toiimg.com/photo/72294806.cms"
+    "menu": "Masala Tea / Chai",
+    "price": 2,
+    "calories": 100,
+    "image": "https://static.toiimg.com/photo/72294806.cms"
   },
   {
-    "Fun World Cafe": "Cardamon Tea",
-    "": 2,
-    "__1": 100,
-    "__2": "https://static.toiimg.com/photo/72294806.cms"
+    "menu": "Cardamon Tea",
+    "price": 2,
+    "calories": 100,
+    "image": "https://static.toiimg.com/photo/72294806.cms"
   },
   {
-    "Fun World Cafe": "Milo",
-    "": 1.3,
-    "__1": 121,
-    "__2": "https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fs3-ap-northeast-1.amazonaws.com%2Fpsh-ex-ftnikkei-3937bb4%2Fimages%2F0%2F9%2F8%2F3%2F19773890-1-eng-GB%2FRTSKNHD.jpg?source=nar-cms"
+    "menu": "Milo",
+    "price": 1.3,
+    "calories": 121,
+    "image": "https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fs3-ap-northeast-1.amazonaws.com%2Fpsh-ex-ftnikkei-3937bb4%2Fimages%2F0%2F9%2F8%2F3%2F19773890-1-eng-GB%2FRTSKNHD.jpg?source=nar-cms"
   },
   {
-    "Fun World Cafe": "Milo C",
-    "": 1.4,
-    "__1": 121,
-    "__2": "https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fs3-ap-northeast-1.amazonaws.com%2Fpsh-ex-ftnikkei-3937bb4%2Fimages%2F0%2F9%2F8%2F3%2F19773890-1-eng-GB%2FRTSKNHD.jpg?source=nar-cms"
+    "menu": "Milo C",
+    "price": 1.4,
+    "calories": 121,
+    "image": "https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fs3-ap-northeast-1.amazonaws.com%2Fpsh-ex-ftnikkei-3937bb4%2Fimages%2F0%2F9%2F8%2F3%2F19773890-1-eng-GB%2FRTSKNHD.jpg?source=nar-cms"
   },
   {
-    "Fun World Cafe": "Milo DInosaur (Ice)",
-    "": 2.2,
-    "__1": 151,
-    "__2": "https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fs3-ap-northeast-1.amazonaws.com%2Fpsh-ex-ftnikkei-3937bb4%2Fimages%2F0%2F9%2F8%2F3%2F19773890-1-eng-GB%2FRTSKNHD.jpg?source=nar-cms"
+    "menu": "Milo DInosaur (Ice)",
+    "price": 2.2,
+    "calories": 151,
+    "image": "https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fs3-ap-northeast-1.amazonaws.com%2Fpsh-ex-ftnikkei-3937bb4%2Fimages%2F0%2F9%2F8%2F3%2F19773890-1-eng-GB%2FRTSKNHD.jpg?source=nar-cms"
   },
   {
-    "Fun World Cafe": "Fresh Soya Drinks",
-    "": 1,
-    "__1": 100,
-    "__2": "https://frigiv.palsgaard.com/media/1234/how-to-produce-delicious-soy-milk-with-palsgaard-recmilk-emulsifiers-and-stabilisers.jpg?width=1200&height=630&mode=crop&center=0.5,0.5"
+    "menu": "Fresh Soya Drinks",
+    "price": 1,
+    "calories": 100,
+    "image": "https://frigiv.palsgaard.com/media/1234/how-to-produce-delicious-soy-milk-with-palsgaard-recmilk-emulsifiers-and-stabilisers.jpg?width=1200&height=630&mode=crop&center=0.5,0.5"
   },
   {
-    "Fun World Cafe": "Homemade Barley",
-    "": 1.5,
-    "__1": 100,
-    "__2": "https://4scoin37ye-flywheel.netdna-ssl.com/wp-content/uploads/2020/04/barley_water.jpg"
+    "menu": "Homemade Barley",
+    "price": 1.5,
+    "calories": 100,
+    "image": "https://4scoin37ye-flywheel.netdna-ssl.com/wp-content/uploads/2020/04/barley_water.jpg"
   },
   {
-    "Fun World Cafe": "Homemade Lemon Tea",
-    "": 1.5,
-    "__1": 100,
-    "__2": "https://www.whiskaffair.com/wp-content/uploads/2020/03/Lemon-Tea-1.jpg"
+    "menu": "Homemade Lemon Tea",
+    "price": 1.5,
+    "calories": 100,
+    "image": "https://www.whiskaffair.com/wp-content/uploads/2020/03/Lemon-Tea-1.jpg"
   },
   {
-    "Fun World Cafe": "Homemade Honey Lemon (Hot)",
-    "": 1.7,
-    "__1": 100,
-    "__2": "https://www.simplyrecipes.com/wp-content/uploads/2012/11/honey-lemon-tea-a-800-dm.jpg"
+    "menu": "Homemade Honey Lemon (Hot)",
+    "price": 1.7,
+    "calories": 100,
+    "image": "https://www.simplyrecipes.com/wp-content/uploads/2012/11/honey-lemon-tea-a-800-dm.jpg"
   },
   {
-    "Fun World Cafe": "Yuan Yang",
-    "": 1.6,
-    "__1": 100,
-    "__2": "https://s3-ap-southeast-1.amazonaws.com/bengkel/wp-content/uploads/2017/08/07233146/soya-cincau.png"
+    "menu": "Yuan Yang",
+    "price": 1.6,
+    "calories": 100,
+    "image": "https://s3-ap-southeast-1.amazonaws.com/bengkel/wp-content/uploads/2017/08/07233146/soya-cincau.png"
   },
   {
-    "Fun World Cafe": "Lime Juice",
-    "": 1.5,
-    "__1": 40,
-    "__2": "https://www.thecreolemeltingpot.com/wp-content/uploads/2018/08/Lime-Juice-Fresh-1.png"
+    "menu": "Lime Juice",
+    "price": 1.5,
+    "calories": 40,
+    "image": "https://www.thecreolemeltingpot.com/wp-content/uploads/2018/08/Lime-Juice-Fresh-1.png"
   },
   {
-    "Fun World Cafe": "Bandung",
-    "": 1.5,
-    "__1": 153,
-    "__2": "https://www.coldstorage.com.my/wp-content/uploads/2020/05/rosesyrup_800x7551.jpg"
+    "menu": "Bandung",
+    "price": 1.5,
+    "calories": 153,
+    "image": "https://www.coldstorage.com.my/wp-content/uploads/2020/05/rosesyrup_800x7551.jpg"
   },
   {
-    "Fun World Cafe": "Water Chestnut",
-    "": 1.5,
-    "__1": 50,
-    "__2": "https://www.foodclappers.com/wp-content/uploads/Water-Chestnut-drink1.jpg"
+    "menu": "Water Chestnut",
+    "price": 1.5,
+    "calories": 50,
+    "image": "https://www.foodclappers.com/wp-content/uploads/Water-Chestnut-drink1.jpg"
   },
   {
-    "Fun World Cafe": "Canned Drink",
-    "": 1,
-    "__1": 150,
-    "__2": "https://images.theconversation.com/files/172880/original/file-20170608-29563-1dmhqa8.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop"
+    "menu": "Canned Drink",
+    "price": 1,
+    "calories": 150,
+    "image": "https://images.theconversation.com/files/172880/original/file-20170608-29563-1dmhqa8.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop"
   },
   {
-    "Fun World Cafe": "Pokka Canned Drink",
-    "": 1.2,
-    "__1": 47,
-    "__2": "https://cf.shopee.sg/file/b4c72e316a9be410ac9b1235cdcc2864"
+    "menu": "Pokka Canned Drink",
+    "price": 1.2,
+    "calories": 47,
+    "image": "https://cf.shopee.sg/file/b4c72e316a9be410ac9b1235cdcc2864"
   },
   {
-    "Fun World Cafe": "Mineral Water",
-    "": 1.2,
-    "__1": 0,
-    "__2": "https://www.straitstimes.com/sites/default/files/articles/2017/05/16/ST_20170516_MBANWAT_8_3138089.jpg"
+    "menu": "Mineral Water",
+    "price": 1.2,
+    "calories": 0,
+    "image": "https://www.straitstimes.com/sites/default/files/articles/2017/05/16/ST_20170516_MBANWAT_8_3138089.jpg"
   },
   {
-    "Fun World Cafe": "Yong Tau Foo Chee Cheong Fun Set A",
-    "": 2.55,
-    "__1": 380,
-    "__2": "https://asianinspirations.com.au/wp-content/uploads/2019/01/R01065_Hakka-Yong-Tou-Foo-2.jpg"
+    "menu": "Yong Tau Foo Chee Cheong Fun Set A",
+    "price": 2.55,
+    "calories": 380,
+    "image": "https://asianinspirations.com.au/wp-content/uploads/2019/01/R01065_Hakka-Yong-Tou-Foo-2.jpg"
   },
   {
-    "Fun World Cafe": "Yong Tau Foo Chee Cheong Fun Set B",
-    "": 2.55,
-    "__1": 380,
-    "__2": "https://asianinspirations.com.au/wp-content/uploads/2019/01/R01065_Hakka-Yong-Tou-Foo-2.jpg"
+    "menu": "Yong Tau Foo Chee Cheong Fun Set B",
+    "price": 2.55,
+    "calories": 380,
+    "image": "https://asianinspirations.com.au/wp-content/uploads/2019/01/R01065_Hakka-Yong-Tou-Foo-2.jpg"
   },
   {
-    "Fun World Cafe": "Yong Tau Foo Chee Cheong Fun Set C",
-    "": 3.95,
-    "__1": 380,
-    "__2": "https://asianinspirations.com.au/wp-content/uploads/2019/01/R01065_Hakka-Yong-Tou-Foo-2.jpg"
+    "menu": "Yong Tau Foo Chee Cheong Fun Set C",
+    "price": 3.95,
+    "calories": 380,
+    "image": "https://asianinspirations.com.au/wp-content/uploads/2019/01/R01065_Hakka-Yong-Tou-Foo-2.jpg"
   },
   {
-    "Fun World Cafe": "Yong Tau Foo Chee Cheong Fun Set D",
-    "": 3.95,
-    "__1": 380,
-    "__2": "https://asianinspirations.com.au/wp-content/uploads/2019/01/R01065_Hakka-Yong-Tou-Foo-2.jpg"
+    "menu": "Yong Tau Foo Chee Cheong Fun Set D",
+    "price": 3.95,
+    "calories": 380,
+    "image": "https://asianinspirations.com.au/wp-content/uploads/2019/01/R01065_Hakka-Yong-Tou-Foo-2.jpg"
   },
   {
-    "Fun World Cafe": "Yong Tau Foo Chee Cheong Fun Set E",
-    "": 4.85,
-    "__1": 380,
-    "__2": "https://asianinspirations.com.au/wp-content/uploads/2019/01/R01065_Hakka-Yong-Tou-Foo-2.jpg"
+    "menu": "Yong Tau Foo Chee Cheong Fun Set E",
+    "price": 4.85,
+    "calories": 380,
+    "image": "https://asianinspirations.com.au/wp-content/uploads/2019/01/R01065_Hakka-Yong-Tou-Foo-2.jpg"
   },
   {
-    "Fun World Cafe": "Yong Tau Foo Chee Cheong Fun Set F",
-    "": 2.95,
-    "__1": 380,
-    "__2": "https://asianinspirations.com.au/wp-content/uploads/2019/01/R01065_Hakka-Yong-Tou-Foo-2.jpg"
+    "menu": "Yong Tau Foo Chee Cheong Fun Set F",
+    "price": 2.95,
+    "calories": 380,
+    "image": "https://asianinspirations.com.au/wp-content/uploads/2019/01/R01065_Hakka-Yong-Tou-Foo-2.jpg"
   },
   {
-    "Fun World Cafe": "Chestnut Pork Dumpling",
-    "": 1.8,
-    "__1": 180,
-    "__2": "https://www.thespruceeats.com/thmb/uof94YPDmDqP0kAlbi_t04VR47E=/4000x3000/smart/filters:no_upscale()/chinese-pan-fried-dumplings-694499_hero-01-f8489a47cef14c06909edff8c6fa3fa9.jpg"
+    "menu": "Chestnut Pork Dumpling",
+    "price": 1.8,
+    "calories": 180,
+    "image": "https://www.thespruceeats.com/thmb/uof94YPDmDqP0kAlbi_t04VR47E=/4000x3000/smart/filters:no_upscale()/chinese-pan-fried-dumplings-694499_hero-01-f8489a47cef14c06909edff8c6fa3fa9.jpg"
   },
   {
-    "Fun World Cafe": "Nonya Pork Dumpling",
-    "": 1.8,
-    "__1": 180,
-    "__2": "https://www.thespruceeats.com/thmb/uof94YPDmDqP0kAlbi_t04VR47E=/4000x3000/smart/filters:no_upscale()/chinese-pan-fried-dumplings-694499_hero-01-f8489a47cef14c06909edff8c6fa3fa9.jpg"
+    "menu": "Nonya Pork Dumpling",
+    "price": 1.8,
+    "calories": 180,
+    "image": "https://www.thespruceeats.com/thmb/uof94YPDmDqP0kAlbi_t04VR47E=/4000x3000/smart/filters:no_upscale()/chinese-pan-fried-dumplings-694499_hero-01-f8489a47cef14c06909edff8c6fa3fa9.jpg"
   },
   {
-    "Fun World Cafe": "Salted Egg Pork Dumpling",
-    "": 2.8,
-    "__1": 180,
-    "__2": "https://www.thespruceeats.com/thmb/uof94YPDmDqP0kAlbi_t04VR47E=/4000x3000/smart/filters:no_upscale()/chinese-pan-fried-dumplings-694499_hero-01-f8489a47cef14c06909edff8c6fa3fa9.jpg"
+    "menu": "Salted Egg Pork Dumpling",
+    "price": 2.8,
+    "calories": 180,
+    "image": "https://www.thespruceeats.com/thmb/uof94YPDmDqP0kAlbi_t04VR47E=/4000x3000/smart/filters:no_upscale()/chinese-pan-fried-dumplings-694499_hero-01-f8489a47cef14c06909edff8c6fa3fa9.jpg"
   },
   {
-    "Fun World Cafe": "Chee Cheong Fun (2 Pcs)",
-    "": 1.8,
-    "__1": 180,
-    "__2": "https://i0.wp.com/eatwhattonight.com/wp-content/uploads/2016/08/CheeCheongFun_21.jpg?fit=2144%2C1424&ssl=1"
+    "menu": "Chee Cheong Fun (2 Pcs)",
+    "price": 1.8,
+    "calories": 180,
+    "image": "https://i0.wp.com/eatwhattonight.com/wp-content/uploads/2016/08/CheeCheongFun_21.jpg?fit=2144%2C1424&ssl=1"
   },
   {
-    "Fun World Cafe": "Bean Dumpling",
-    "": 1.5,
-    "__1": 200,
-    "__2": "https://www.huangkitchen.com/wp-content/uploads/2016/06/DSC8304_new.jpg"
+    "menu": "Bean Dumpling",
+    "price": 1.5,
+    "calories": 200,
+    "image": "https://www.huangkitchen.com/wp-content/uploads/2016/06/DSC8304_new.jpg"
   },
   {
-    "Fun World Cafe": "Big Pork Pau",
-    "": 1.4,
-    "__1": 140,
-    "__2": "https://www.palatesensations.com/images/1d71ef220c0d39ea5bf56c6ec7666e52.jpg"
+    "menu": "Big Pork Pau",
+    "price": 1.4,
+    "calories": 140,
+    "image": "https://www.palatesensations.com/images/1d71ef220c0d39ea5bf56c6ec7666e52.jpg"
   },
   {
-    "Fun World Cafe": "Big Chicken Pau",
-    "": 1.4,
-    "__1": 120,
-    "__2": "https://www.palatesensations.com/images/1d71ef220c0d39ea5bf56c6ec7666e52.jpg"
+    "menu": "Big Chicken Pau",
+    "price": 1.4,
+    "calories": 120,
+    "image": "https://www.palatesensations.com/images/1d71ef220c0d39ea5bf56c6ec7666e52.jpg"
   },
   {
-    "Fun World Cafe": "Char Siew Pau",
-    "": 0.9,
-    "__1": 120,
-    "__2": "https://www.palatesensations.com/images/1d71ef220c0d39ea5bf56c6ec7666e52.jpg"
+    "menu": "Char Siew Pau",
+    "price": 0.9,
+    "calories": 120,
+    "image": "https://www.palatesensations.com/images/1d71ef220c0d39ea5bf56c6ec7666e52.jpg"
   },
   {
-    "Fun World Cafe": "Stewed Pork Pau",
-    "": 1.4,
-    "__1": 120,
-    "__2": "https://www.palatesensations.com/images/1d71ef220c0d39ea5bf56c6ec7666e52.jpg"
+    "menu": "Stewed Pork Pau",
+    "price": 1.4,
+    "calories": 120,
+    "image": "https://www.palatesensations.com/images/1d71ef220c0d39ea5bf56c6ec7666e52.jpg"
   },
   {
-    "Fun World Cafe": "Red Bean Pau",
-    "": 0.8,
-    "__1": 120,
-    "__2": "https://www.palatesensations.com/images/1d71ef220c0d39ea5bf56c6ec7666e52.jpg"
+    "menu": "Red Bean Pau",
+    "price": 0.8,
+    "calories": 120,
+    "image": "https://www.palatesensations.com/images/1d71ef220c0d39ea5bf56c6ec7666e52.jpg"
   },
   {
-    "Fun World Cafe": "Lotus Pau",
-    "": 0.9,
-    "__1": 120,
-    "__2": "https://www.palatesensations.com/images/1d71ef220c0d39ea5bf56c6ec7666e52.jpg"
+    "menu": "Lotus Pau",
+    "price": 0.9,
+    "calories": 120,
+    "image": "https://www.palatesensations.com/images/1d71ef220c0d39ea5bf56c6ec7666e52.jpg"
   },
   {
-    "Fun World Cafe": "Pandan Pau",
-    "": 0.9,
-    "__1": 120,
-    "__2": "https://www.palatesensations.com/images/1d71ef220c0d39ea5bf56c6ec7666e52.jpg"
+    "menu": "Pandan Pau",
+    "price": 0.9,
+    "calories": 120,
+    "image": "https://www.palatesensations.com/images/1d71ef220c0d39ea5bf56c6ec7666e52.jpg"
   },
   {
-    "Fun World Cafe": "Yam Pau",
-    "": 0.9,
-    "__1": 120,
-    "__2": "https://www.palatesensations.com/images/1d71ef220c0d39ea5bf56c6ec7666e52.jpg"
+    "menu": "Yam Pau",
+    "price": 0.9,
+    "calories": 120,
+    "image": "https://www.palatesensations.com/images/1d71ef220c0d39ea5bf56c6ec7666e52.jpg"
   },
   {
-    "Fun World Cafe": "Coffee Pau",
-    "": 0.9,
-    "__1": 120,
-    "__2": "https://www.palatesensations.com/images/1d71ef220c0d39ea5bf56c6ec7666e52.jpg"
+    "menu": "Coffee Pau",
+    "price": 0.9,
+    "calories": 120,
+    "image": "https://www.palatesensations.com/images/1d71ef220c0d39ea5bf56c6ec7666e52.jpg"
   },
   {
-    "Fun World Cafe": "Vegetable Pau",
-    "": 1.2,
-    "__1": 120,
-    "__2": "https://www.palatesensations.com/images/1d71ef220c0d39ea5bf56c6ec7666e52.jpg"
+    "menu": "Vegetable Pau",
+    "price": 1.2,
+    "calories": 120,
+    "image": "https://www.palatesensations.com/images/1d71ef220c0d39ea5bf56c6ec7666e52.jpg"
   },
   {
-    "Fun World Cafe": "Siew Mai",
-    "": 0.8,
-    "__1": 135,
-    "__2": "https://asianfoodnetwork.com/content/dam/afn/global/en/recipes/siew-mai/AFN_siew_mai_main_image.jpg"
+    "menu": "Siew Mai",
+    "price": 0.8,
+    "calories": 135,
+    "image": "https://asianfoodnetwork.com/content/dam/afn/global/en/recipes/siew-mai/AFN_siew_mai_main_image.jpg"
   },
   {
-    "Fun World Cafe": "Fan Choy",
-    "": 1.9,
-    "__1": 140,
-    "__2": "https://1.bp.blogspot.com/-c31xtRUz-8o/T4TlkMWXn2I/AAAAAAAAAh0/3kAyOOMiYaU/s1600/photo-2.JPG"
-  },
-  {
-    "Fun World Cafe": "",
-    "": "",
-    "__1": "",
-    "__2": ""
-  },
-  {
-    "Fun World Cafe": "The Crowded Bowl Salad",
-    "": "",
-    "__1": "",
-    "__2": ""
-  },
+    "menu": "Fan Choy",
+    "price": 1.9,
+    "calories": 140,
+    "image": "https://1.bp.blogspot.com/-c31xtRUz-8o/T4TlkMWXn2I/AAAAAAAAAh0/3kAyOOMiYaU/s1600/photo-2.JPG"
+  }]},
+  {"NorthSpinePlaza_TheCrowdedBowlSalad" : [
   {
-    "Fun World Cafe": "Regular Salad",
-    "": 4.5,
-    "__1": 40,
-    "__2": "https://www.onceuponachef.com/images/2019/07/Big-Italian-Salad.jpg"
-  },
-  {
-    "Fun World Cafe": "",
-    "": "",
-    "__1": "",
-    "__2": ""
-  },
-  {
-    "Fun World Cafe": "The House Steam Boat Restaurant",
-    "": "",
-    "__1": "",
-    "__2": ""
-  },
+    "menu": "Regular Salad",
+    "price": 4.5,
+    "calories": 40,
+    "image": "https://www.onceuponachef.com/images/2019/07/Big-Italian-Salad.jpg"
+  }]},
+  {"NorthSpinePlaza_TheHouseSteamBoat" :[
   {
-    "Fun World Cafe": "Braised Mushroom Chicken Pot",
-    "": 7.8,
-    "__1": 430,
-    "__2": "https://www.yayforfood.com/wp-content/uploads/instant-pot-chinese-five-spice-beef-vegetable-stew-featured-720x540.jpg"
+    "menu": "Braised Mushroom Chicken Pot",
+    "price": 7.8,
+    "calories": 430,
+    "image": "https://www.yayforfood.com/wp-content/uploads/instant-pot-chinese-five-spice-beef-vegetable-stew-featured-720x540.jpg"
   },
   {
-    "Fun World Cafe": "Brasied Mushroom Pork Ribs Pot",
-    "": 8.8,
-    "__1": 450,
-    "__2": "https://www.yayforfood.com/wp-content/uploads/instant-pot-chinese-five-spice-beef-vegetable-stew-featured-720x540.jpg"
+    "menu": "Brasied Mushroom Pork Ribs Pot",
+    "price": 8.8,
+    "calories": 450,
+    "image": "https://www.yayforfood.com/wp-content/uploads/instant-pot-chinese-five-spice-beef-vegetable-stew-featured-720x540.jpg"
   },
   {
-    "Fun World Cafe": "Braised Pork Ribs",
-    "": 7.8,
-    "__1": 500,
-    "__2": "https://i.pinimg.com/originals/26/66/79/2666790fcd735140549a3b4305be7fb9.png"
+    "menu": "Braised Pork Ribs",
+    "price": 7.8,
+    "calories": 500,
+    "image": "https://i.pinimg.com/originals/26/66/79/2666790fcd735140549a3b4305be7fb9.png"
   },
   {
-    "Fun World Cafe": "Spicy Beef Stewpot",
-    "": 9.8,
-    "__1": 350,
-    "__2": "https://www.yayforfood.com/wp-content/uploads/instant-pot-chinese-five-spice-beef-vegetable-stew-featured-720x540.jpg"
+    "menu": "Spicy Beef Stewpot",
+    "price": 9.8,
+    "calories": 350,
+    "image": "https://www.yayforfood.com/wp-content/uploads/instant-pot-chinese-five-spice-beef-vegetable-stew-featured-720x540.jpg"
   },
   {
-    "Fun World Cafe": "Tomato Beef Stewpot",
-    "": 9.8,
-    "__1": 436,
-    "__2": "https://www.yayforfood.com/wp-content/uploads/instant-pot-chinese-five-spice-beef-vegetable-stew-featured-720x540.jpg"
+    "menu": "Tomato Beef Stewpot",
+    "price": 9.8,
+    "calories": 436,
+    "image": "https://www.yayforfood.com/wp-content/uploads/instant-pot-chinese-five-spice-beef-vegetable-stew-featured-720x540.jpg"
   },
   {
-    "Fun World Cafe": "Northeast Dumplings",
-    "": 6.8,
-    "__1": 180,
-    "__2": "https://danielfooddiary.com/wp-content/uploads/2020/02/sandong1.jpg"
+    "menu": "Northeast Dumplings",
+    "price": 6.8,
+    "calories": 180,
+    "image": "https://danielfooddiary.com/wp-content/uploads/2020/02/sandong1.jpg"
   },
   {
-    "Fun World Cafe": "Dumplings in Chilli Oil",
-    "": 6.8,
-    "__1": 230,
-    "__2": "https://www.seriouseats.com/recipes/images/2015/03/20150310-sichuan-wonton-chili-oil-recipe-new-1.jpg"
+    "menu": "Dumplings in Chilli Oil",
+    "price": 6.8,
+    "calories": 230,
+    "image": "https://www.seriouseats.com/recipes/images/2015/03/20150310-sichuan-wonton-chili-oil-recipe-new-1.jpg"
   },
   {
-    "Fun World Cafe": "Spicy and Sour Noodle",
-    "": 6.8,
-    "__1": 390,
-    "__2": "https://redhousespice.com/wp-content/uploads/2017/03/Hot-and-sour-glass-noodle-soup-landscape1.jpg"
+    "menu": "Spicy and Sour Noodle",
+    "price": 6.8,
+    "calories": 390,
+    "image": "https://redhousespice.com/wp-content/uploads/2017/03/Hot-and-sour-glass-noodle-soup-landscape1.jpg"
   },
   {
-    "Fun World Cafe": "Braised Pork Noodle",
-    "": 7.8,
-    "__1": 390,
-    "__2": "https://www.seriouseats.com/2020/04/20200306-lamian-noodles-vicky-wasik-36.jpg"
+    "menu": "Braised Pork Noodle",
+    "price": 7.8,
+    "calories": 390,
+    "image": "https://www.seriouseats.com/2020/04/20200306-lamian-noodles-vicky-wasik-36.jpg"
   },
   {
-    "Fun World Cafe": "Pickle Veg Shredded Pork Noodle",
-    "": 7.8,
-    "__1": 390,
-    "__2": "https://thewoksoflife.com/wp-content/uploads/2014/08/pickled-vegetable-noodle-soup-7.jpg"
+    "menu": "Pickle Veg Shredded Pork Noodle",
+    "price": 7.8,
+    "calories": 390,
+    "image": "https://thewoksoflife.com/wp-content/uploads/2014/08/pickled-vegetable-noodle-soup-7.jpg"
   },
   {
-    "Fun World Cafe": "Tomato Beef Noodle",
-    "": 7.8,
-    "__1": 390,
-    "__2": "https://www.choochoocachew.com/wp-content/uploads/2017/11/20171102.Taiwanese-Braised-Tomato-Beef-Noodle-Soup-%E7%95%AA%E8%8C%84%E7%B4%85%E7%87%92%E7%89%9B%E8%82%89%E9%BA%B5_Resize-4-500x500.jpg"
+    "menu": "Tomato Beef Noodle",
+    "price": 7.8,
+    "calories": 390,
+    "image": "https://www.choochoocachew.com/wp-content/uploads/2017/11/20171102.Taiwanese-Braised-Tomato-Beef-Noodle-Soup-%E7%95%AA%E8%8C%84%E7%B4%85%E7%87%92%E7%89%9B%E8%82%89%E9%BA%B5_Resize-4-500x500.jpg"
   },
   {
-    "Fun World Cafe": "Braised Pork RIbs Noodle",
-    "": 7.8,
-    "__1": 390,
-    "__2": "https://img-global.cpcdn.com/recipes/1836b133a9014860/751x532cq70/pork-ribs-noodle-recipe-main-photo.jpg"
+    "menu": "Braised Pork RIbs Noodle",
+    "price": 7.8,
+    "calories": 390,
+    "image": "https://img-global.cpcdn.com/recipes/1836b133a9014860/751x532cq70/pork-ribs-noodle-recipe-main-photo.jpg"
   },
   {
-    "Fun World Cafe": "Braised Beef Noodles",
-    "": 7.8,
-    "__1": 390,
-    "__2": "https://www.choochoocachew.com/wp-content/uploads/2017/11/20171102.Taiwanese-Braised-Tomato-Beef-Noodle-Soup-%E7%95%AA%E8%8C%84%E7%B4%85%E7%87%92%E7%89%9B%E8%82%89%E9%BA%B5_Resize-4-500x500.jpg"
+    "menu": "Braised Beef Noodles",
+    "price": 7.8,
+    "calories": 390,
+    "image": "https://www.choochoocachew.com/wp-content/uploads/2017/11/20171102.Taiwanese-Braised-Tomato-Beef-Noodle-Soup-%E7%95%AA%E8%8C%84%E7%B4%85%E7%87%92%E7%89%9B%E8%82%89%E9%BA%B5_Resize-4-500x500.jpg"
   },
   {
-    "Fun World Cafe": "The House Beef Set (Single Set)",
-    "": 10.9,
-    "__1": 1469,
-    "__2": "https://static.thehoneycombers.com/wp-content/uploads/sites/2/2019/01/Coca-restaurant-steamboat-hot-pot-singapore-1024x731.png"
+    "menu": "The House Beef Set (Single Set)",
+    "price": 10.9,
+    "calories": 1469,
+    "image": "https://static.thehoneycombers.com/wp-content/uploads/sites/2/2019/01/Coca-restaurant-steamboat-hot-pot-singapore-1024x731.png"
   },
   {
-    "Fun World Cafe": "The House Pork Set (Single Set)",
-    "": 10.9,
-    "__1": 1469,
-    "__2": "https://static.thehoneycombers.com/wp-content/uploads/sites/2/2019/01/Coca-restaurant-steamboat-hot-pot-singapore-1024x731.png"
+    "menu": "The House Pork Set (Single Set)",
+    "price": 10.9,
+    "calories": 1469,
+    "image": "https://static.thehoneycombers.com/wp-content/uploads/sites/2/2019/01/Coca-restaurant-steamboat-hot-pot-singapore-1024x731.png"
   },
   {
-    "Fun World Cafe": "The House Fish Set (Single Set)",
-    "": 10.9,
-    "__1": 1469,
-    "__2": "https://static.thehoneycombers.com/wp-content/uploads/sites/2/2019/01/Coca-restaurant-steamboat-hot-pot-singapore-1024x731.png"
+    "menu": "The House Fish Set (Single Set)",
+    "price": 10.9,
+    "calories": 1469,
+    "image": "https://static.thehoneycombers.com/wp-content/uploads/sites/2/2019/01/Coca-restaurant-steamboat-hot-pot-singapore-1024x731.png"
   },
   {
-    "Fun World Cafe": "The House Chicken Set (Single Set)",
-    "": 10.9,
-    "__1": 1469,
-    "__2": "https://static.thehoneycombers.com/wp-content/uploads/sites/2/2019/01/Coca-restaurant-steamboat-hot-pot-singapore-1024x731.png"
-  }
+    "menu": "The House Chicken Set (Single Set)",
+    "price": 10.9,
+    "calories": 1469,
+    "image": "https://static.thehoneycombers.com/wp-content/uploads/sites/2/2019/01/Coca-restaurant-steamboat-hot-pot-singapore-1024x731.png"
+  }]}
 ]

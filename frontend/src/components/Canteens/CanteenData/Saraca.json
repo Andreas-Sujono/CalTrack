@@ -1,153 +1,153 @@
-[{"NanyangExcutiveCenter_Malahotpot" : [
+[{"saraca_Malahotpot" : [
   {
-    "food": "Spicy Mala Pot Set A",
+    "menu": "Spicy Mala Pot Set A",
     "price": 5,
-    "calorie": 400,
+    "calories": 400,
     "image": "https://d1sag4ddilekf6.cloudfront.net/compressed/merchants/4-CYVFJVN1EELFT2/hero/55f5842f9fe54cde808400fa3ec6e41f_1572400837218907029.png"
   },
   {
-    "food": "Spicy Mala Pot Set B",
+    "menu": "Spicy Mala Pot Set B",
     "price": 6,
-    "calorie": 450,
+    "calories": 450,
     "image": "https://d1sag4ddilekf6.cloudfront.net/compressed/merchants/4-CYVFJVN1EELFT2/hero/55f5842f9fe54cde808400fa3ec6e41f_1572400837218907029.png"
   },
   {
-    "food": "Spicy Mala Pot Set C",
+    "menu": "Spicy Mala Pot Set C",
     "price": 7,
-    "calorie": 495,
+    "calories": 495,
     "image": "https://d1sag4ddilekf6.cloudfront.net/compressed/merchants/4-CYVFJVN1EELFT2/hero/55f5842f9fe54cde808400fa3ec6e41f_1572400837218907029.png"
   },
   {
-    "food": "Spicy Mala Pot Set D",
+    "menu": "Spicy Mala Pot Set D",
     "price": 8,
-    "calorie": 510,
+    "calories": 510,
     "image": "https://d1sag4ddilekf6.cloudfront.net/compressed/merchants/4-CYVFJVN1EELFT2/hero/55f5842f9fe54cde808400fa3ec6e41f_1572400837218907029.png"
   },
   {
-    "food": "Spicy Mala Pot Set E",
+    "menu": "Spicy Mala Pot Set E",
     "price": 9,
-    "calorie": 530,
+    "calories": 530,
     "image": "https://d1sag4ddilekf6.cloudfront.net/compressed/merchants/4-CYVFJVN1EELFT2/hero/55f5842f9fe54cde808400fa3ec6e41f_1572400837218907029.png"
   },
   {
-    "food": "Spicy Mala Pot Set F (2 Pax)",
+    "menu": "Spicy Mala Pot Set F (2 Pax)",
     "price": 10,
-    "calorie": 465,
+    "calories": 465,
     "image": "https://d1sag4ddilekf6.cloudfront.net/compressed/merchants/4-CYVFJVN1EELFT2/hero/55f5842f9fe54cde808400fa3ec6e41f_1572400837218907029.png"
   }]},
-  {"NanyangExcutiveCenter_COSMO" : [
+  {"saraca_COSMO" : [
   {
-    "food": "Beef Bulgogi",
+    "menu": "Beef Bulgogi",
     "price": 6.05,
-    "calorie": 664,
+    "calories": 664,
     "image": "https://i2.wp.com/carolinescooking.com/wp-content/uploads/2018/07/beef-bulgogi-photo.jpg"
   },
   {
-    "food": "Chicken Bulgogi",
+    "menu": "Chicken Bulgogi",
     "price": 5.28,
-    "calorie": 433,
+    "calories": 433,
     "image": "https://www.koreanbapsang.com/wp-content/uploads/2012/03/DSC_1825-e1562126941436.jpg"
   },
   {
-    "food": "Bibim Bab",
+    "menu": "Bibim Bab",
     "price": 4.73,
-    "calorie": 634,
+    "calories": 634,
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSZLtqVqYPBhvC1PhIFUa4Bpggk1STvxgvuK5sH-s1YsmLyTs82Z4V1y9_3BSOx3-LK9iHDZvxavHDzy6WmhaJ0x3zJP83RP7yXadL8&usqp=CAU&ec=45714079"
   },
   {
-    "food": "Chicken Combo",
+    "menu": "Chicken Combo",
     "price": 6.05,
-    "calorie": 590,
+    "calories": 590,
     "image": "https://www.koreanbapsang.com/wp-content/uploads/2012/03/DSC_1825-e1562126941436.jpg"
   },
   {
-    "food": "Beef Combo",
+    "menu": "Beef Combo",
     "price": 6.6,
-    "calorie": 540,
+    "calories": 540,
     "image": "https://i2.wp.com/carolinescooking.com/wp-content/uploads/2018/07/beef-bulgogi-photo.jpg"
   },
   {
-    "food": "Fish",
+    "menu": "Fish",
     "price": 5.5,
-    "calorie": 450,
+    "calories": 450,
     "image": "https://lh3.googleusercontent.com/proxy/d3dxNHCPC5TOGgk0Ej456HB0V7RlteknWVSrufebwm_OAEMp8ePnGN2zWfwaU6S8KmbSjF5BTPub7WBTcaLkSfaoLtsrJlkYSttwEQ0"
   },
   {
-    "food": "Samgye Tang",
+    "menu": "Samgye Tang",
     "price": 6.05,
-    "calorie": 401,
+    "calories": 401,
     "image": "https://www.koreanbapsang.com/wp-content/uploads/2018/08/DSC_5131-e1563515692375.jpg"
   },
   {
-    "food": "Kimchi Jiage",
+    "menu": "Kimchi Jiage",
     "price": 4.4,
-    "calorie": 286,
+    "calories": 286,
     "image": "https://www.koreanbapsang.com/wp-content/uploads/2014/03/DSC_5089.jpg"
   },
   {
-    "food": "Soonduu Jiage",
+    "menu": "Soonduu Jiage",
     "price": 4.95,
-    "calorie": 320,
+    "calories": 320,
     "image": "https://www.koreanbapsang.com/wp-content/uploads/2015/01/DSC_06281-e1422146518897.jpg"
   },
   {
-    "food": "Kimchi Fried Rice",
+    "menu": "Kimchi Fried Rice",
     "price": 4.4,
-    "calorie": 395,
+    "calories": 395,
     "image": "https://mykoreankitchen.com/wp-content/uploads/2015/10/1.-Easy-Kimchi-Fried-Rice-500x500.jpg"
   },
   {
-    "food": "Ramyeon",
+    "menu": "Ramyeon",
     "price": 3.63,
-    "calorie": 365,
+    "calories": 365,
     "image": "https://cdn.kiwilimon.com/recetaimagen/32293/th5-640x426-37029.jpg"
   },
   {
-    "food": "Jap Chae",
+    "menu": "Jap Chae",
     "price": 4.95,
-    "calorie": 362,
+    "calories": 362,
     "image": "https://www.koreanbapsang.com/wp-content/uploads/2010/01/DSC_1052-500x375.jpg"
   },
   {
-    "food": "Kim Bab",
+    "menu": "Kim Bab",
     "price": 3.3,
-    "calorie": 339,
+    "calories": 339,
     "image": "https://www.thespruceeats.com/thmb/bXEyHCT-3algVEAy6GNDXnuCg3Y=/4288x2412/smart/filters:no_upscale()/kimbap-korean-sushi-rolls-2118795-Hero-5b7dbdd346e0fb00250718b8.jpg"
   },
   {
-    "food": "Rice Cake(6 pc)",
+    "menu": "Rice Cake(6 pc)",
     "price": 2.2,
-    "calorie": 350,
+    "calories": 350,
     "image": "https://asian-recipe.com/wp-content/uploads/2017/10/spicy-rice-cakes-1200x900.jpg"
   },
   {
-    "food": "Cheese Ramyeon",
+    "menu": "Cheese Ramyeon",
     "price": 4.18,
-    "calorie": 475,
+    "calories": 475,
     "image": "https://static01.nyt.com/images/2018/05/01/dining/01COOKING-PERFECTINSTANTRAMEN1/01COOKING-PERFECTINSTANTRAMEN1-articleLarge.jpg"
   },
   {
-    "food": "Spicy Ramyeon",
+    "menu": "Spicy Ramyeon",
     "price": 3.85,
-    "calorie": 405,
+    "calories": 405,
     "image": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Ramyun_cooking_image.png"
   },
   {
-    "food": "Cheese Beef",
+    "menu": "Cheese Beef",
     "price": 7.37,
-    "calorie": 435,
+    "calories": 435,
     "image": "https://www.seriouseats.com/2019/01/20190111-buldak-korean-fire-chicken-vicky-wasik-33-750x563.jpg"
   },
   {
-    "food": "Cheese Chicken",
+    "menu": "Cheese Chicken",
     "price": 6.6,
-    "calorie": 430,
+    "calories": 430,
     "image": "https://www.seriouseats.com/2019/01/20190111-buldak-korean-fire-chicken-vicky-wasik-33-1500x1125.jpg"
   },
   {
-    "food": "Beef Chicken Combo",
+    "menu": "Beef Chicken Combo",
     "price": 7.7,
-    "calorie": 742,
+    "calories": 742,
     "image": "https://images.squarespace-cdn.com/content/v1/58b67dd5be65948b07559fb5/1548995923244-ARBA8U8UA9Q7OKBEK3IM/ke17ZwdGBToddI8pDm48kFWxnDtCdRm2WA9rXcwtIYR7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UcTSrQkGwCGRqSxozz07hWZrYGYYH8sg4qn8Lpf9k1pYMHPsat2_S1jaQY3SwdyaXg/Dooboo-192-3a-.jpg?format=2500w"
   }]}
 ]
