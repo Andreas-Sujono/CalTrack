@@ -10,6 +10,7 @@ import {
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { useFonts, Poppins_400Regular } from '@expo-google-fonts/poppins';
+import Toast from 'react-native-toast-message';
 
 import Login from './src/components/Login'
 import Signup from './src/components/Signup'
@@ -26,6 +27,8 @@ export default class App extends Component{
     token: '',
     userAccountId: '',
     userDetailsId: '',
+    userAccount: {},
+    userDetails: {},
   }
 
   updateState = (key, value) => {
@@ -67,6 +70,7 @@ export default class App extends Component{
           </Stack.Navigator>
         </NavigationContainer>
       </UserProvider>
+      <Toast ref={(ref) => Toast.setRef(ref)} />
       </View>
     );
   }

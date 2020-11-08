@@ -4,6 +4,7 @@ const router = express.Router();
 const userController = require('../controllers/user/user.controller.js');
 const authController = require('../controllers/auth.controller.js');
 const UserDetails = require('../models/userDetails.model.js');
+const UserAccount = require('../models/userAccount.model.js');
 
 router.get('/', (req,res) => {
     res.status(200).send({
@@ -38,10 +39,10 @@ router.post('/test', authController.test);
 // Protect all routes after this middleware, must login to continue
 router.use(authController.protect);
 
-router.get('/userDetails', async (req,res,next) => {
-    const userDetails = await UserDetails.findOne({accountId: req.accountId})
-    req.id = userDetails._id
-    return userController.getUserDetails(req,res,next)
+router.get('/userAccount', async (req,res,next) => {
+    const userAccount = await UserAccount.findById(req.accountId)
+    req.id = userAccount._id
+    return userController.getAccount(req,res,next)
 });
 
 router.put('/userDetails', async (req,res,next) => {

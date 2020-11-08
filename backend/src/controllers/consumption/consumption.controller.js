@@ -75,6 +75,7 @@ exports.getSpending = async (req, res, next) => {
         let nextMonday = lastMonday + (7 * 24 * 3600 * 1000)
 
         let totalResultInWeek = await Consumption.find({accountId, date: {"$gte": lastMonday, "$lt": nextMonday} })
+        let totalResultToday = await Consumption.find({accountId, date: {"$gte": todayStartTimestamp, "$lt": todayStartTimestamp + 24 * 3600 * 1000} })
 
         res.status(200).json({
             status: 'success',
@@ -83,6 +84,8 @@ exports.getSpending = async (req, res, next) => {
               totalSpending: calculateSpending(totalResult),
               caloriesInAWeek: calculateCalories(totalResultInWeek),
               spendingInAWeek: calculateSpending(totalResultInWeek),
+              caloriesGain: totalResultToday.reduce((acc, item) => acc + Math.max(item.calory, 0) ,0),
+              caloriesBurnt: totalResultToday.reduce((acc, item) => acc + Math.min(item.calory, 0) ,0),
             },
         });
 

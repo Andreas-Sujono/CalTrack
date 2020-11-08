@@ -14,7 +14,7 @@ const styles = StyleSheet.create({
         paddingTop:40
     },
     title:{
-        fontSize: 20,
+        fontSize: 22,
     },
     topImage:{
         position: 'absolute',
@@ -28,15 +28,33 @@ const styles = StyleSheet.create({
         width: '100%'
     },
     eachChart:{
-        borderColor:'whitesmoke', // if you need 
-        borderWidth:1,
-        // paddingLeft:30
+        borderBottomColor:'whitesmoke', // if you need 
+        borderBottomWidth:1,
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'center',
     },
     chartTitle:{
         marginTop: 20,
         fontWeight: 'bold',
         fontSize:18,
         textAlign: 'center'
+    },
+    legend:{
+    },
+    colorChart:{
+        backgroundColor: '#ACA5F8',
+        width: 14,
+        height: 14,
+        borderRadius: 7,
+        marginRight: 10,
+    },
+    whiteChart:{
+        backgroundColor: '#E2E2E2',
+        width: 14,
+        height: 14,
+        borderRadius: 7,
+        marginRight: 10,
     },
     newsContainer:{
         paddingLeft:20,
@@ -45,7 +63,13 @@ const styles = StyleSheet.create({
     },
 
 
-    textBold: {fontWeight: 'bold'}
+    warning:{
+        textAlign: 'center'
+    },
+
+
+    textBold: {fontWeight: 'bold'},
+    link: {color: '#40A3FF'}
 })
 
 export default styles;

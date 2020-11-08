@@ -33,7 +33,6 @@ const Login = (props) => {
   useEffect(() => {
     CacheStore.get('auth')
       .then((auth) => {
-        console.log('get auth: ', auth)
         if(auth && auth.username && auth.password){
           console.log('retrieve auth: ', auth)
           setUsername(auth.username)
@@ -72,7 +71,9 @@ const Login = (props) => {
         props.context.updateState('isLoggedIn', true)
         props.context.updateState('token', res.token)
         props.context.updateState('userAccountId', res.userAccount._id)
+        props.context.updateState('userAccount', res.userAccount)
         props.context.updateState('userDetailsId', res.userDetails._id)
+        props.context.updateState('userDetails', res.userDetails)
         setErrorMessage('')
 
         //save in cache
@@ -83,6 +84,7 @@ const Login = (props) => {
         props.navigation.navigate('BottomTabs')
       })
       .catch(err => {
+        console.log(err)
         let data = err.response.data
         setErrorMessage(data.message)
       })
