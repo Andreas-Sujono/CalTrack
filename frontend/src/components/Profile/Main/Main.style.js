@@ -59,7 +59,7 @@ const styles = StyleSheet.create({
       "backgroundColor": "rgba(252, 252, 255, 255)",
       "padding":6,
       "paddingLeft":14,
-      
+      fontSize: 14
     },
     
     alertContainer: {
@@ -184,6 +184,14 @@ const styles = StyleSheet.create({
       color: 'white',
       textAlign: 'center',
       fontSize: 18
+    },
+
+    updateButton:{
+      backgroundColor: '#40A3FF',
+      left:4,
+      padding: 10,
+      borderRadius: 8,
+      marginTop: 20
     }
 })
 

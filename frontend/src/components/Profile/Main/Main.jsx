@@ -7,10 +7,13 @@ import {
   TextInput,
   Image,
   Dimensions,
-  TouchableOpacity
+  TouchableOpacity,
+  TouchableWithoutFeedback
 } from 'react-native';
 import CacheStore from 'react-native-cache-store';
 import Toast from 'react-native-toast-message';
+import {Picker} from '@react-native-community/picker';
+import DateTimePicker from '@react-native-community/datetimepicker';
 
 import profileImage1 from 'assets/profiles/profileImage1.png'
 import backgroudImage from 'assets/images/profileBackgroundImage.png'
@@ -24,9 +27,12 @@ const Profile = (props) => {
   const [height, onChangeText2] = React.useState('');
   const [weight, onChangeText3] = React.useState('');
   const [goalweight, onChangeText4] = React.useState('');
-  const [goaldate, onChangeText5] = React.useState('');
+  const [goaldate, setGoalDate] = React.useState('');
   const [budget, onChangeText6] = React.useState('');
+  const [sex, setSex] = useState('')
+  const [activity, setActivity] = useState(0)
   const [bmi, setBmi] = useState('');
+  const [showCalender, setShowCalender] = useState(false);
 
   const startTutorial = props.route?.params?.startTutorial;
   const startTutorialAgain = props.route?.params?.startTutorialAgain;
@@ -34,7 +40,6 @@ const Profile = (props) => {
   const {state} = props.context
 
   useEffect(() => {
-    console.log('route: ', props.route)
     if(startTutorial || startTutorialAgain)
       Toast.show({
         text1: startTutorial ? 'Hello, ' : 'Welcome back!',
@@ -44,8 +49,14 @@ const Profile = (props) => {
 
   const onChangeSetBmi = (weight, height) => {
     weight = parseFloat(weight)
-    height = parseFloat(height)
+    height = parseFloat(height) / 100
     return setBmi( (weight && height) ? (weight/(height*height)).toFixed(2) : 0);
+  }
+
+  const formatDate = (date) => {
+    if(date instanceof Date)
+      return date.toLocaleDateString()
+    return 'dd/mm/yy'
   }
 
   const health = (bmi && (bmi < 24.9)) && (bmi > 18.5);
@@ -110,6 +121,22 @@ const Profile = (props) => {
               value={age}/>
         </View> 
 
+        <Text style = {styles.text1} > Sex </Text>
+        <View style = {[styles.inputContainer, {borderWidth: 1, borderColor: 'rgba(235, 235, 242, 150)', borderRadius: 8}]}>
+          <Picker
+            selectedValue={sex}
+            onValueChange={(itemValue, itemIndex) =>
+              setSex(itemValue)
+            }
+            style = {[styles.inputText]} 
+            itemStyle={{fontSize:14}}
+          >
+            <Picker.Item label="Male" value="male" />
+            <Picker.Item label="Female" value="female" />
+            <Picker.Item label="Prefer not to tell" value="null" />
+          </Picker>
+        </View> 
+
         <Text style = {styles.text1} > Height </Text>
         <View style = {styles.inputContainer}>
           <TextInput 
@@ -118,7 +145,7 @@ const Profile = (props) => {
               onChangeText2(text)
               onChangeSetBmi(weight, text)
             }}
-            placeholder='input here (m)'
+            placeholder='input here (in cm)'
             value={height}/>
         </View>
          
@@ -130,12 +157,13 @@ const Profile = (props) => {
               onChangeText3(text)
               onChangeSetBmi(text, height)
             }}
-            placeholder='input here (kg)'
+            placeholder='input here (in kg)'
             value={weight}/>
         </View> 
 
-        <Text style = {styles.text1} >
-          BMI: <Text style={{fontWeight: 'bold'}}>{bmi}</Text> 
+        <Text style = {[styles.text1, {left:4}]} >
+          BMI: <Text style={{fontWeight: 'bold'}}>{bmi}
+        </Text> 
           {health ? <Text style = {styles.alertText1} > You are normal weight! </Text> : null}
           {overweight ? <Text style = {styles.alertText2} > You are overwright! </Text> : null}
           {underweight ? <Text style = {styles.alertText3} > You are underweight! </Text> : null}
@@ -153,17 +181,57 @@ const Profile = (props) => {
           <TextInput 
             style = {styles.inputText} 
             onChangeText={text => onChangeText4(text)}
-            placeholder='input here (kg)'
+            placeholder='input here (in kg)'
             value={goalweight}/>
         </View>  
         <Text style = {styles.text1} > Goal Date </Text>
         <View style = {styles.inputContainer}>
-          <TextInput 
+          {/* <TextInput 
             style = {styles.inputText} 
             onChangeText={text => onChangeText5(text)}
             placeholder='input here (dd/mm/yyyy)'
-            value={goaldate}/>
+            value={goaldate}/> */}
+
+            <TouchableWithoutFeedback onPress={() => setShowCalender(true)}>
+              <View style={styles.inputText}>
+                <Text style={{color: goaldate ? 'black' : '#A8A9B7'}}>{formatDate(goaldate)}</Text>
+              </View>
+            </TouchableWithoutFeedback>
+            {
+              showCalender &&
+              <DateTimePicker
+                testID="dateTimePicker"
+                value={goaldate || new Date()}
+                mode={'date'}
+                is24Hour={true}
+                display="default"
+                onChange={(event, selectedDate) => {
+                  setShowCalender(false)
+                  const currentDate = selectedDate || goaldate;
+                  setGoalDate(currentDate)
+                }}
+              />
+            }
+            
         </View>
+
+        <Text style = {styles.text1} > How often you do exercise? </Text>
+        <View style = {[styles.inputContainer, {borderWidth: 1, borderColor: 'rgba(235, 235, 242, 150)', borderRadius: 8}]}>
+          <Picker
+            selectedValue={sex}
+            onValueChange={(itemValue, itemIndex) =>
+              setActivity(itemValue)
+            }
+            style = {[styles.inputText]} 
+            itemStyle={{fontSize:14}}
+          >
+            <Picker.Item label="Sedentary (little to no exercise)" value="0" />
+            <Picker.Item label="Light exercise (1-3 days per week)" value="1" />
+            <Picker.Item label="Moderate exercise (3–5 days per week)" value="2" />
+            <Picker.Item label="Heavy exercise (6–7 days per week)" value="3" />
+          </Picker>
+        </View>  
+
         
         <Text style = {styles.text1} > Weekly Budget </Text>
         <View style = {styles.inputContainer}>
@@ -173,6 +241,14 @@ const Profile = (props) => {
             placeholder='input here (S$)'
             value={budget}/>
         </View>
+
+          <View style = {styles.inputContainer}>
+            <TouchableOpacity>
+              <View style={styles.updateButton}>
+              <Text style={{fontSize:16, color: 'white', textAlign: 'center'}}>Update profile</Text>
+              </View>
+            </TouchableOpacity>
+          </View>
 
         <View style={styles.line}/>
 
