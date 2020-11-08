@@ -34,6 +34,14 @@ const userDetailsSchema = new mongoose.Schema({
     type: Number,
     default:0,
   },
+  sex: {
+    type: String,
+    default: 'male'
+  },
+  activity: {
+    type: Number,
+    default: 0
+  }
 });
 
 const UserDetails = mongoose.model('userDetails', userDetailsSchema, 'userDetails');

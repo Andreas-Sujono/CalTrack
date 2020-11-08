@@ -42,22 +42,20 @@ function Homepage(props) {
     const {state} = props.context
 
     useEffect(() => {
-        props.navigation.navigate('Profile', { screen: 'Profile', 
-            params: {
-                startTutorialAgain: true
-            }
-        })
-
         if(isProfileFilled()){
             getNewsData()
             getHomepageData()
         }
         else{
             console.log('profile has not been filled')
-            // props.navigation.navigate('Profile', { Screen: 'Profile', startTutorialAgain: true})
+            props.navigation.navigate('Profile', { screen: 'Profile', 
+                params: {
+                    startTutorialAgain: true
+                }
+            })
         }
         
-    }, [])
+    }, [state.userDetails?.weight, state.userDetails?.height, state.userDetails?.goalWeight, state.userDetails?.age, state.userDetails?.sex, state.userDetails?.activity, state.userDetails?.budget])
 
     const getHomepageData = async () => {
         await axios.get(`${API_ENDPOINT}/consumption/spending`, { headers: {"Authorization" : `Bearer ${state.token}`} })
@@ -68,14 +66,14 @@ function Homepage(props) {
               setCaloriesBurnt(res.caloriesBurnt)
               setCaloriesGained(res.caloriesGain)
               setCaloriesGainedWeek(res.caloriesInAWeek)
-              setCaloriesLimit(calculateTargetCalories(state.userDetails.weight, state.userDetails.goalWeight, state.userDetails.height, state.userDetails.age, state.userDetails.sex)) //TEST
+              setCaloriesLimit(calculateTargetCalories(state.userDetails.weight, state.userDetails.goalWeight, state.userDetails.height, state.userDetails.age, state.userDetails.sex))
               setCurrentSpending(res.spendingInAWeek)
               setBudget(state.userDetails.budget)
             })
             .catch(err => console.log(err))
     }
     
-    const calculateTargetCalories = (currentWeight, targetWeight, height, age, sex = 'male') => {
+    const calculateTargetCalories = (currentWeight, targetWeight, height, age, sex = 'male', activity = 0) => {
         //BMR Harris-Benedict equations
         // BMR Male (kcal/day) (Metric) = 66.5 + (13.75 × Weight, kg) + (5.003 × Height, cm) - (6.775 × Age)
         // BMR Female (kcal/day) (Metric) = 655.1 + (9.563 × Weight, kg) + (1.850 × Height, cm) - (4.676 × Age)
@@ -83,8 +81,26 @@ function Homepage(props) {
         // Light exercise (1-3 days per week) = BMR × 1.375
         // Moderate exercise (3–5 days per week) = BMR × 1.55
         // Heavy exercise (6–7 days per week) = BMR × 1.725
-        // Very heavy exercise (twice per day and/or extra heavy workouts) = BMR × 1.9
-        return 1000
+        let bmr = 0
+        if(sex === 'male')
+            bmr = 66.5 + (13.75 * Math.abs(currentWeight - targetWeight)) + (5.003 * height) - (6.775 * age)  
+        else
+            bmr = 665.1 + (9.563 * Math.abs(currentWeight - targetWeight)) + (1.850 * height) - (4.676  * age)  
+        
+        switch(activity){
+            case 0:
+                bmr *= 1.2; break;
+            case 1:
+                bmr *= 1.375; break;
+            case 2:
+                bmr *= 1.55; break;
+            case 3:
+                bmr *= 1.725; break;
+            default:
+                break;
+        }
+        console.log({currentWeight, targetWeight, height, age, bmr})
+        return parseInt(bmr * 7 )//cal in a week
     }
 
     const isProfileFilled = () => {
@@ -145,7 +161,7 @@ function Homepage(props) {
             
             {
                 <View style={styles.chartContainer}>
-                    <Text style={styles.chartTitle}>Net Calories</Text>
+                    <Text style={styles.chartTitle}>Weekly Net Calories</Text>
                     <View style={styles.eachChart}>
                         <PieChart
                             data={caloriesChartData}
@@ -172,7 +188,7 @@ function Homepage(props) {
                         </View>
                     </View>
 
-                    <Text style={styles.chartTitle}>Spending</Text>
+                    <Text style={styles.chartTitle}>Weekly Spending</Text>
                     <View style={styles.eachChart}>
                         <PieChart
                             data={SpendingChartData}

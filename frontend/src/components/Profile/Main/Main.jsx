@@ -14,25 +14,31 @@ import CacheStore from 'react-native-cache-store';
 import Toast from 'react-native-toast-message';
 import {Picker} from '@react-native-community/picker';
 import DateTimePicker from '@react-native-community/datetimepicker';
+import axios from 'axios'
 
 import profileImage1 from 'assets/profiles/profileImage1.png'
 import backgroudImage from 'assets/images/profileBackgroundImage.png'
+import Loading from 'components/Loading'
 
 import { LineChart} from "react-native-chart-kit";
 import styles from './Main.style';
 import { withContext } from 'Context'
+import {API_ENDPOINT} from 'api/constant'
 
 const Profile = (props) => {
-  const [age, onChangeText1] = React.useState('');
-  const [height, onChangeText2] = React.useState('');
-  const [weight, onChangeText3] = React.useState('');
-  const [goalweight, onChangeText4] = React.useState('');
+  const [age, setAge] = React.useState('');
+  const [height, setHeight] = React.useState('');
+  const [weight, setWeight] = React.useState('');
+  const [goalweight, setGoalWeight] = React.useState('');
   const [goaldate, setGoalDate] = React.useState('');
-  const [budget, onChangeText6] = React.useState('');
+  const [budget, setBudget] = React.useState('');
   const [sex, setSex] = useState('')
   const [activity, setActivity] = useState(0)
   const [bmi, setBmi] = useState('');
   const [showCalender, setShowCalender] = useState(false);
+  const [caloryHistorydata, setCaloryHistoryData] = useState([0,0,0,0,0,0,0])
+  const [spendingHistorydata, setSpendingHistoryData] = useState([0,0,0,0,0,0,0])
+  const [isLoading, setIsLoading] = useState(false)
 
   const startTutorial = props.route?.params?.startTutorial;
   const startTutorialAgain = props.route?.params?.startTutorialAgain;
@@ -40,14 +46,18 @@ const Profile = (props) => {
   const {state} = props.context
 
   useEffect(() => {
+    getProfileData()
+    getHistoryData()
     if(startTutorial || startTutorialAgain)
       Toast.show({
         text1: startTutorial ? 'Hello, ' : 'Welcome back!',
-        text2: 'Please fill your profile, before you continue!'
+        text2: 'Please fill your profile, before you continue!',
+        type: 'success'
       });
   }, [props.route?.params])
 
   const onChangeSetBmi = (weight, height) => {
+    if(!weight || !height) return
     weight = parseFloat(weight)
     height = parseFloat(height) / 100
     return setBmi( (weight && height) ? (weight/(height*height)).toFixed(2) : 0);
@@ -57,6 +67,121 @@ const Profile = (props) => {
     if(date instanceof Date)
       return date.toLocaleDateString()
     return 'dd/mm/yy'
+  }
+
+  const validateForm = () => {
+    let isValidated = true;
+    let errorMessage = ''
+
+    let numReg = /^\d+\.{0,1}\d*$/;
+
+    //required 
+    if(!age || !height || !weight || !goalweight || !goaldate || !budget){
+      isValidated = false
+      errorMessage = "Please fill all the field"
+    }
+    else if(!numReg.test(height)){
+      isValidated = false
+      errorMessage = "Please fill your correct height"
+    }
+    else if(!numReg.test(weight)){
+      isValidated = false
+      errorMessage = "Please fill your correct weight"
+    }
+    else if(!numReg.test(goalweight)){
+      isValidated = false
+      errorMessage = "Please fill your correct goal weight"
+    }
+    else if(!numReg.test(budget)){
+      isValidated = false
+      errorMessage = "Please fill your correct goal budget"
+    }
+
+    if(!isValidated){
+      Toast.show({
+        text1: 'Error',
+        text2: errorMessage,
+        type: 'error'
+      });
+    }
+
+    return isValidated
+  }
+
+  const updateProfileLocalState = (res) => {
+    props.context.updateState("userDetails", res)
+    setAge(res.age || '')
+    setWeight(res.weight || '')
+    setHeight(res.height || '')
+    setSex(res.sex || 'male')
+    setGoalWeight(res.goalWeight || '')
+    setGoalDate(new Date(res.goalDate) || '')
+    setBudget(res.budget || '')
+    setActivity(res.activity || 0)
+    onChangeSetBmi(res.weight, res.height)
+  }
+
+  const getProfileData = async () => {
+    setIsLoading(true)
+    await axios.get(`${API_ENDPOINT}/user/userDetails`, { headers: {"Authorization" : `Bearer ${state.token}`} })
+      .then(res => res.data.data)
+      .then(res => {
+        //if success
+        console.log(res)
+        updateProfileLocalState(res)
+        setIsLoading(false)
+      })
+      .catch(err => console.log(err))
+  }
+
+  const handleUpdateProfile = async () => {
+    if(!validateForm()) return
+
+    let data = {
+      age,
+      weight,
+      height,
+      goalWeight: goalweight,
+      goalDate: goaldate,
+      budget,
+      sex,
+      activity
+    }
+    console.log('data passed: ', data)
+    await axios.put(`${API_ENDPOINT}/user/userDetails`, data, { 
+      headers: {"Authorization" : `Bearer ${state.token}`} 
+    })
+    .then(res => res.data.data)
+    .then(res => {
+      //if success
+      console.log(res)
+      updateProfileLocalState(res)
+      Toast.show({
+        text1: 'Success!',
+        text2: 'Sucess updating profile',
+        type: 'success'
+      });
+    })
+    .catch(err => {
+      console.log(err)
+      Toast.show({
+        text1: 'Error',
+        text2: 'Error updating profile, try again later!',
+        type: 'error'
+      });
+    })
+  }
+
+  const getHistoryData = async () => {
+    await axios.get(`${API_ENDPOINT}/consumption/history`, { headers: {"Authorization" : `Bearer ${state.token}`} })
+      .then(res => res.data.data)
+      .then(res => {
+        //if success
+        console.log(res)
+        setCaloryHistoryData(res.calories)
+        setSpendingHistoryData(res.spending)
+      })
+      .catch(err => console.log(err))
   }
 
   const health = (bmi && (bmi < 24.9)) && (bmi > 18.5);
@@ -72,15 +197,6 @@ const Profile = (props) => {
     'SAT',
     'SUN',
   ];
-  const data = [
-    Math.random() * 100,
-    Math.random() * 100,
-    Math.random() * 100,
-    Math.random() * 100,
-    Math.random() * 100,
-    Math.random() * 100,
-    Math.random() * 100,
-  ];
 
   const logout = () => {
     CacheStore.remove('auth')
@@ -95,6 +211,10 @@ const Profile = (props) => {
       console.log(err);
       console.log('error while removing cache');
     });
+  }
+
+  if(isLoading){
+    return <Loading isFullPage={true}/>
   }
 
   return (
@@ -116,9 +236,9 @@ const Profile = (props) => {
         <View style = {styles.inputContainer}>
           <TextInput 
               style = {styles.inputText} 
-              onChangeText={text => onChangeText1(text)}
+              onChangeText={text => setAge(parseInt(text))}
               placeholder='input here'
-              value={age}/>
+              value={String(age)}/>
         </View> 
 
         <Text style = {styles.text1} > Sex </Text>
@@ -137,28 +257,28 @@ const Profile = (props) => {
           </Picker>
         </View> 
 
-        <Text style = {styles.text1} > Height </Text>
+        <Text style = {styles.text1} > Height (in Cm) </Text>
         <View style = {styles.inputContainer}>
           <TextInput 
             style = {styles.inputText} 
             onChangeText={text => {
-              onChangeText2(text)
-              onChangeSetBmi(weight, text)
+              setHeight(parseFloat(text))
+              onChangeSetBmi(weight, parseFloat(text))
             }}
             placeholder='input here (in cm)'
-            value={height}/>
+            value={String(height)}/>
         </View>
          
-        <Text style = {styles.text1} > Weight </Text>
+        <Text style = {styles.text1} > Weight (in Kg) </Text>
         <View style = {styles.inputContainer}>
         <TextInput 
             style = {styles.inputText} 
             onChangeText={text => {
-              onChangeText3(text)
-              onChangeSetBmi(text, height)
+              setWeight(parseFloat(text))
+              onChangeSetBmi(parseFloat(text), height)
             }}
             placeholder='input here (in kg)'
-            value={weight}/>
+            value={String(weight)}/>
         </View> 
 
         <Text style = {[styles.text1, {left:4}]} >
@@ -176,13 +296,13 @@ const Profile = (props) => {
           </TouchableOpacity>
         </View>    */}
          
-        <Text style = {styles.text1} > Goal Weight </Text>
+        <Text style = {styles.text1} > Goal Weight (in Kg) </Text>
         <View style = {styles.inputContainer}>
           <TextInput 
             style = {styles.inputText} 
-            onChangeText={text => onChangeText4(text)}
+            onChangeText={text => setGoalWeight(parseFloat(text))}
             placeholder='input here (in kg)'
-            value={goalweight}/>
+            value={String(goalweight)}/>
         </View>  
         <Text style = {styles.text1} > Goal Date </Text>
         <View style = {styles.inputContainer}>
@@ -218,9 +338,9 @@ const Profile = (props) => {
         <Text style = {styles.text1} > How often you do exercise? </Text>
         <View style = {[styles.inputContainer, {borderWidth: 1, borderColor: 'rgba(235, 235, 242, 150)', borderRadius: 8}]}>
           <Picker
-            selectedValue={sex}
+            selectedValue={String(activity)}
             onValueChange={(itemValue, itemIndex) =>
-              setActivity(itemValue)
+              setActivity(parseInt(itemValue))
             }
             style = {[styles.inputText]} 
             itemStyle={{fontSize:14}}
@@ -237,13 +357,13 @@ const Profile = (props) => {
         <View style = {styles.inputContainer}>
           <TextInput 
             style = {styles.inputText} 
-            onChangeText={text => onChangeText6(text)}
+            onChangeText={text => setBudget(parseFloat(text))}
             placeholder='input here (S$)'
-            value={budget}/>
+            value={String(budget)}/>
         </View>
 
           <View style = {styles.inputContainer}>
-            <TouchableOpacity>
+            <TouchableOpacity onPress={() => handleUpdateProfile()}>
               <View style={styles.updateButton}>
               <Text style={{fontSize:16, color: 'white', textAlign: 'center'}}>Update profile</Text>
               </View>
@@ -256,7 +376,7 @@ const Profile = (props) => {
           <Text style = {styles.text2} > Calorie Intake This Week</Text>
           <LineChart
             data={{ labels: labels,
-                    datasets: [{ data: data }],}}
+                    datasets: [{ data: caloryHistorydata }],}}
             width={Dimensions.get('window').width - 10}
             height={220}
             chartConfig={{
@@ -277,7 +397,7 @@ const Profile = (props) => {
           <Text style = {styles.text2} > Budget Used This Week</Text>
           <LineChart
             data={{ labels: labels,
-                    datasets: [{ data: data }],}}
+                    datasets: [{ data: spendingHistorydata }],}}
             width={Dimensions.get('window').width - 10}
             height={220}
             chartConfig={{

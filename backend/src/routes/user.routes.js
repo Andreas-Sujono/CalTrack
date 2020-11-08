@@ -44,11 +44,15 @@ router.get('/userAccount', async (req,res,next) => {
     req.id = userAccount._id
     return userController.getAccount(req,res,next)
 });
+router.get('/userDetails', async (req,res,next) => {
+    const userDetails = await UserDetails.findOne({accountId: req.accountId})
+    req.id = userDetails._id
+    return userController.getUserDetails(req,res,next)
+});
 
 router.put('/userDetails', async (req,res,next) => {
     const userDetails = await UserDetails.findOne({accountId: req.accountId})
     req.id = userDetails._id
-    console.log(req.id)
     return userController.updateUserDetails(req,res,next)
 });
 

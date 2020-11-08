@@ -38,6 +38,17 @@ export default class App extends Component{
   }
 
   render(){
+    // const toastConfig = {
+    //   success: (internalState) => (
+    //     <View style={{ height: 60, width: '80%', backgroundColor: 'white', padding:5, paddingLeft: 12, borderRadius: 8}}>
+    //       <Text style={{fontWeight: 'bold', fontSize: 16}}>{internalState.text1}</Text>
+    //       <Text style={{fontSize: 14}}>{internalState.text2}</Text>
+    //     </View>
+    //   ),
+    //   error: () => {},
+    //   info: () => {},
+    // };
+
     return (
       <View style={{flex:1, fontFamily: 'Poppins_400Regular'}}>
       <UserProvider value={{state: this.state, updateState: this.updateState}}>
