@@ -83,9 +83,9 @@ function Homepage(props) {
         // Heavy exercise (6–7 days per week) = BMR × 1.725
         let bmr = 0
         if(sex === 'male')
-            bmr = 66.5 + (13.75 * Math.abs(currentWeight - targetWeight)) + (5.003 * height) - (6.775 * age)  
+            bmr = 66.5 + (13.75 * Math.abs(targetWeight)) + (5.003 * height) - (6.775 * age)  
         else
-            bmr = 665.1 + (9.563 * Math.abs(currentWeight - targetWeight)) + (1.850 * height) - (4.676  * age)  
+            bmr = 665.1 + (9.563 * Math.abs(targetWeight)) + (1.850 * height) - (4.676  * age)  
         
         switch(activity){
             case 0:
@@ -179,7 +179,7 @@ function Homepage(props) {
                         <View style={styles.legend}>
                             <View style={{flexDirection: 'row', justifyContent: 'flex-start'}}>
                                 <View style={styles.colorChart}></View>
-                                <Text>{caloriesGainedWeek} Cal Net </Text>
+                                <Text>{caloriesGainedWeek} Cal Net Burnt </Text>
                             </View>
                             <View style={{flexDirection: 'row', justifyContent: 'flex-start'}}>
                                 <View style={styles.whiteChart}></View>

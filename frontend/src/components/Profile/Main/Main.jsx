@@ -236,7 +236,7 @@ const Profile = (props) => {
         <View style = {styles.inputContainer}>
           <TextInput 
               style = {styles.inputText} 
-              onChangeText={text => setAge(parseInt(text))}
+              onChangeText={text => setAge(parseInt(text) || '')}
               placeholder='input here'
               value={String(age)}/>
         </View> 
@@ -262,7 +262,7 @@ const Profile = (props) => {
           <TextInput 
             style = {styles.inputText} 
             onChangeText={text => {
-              setHeight(parseFloat(text))
+              setHeight(parseFloat(text) || '')
               onChangeSetBmi(weight, parseFloat(text))
             }}
             placeholder='input here (in cm)'
@@ -274,7 +274,7 @@ const Profile = (props) => {
         <TextInput 
             style = {styles.inputText} 
             onChangeText={text => {
-              setWeight(parseFloat(text))
+              setWeight(parseFloat(text) || '')
               onChangeSetBmi(parseFloat(text), height)
             }}
             placeholder='input here (in kg)'
@@ -300,7 +300,7 @@ const Profile = (props) => {
         <View style = {styles.inputContainer}>
           <TextInput 
             style = {styles.inputText} 
-            onChangeText={text => setGoalWeight(parseFloat(text))}
+            onChangeText={text => setGoalWeight(parseFloat(text) || '')}
             placeholder='input here (in kg)'
             value={String(goalweight)}/>
         </View>  
@@ -357,7 +357,7 @@ const Profile = (props) => {
         <View style = {styles.inputContainer}>
           <TextInput 
             style = {styles.inputText} 
-            onChangeText={text => setBudget(parseFloat(text))}
+            onChangeText={text => setBudget(parseFloat(text) || '')}
             placeholder='input here (S$)'
             value={String(budget)}/>
         </View>
