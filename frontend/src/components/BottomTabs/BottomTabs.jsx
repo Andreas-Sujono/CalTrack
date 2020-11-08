@@ -79,7 +79,7 @@ function MyTabBar({ state, descriptors, navigation }) {
 
 function BottomTabs(props) {
     return (
-        <Tab.Navigator initialRouteName="Homepage" tabBar={props => <MyTabBar {...props} />}>
+        <Tab.Navigator initialRouteName="Homepage" tabBar={props => <MyTabBar {...props} screenProps={props}/>}>
             <Tab.Screen 
                 name="Homepage" 
                 component={Homepage} 

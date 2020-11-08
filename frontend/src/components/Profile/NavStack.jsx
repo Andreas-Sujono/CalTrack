@@ -10,9 +10,9 @@ const NavStack = props => {
     return (
         <>
             <Stack.Navigator initialRouteName="Profile" screenOptions= {{
-            animationEnabled: true,
-            gestureEnabled: true,
-            gestureDirection: 'horizontal'
+                animationEnabled: true,
+                gestureEnabled: true,
+                gestureDirection: 'horizontal'
             }}
             animation="fade"
             >
@@ -20,6 +20,7 @@ const NavStack = props => {
                 options={{ headerShown: false }} 
                 name="Profile" 
                 component={Profile} 
+                screenProps={props}
             />
             </Stack.Navigator>
         </>

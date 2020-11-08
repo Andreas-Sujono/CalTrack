@@ -1,5 +1,5 @@
 import React from 'react';
-import {useState }from "react";
+import {useState, useEffect }from "react";
 import {
   View,
   Text,
@@ -10,6 +10,7 @@ import {
   TouchableOpacity
 } from 'react-native';
 import CacheStore from 'react-native-cache-store';
+import Toast from 'react-native-toast-message';
 
 import profileImage1 from 'assets/profiles/profileImage1.png'
 import backgroudImage from 'assets/images/profileBackgroundImage.png'
@@ -25,8 +26,21 @@ const Profile = (props) => {
   const [goalweight, onChangeText4] = React.useState('');
   const [goaldate, onChangeText5] = React.useState('');
   const [budget, onChangeText6] = React.useState('');
-  
   const [bmi, setBmi] = useState('');
+
+  const startTutorial = props.route?.params?.startTutorial;
+  const startTutorialAgain = props.route?.params?.startTutorialAgain;
+
+  const {state} = props.context
+
+  useEffect(() => {
+    console.log('route: ', props.route)
+    if(startTutorial || startTutorialAgain)
+      Toast.show({
+        text1: startTutorial ? 'Hello, ' : 'Welcome back!',
+        text2: 'Please fill your profile, before you continue!'
+      });
+  }, [props.route?.params])
 
   const onChangeSetBmi = (weight, height) => {
     weight = parseFloat(weight)

@@ -64,7 +64,9 @@ const Signup = (props) => {
             props.context.updateState('userAccount', res.userAccount)
             props.context.updateState('userDetails', res.userDetails)
 
-            props.navigation.navigate('BottomTabs', {startTutorial: true, screen: 'Profile'})
+            props.navigation.navigate('BottomTabs', {screen: 'Profile', params: {screen: 'Profile', params: {
+                startTutorial: true, 
+            }}})
           })
           .catch(err => {
               console.log(err)

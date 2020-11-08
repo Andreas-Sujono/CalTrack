@@ -42,8 +42,21 @@ function Homepage(props) {
     const {state} = props.context
 
     useEffect(() => {
-        getNewsData()
-        getHomepageData()
+        props.navigation.navigate('Profile', { screen: 'Profile', 
+            params: {
+                startTutorialAgain: true
+            }
+        })
+
+        if(isProfileFilled()){
+            getNewsData()
+            getHomepageData()
+        }
+        else{
+            console.log('profile has not been filled')
+            // props.navigation.navigate('Profile', { Screen: 'Profile', startTutorialAgain: true})
+        }
+        
     }, [])
 
     const getHomepageData = async () => {
@@ -55,14 +68,14 @@ function Homepage(props) {
               setCaloriesBurnt(res.caloriesBurnt)
               setCaloriesGained(res.caloriesGain)
               setCaloriesGainedWeek(res.caloriesInAWeek)
-              setCaloriesLimit(calculateTargetCalories(60,60))
+              setCaloriesLimit(calculateTargetCalories(state.userDetails.weight, state.userDetails.goalWeight, state.userDetails.height, state.userDetails.age, state.userDetails.sex)) //TEST
               setCurrentSpending(res.spendingInAWeek)
               setBudget(state.userDetails.budget)
             })
             .catch(err => console.log(err))
     }
     
-    const calculateTargetCalories = (currentWeight, targetWeight, height = 1.65, age = 20, sex = 'male') => {
+    const calculateTargetCalories = (currentWeight, targetWeight, height, age, sex = 'male') => {
         //BMR Harris-Benedict equations
         // BMR Male (kcal/day) (Metric) = 66.5 + (13.75 × Weight, kg) + (5.003 × Height, cm) - (6.775 × Age)
         // BMR Female (kcal/day) (Metric) = 655.1 + (9.563 × Weight, kg) + (1.850 × Height, cm) - (4.676 × Age)
@@ -72,6 +85,14 @@ function Homepage(props) {
         // Heavy exercise (6–7 days per week) = BMR × 1.725
         // Very heavy exercise (twice per day and/or extra heavy workouts) = BMR × 1.9
         return 1000
+    }
+
+    const isProfileFilled = () => {
+        const {weight, height, age} = state.userDetails
+        if(weight === 0 || height === 0 || age === 0){
+            return false
+        }
+        return true
     }
 
     const getNewsData = () => {
