@@ -3,7 +3,9 @@ import {StyleSheet} from "react-native";
 
 const styles = StyleSheet.create({
     boxContainer:{
-        height: '90%',
+        maxWidth: 280,
+        minHeight: '90%',
+        maxHeight: '95%',
         borderRadius: 24,
         backgroundColor: "#5C4DB1",
         marginRight:20,
@@ -26,6 +28,7 @@ const styles = StyleSheet.create({
         fontSize: 26,
         color: "white",
         marginBottom:10,
+        textAlign: 'center'
     },
     desc:{
         fontSize: 18,

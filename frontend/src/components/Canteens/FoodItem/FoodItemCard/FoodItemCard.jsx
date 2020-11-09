@@ -23,7 +23,7 @@ export default (props) => {
                     uri: image
                 }}
             />
-            <TouchableOpacity style={styles.button}>
+            <TouchableOpacity style={styles.button} onPress={() => props.handleEatFood(props.menu, props.price, props.calories)}>
                 <Text style={styles.buttonText}>I ate this</Text>
             </TouchableOpacity>
         </View>

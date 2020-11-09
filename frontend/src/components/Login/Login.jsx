@@ -31,13 +31,25 @@ const Login = (props) => {
   });
 
   useEffect(() => {
-    CacheStore.get('auth')
-      .then((auth) => {
-        if(auth && auth.username && auth.password){
-          console.log('retrieve auth: ', auth)
-          setUsername(auth.username)
-          setPassword(auth.password)
-          handleSignIn(auth)
+    CacheStore.get('state')
+      .then((state) => {          
+        console.log('retrieve state: ', state)
+
+        if(state && state.username && state.password){
+          const {username, password, token, userAccount, userDetails} = state
+          setUsername(username)
+          setPassword(password)
+
+          props.context.updateState('isLoggedIn', true)
+          props.context.updateState('token', token)
+          props.context.updateState('userAccountId', userAccount._id)
+          props.context.updateState('userAccount', userAccount)
+          props.context.updateState('userDetailsId', userDetails._id)
+          props.context.updateState('userDetails', userDetails)
+
+          props.navigation.navigate('BottomTabs')
+
+          // handleSignIn(auth)
         }
         
       })
@@ -76,10 +88,10 @@ const Login = (props) => {
         props.context.updateState('userDetails', res.userDetails)
         setErrorMessage('')
 
-        //save in cache
-        CacheStore.set('auth', {username, password})
-        .then(() => console.log('save cache success'))
-        .catch((err) => console.log(err));
+         //save in cache
+         CacheStore.set('state', {...res, username, password})
+         .then(() => console.log('save cache success'))
+         .catch((err) => console.log(err));
 
         props.navigation.navigate('BottomTabs')
       })

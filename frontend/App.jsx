@@ -29,6 +29,7 @@ export default class App extends Component{
     userDetailsId: '',
     userAccount: {},
     userDetails: {},
+    rerender: 0,
   }
 
   updateState = (key, value) => {

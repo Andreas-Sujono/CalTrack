@@ -26,6 +26,8 @@ import { withContext } from 'Context'
 import {API_ENDPOINT} from 'api/constant'
 
 const Profile = (props) => {
+  const {state} = props.context
+
   const [age, setAge] = React.useState('');
   const [height, setHeight] = React.useState('');
   const [weight, setWeight] = React.useState('');
@@ -43,9 +45,8 @@ const Profile = (props) => {
   const startTutorial = props.route?.params?.startTutorial;
   const startTutorialAgain = props.route?.params?.startTutorialAgain;
 
-  const {state} = props.context
-
   useEffect(() => {
+    updateProfileLocalState(state.userDetails)
     getProfileData()
     getHistoryData()
     if(startTutorial || startTutorialAgain)
@@ -122,7 +123,7 @@ const Profile = (props) => {
   }
 
   const getProfileData = async () => {
-    setIsLoading(true)
+    // setIsLoading(true)
     await axios.get(`${API_ENDPOINT}/user/userDetails`, { headers: {"Authorization" : `Bearer ${state.token}`} })
       .then(res => res.data.data)
       .then(res => {

@@ -55,7 +55,7 @@ function Homepage(props) {
             })
         }
         
-    }, [state.userDetails?.weight, state.userDetails?.height, state.userDetails?.goalWeight, state.userDetails?.age, state.userDetails?.sex, state.userDetails?.activity, state.userDetails?.budget])
+    }, [state.userDetails?.weight, state.userDetails?.height, state.userDetails?.goalWeight, state.userDetails?.age, state.userDetails?.sex, state.userDetails?.activity, state.userDetails?.budget, state.rerender])
 
     const getHomepageData = async () => {
         await axios.get(`${API_ENDPOINT}/consumption/spending`, { headers: {"Authorization" : `Bearer ${state.token}`} })
@@ -112,6 +112,7 @@ function Homepage(props) {
     }
 
     const getNewsData = () => {
+        if(newsData.length) return
         var url = 'http://newsapi.org/v2/top-headlines?' +
           'country=sg&category=health&' +
           'apiKey=905be364027047889f2247ca6514c172'; //don't share this key, should be hide but too lazy
@@ -121,7 +122,7 @@ function Homepage(props) {
                 console.log('fetched news API')
                 if(res.articles && res.articles?.length){
                     let articles = res.articles.map(item => ({...item, image: item.urlToImage, desc: item.description}))
-                    setNewsData(articles)
+                    setNewsData(articles.slice(0,5))
                 }
             })
             .catch(err => console.log(err))
@@ -129,7 +130,7 @@ function Homepage(props) {
 
 
     const caloriesChartData = [
-        { name: 'Consumed', population: caloriesGainedWeek, color: '#ACA5F8', legendFontColor: '#7F7F7F', legendFontSize: 15 },
+        { name: 'Consumed', population: Math.max(caloriesGainedWeek,0), color: '#ACA5F8', legendFontColor: '#7F7F7F', legendFontSize: 15 },
         { name: 'Remaining', population: Math.max(caloriesLimit - caloriesGainedWeek,0), color: '#F0F3F4', legendFontColor: '#7F7F7F', legendFontSize: 15 },
     ]
     const SpendingChartData = [
