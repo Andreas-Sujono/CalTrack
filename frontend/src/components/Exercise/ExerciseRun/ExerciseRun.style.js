@@ -50,6 +50,12 @@ const styles = StyleSheet.create({
         color: "rgba(75, 75, 75, 255)",
         marginTop:10,
     },
+    text4: {
+        fontWeight: "bold",
+        fontSize: 14,
+        color: "rgba(75, 75, 75, 255)",
+        marginTop: 20
+      },
 
     inputContainer:{
         width: '100%',
