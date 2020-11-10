@@ -16,8 +16,13 @@
     "assetBundlePatterns": [
       "**/*"
     ],
-    "ios": {
+    "ios": {"bundleIdentifier": "com.Andreas.calTrack",
+      "buildNumber": "1.0.0",
       "supportsTablet": true
+    },
+    "android": {
+      "package": "com.Andreas.calTrack",
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"

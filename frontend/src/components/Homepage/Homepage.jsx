@@ -180,11 +180,11 @@ function Homepage(props) {
                         <View style={styles.legend}>
                             <View style={{flexDirection: 'row', justifyContent: 'flex-start'}}>
                                 <View style={styles.colorChart}></View>
-                                <Text>{caloriesGainedWeek} Cal Net Burnt </Text>
+                                <Text>{caloriesGainedWeek}Cal Net Consumed</Text>
                             </View>
                             <View style={{flexDirection: 'row', justifyContent: 'flex-start'}}>
                                 <View style={styles.whiteChart}></View>
-                                <Text>{caloriesLimit - caloriesGainedWeek} Cal Remaining</Text>
+                                <Text>{caloriesLimit - caloriesGainedWeek}Cal Remaining</Text>
                             </View>
                         </View>
                     </View>

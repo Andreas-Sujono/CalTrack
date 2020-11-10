@@ -85,7 +85,7 @@ exports.getSpending = async (req, res, next) => {
               caloriesInAWeek: calculateCalories(totalResultInWeek),
               spendingInAWeek: calculateSpending(totalResultInWeek),
               caloriesGain: totalResultToday.reduce((acc, item) => acc + Math.max(item.calory, 0) ,0),
-              caloriesBurnt: totalResultToday.reduce((acc, item) => acc + Math.min(item.calory, 0) ,0),
+              caloriesBurnt: -totalResultToday.reduce((acc, item) => acc + Math.min(item.calory, 0) ,0),
             },
         });
 
@@ -98,9 +98,9 @@ exports.getSpending = async (req, res, next) => {
 exports.addConsumption = async (req, res, next) => {
     try{
         const accountId = req.accountId
-        const {date, menuName, menuPrice, calory} = req.body
+        let {date, menuName, menuPrice, calory} = req.body
 
-        if (!date || !menuName || !menuPrice || !calory) {
+        if (!date || !calory) {
             return next(
               new AppError(400, 'error', commonErrorMessages.FIELD_EMPTY),
               req,
