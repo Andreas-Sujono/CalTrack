@@ -25,22 +25,6 @@ const userAccountSchema = new mongoose.Schema({
     required: true,
     minLength: 6,
   },
-  date_of_last_password_change: {
-      type: Date,
-      default: new Date()
-  },
-  OTP: {
-    type: 'string',
-    default: ''
-  },
-  OTP_expired_time: {
-    type: Date,
-    default: new Date()
-  },
-  isFirstUse: {
-    type: Boolean,
-    default: true
-  }
 });
 
 userAccountSchema.pre('save', async function(next) {

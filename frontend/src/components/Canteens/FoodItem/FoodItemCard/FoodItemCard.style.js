@@ -5,7 +5,7 @@ const styles = StyleSheet.create({
     boxContainer:{
         maxWidth: 280,
         minHeight: '90%',
-        maxHeight: '95%',
+        maxHeight: '98%',
         borderRadius: 24,
         backgroundColor: "#5C4DB1",
         marginRight:20,
@@ -18,7 +18,7 @@ const styles = StyleSheet.create({
         width: '100%',
         minWidth: 200,
         height: '100%',
-        maxHeight: 10,
+        maxHeight: 180,
         borderRadius: 15,
         marginTop: 20, marginBottom:20,
     },
