@@ -23,13 +23,13 @@ ___
 |__config.js
 |__src
 |  |__constants
-|  |  |__general.constant.js   //constant shared to all files
+|  |  |__general.constant.js            //constant shared to all files
 |  |  |__user              
 |  |     |__user.constant.js   
 |  |__controllers
-|  |  |__auth.controller.js    //login, activate, protected route logic
-|  |  |__base.controllerjs     //base logic to get, create, update, delete field in database
-|  |  |__error.controllerjs    //error schema
+|  |  |__auth.controller.js              //login, activate, protected route logic
+|  |  |__base.controllerjs               //base logic to get, create, update, delete field in database
+|  |  |__error.controllerjs              //error schema
 |  |  |__user
 |  |     |__user.controller.js
 |  |__routes
