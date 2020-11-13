@@ -157,7 +157,7 @@ const Profile = (props) => {
       //if success
       console.log(res)
       updateProfileLocalState(res)
-      props.contxt.updateState('rerender', Math.random()) //trigger rerender to component that listen to this property
+      props.context.updateState('rerender', Math.random()) //trigger rerender to component that listen to this property
       Toast.show({
         text1: 'Success!',
         text2: 'Sucess updating profile',
