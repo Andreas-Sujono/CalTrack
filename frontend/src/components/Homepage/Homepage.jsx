@@ -207,11 +207,11 @@ function Homepage(props) {
                         <View style={styles.legend}>
                             <View style={{flexDirection: 'row', justifyContent: 'flex-start'}}>
                                 <View style={styles.colorChart}></View>
-                                <Text>S${currentSpending} Spent</Text>
+                                <Text>S${currentSpending.toFixed(2)} Spent</Text>
                             </View>
                             <View style={{flexDirection: 'row', justifyContent: 'flex-start'}}>
                                 <View style={styles.whiteChart}></View>
-                                <Text>S${budget - currentSpending} Remaining</Text>
+                                <Text>S${(budget - currentSpending).toFixed(2)} Remaining</Text>
                             </View>
                         </View>
                     </View>
