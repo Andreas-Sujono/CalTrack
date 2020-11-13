@@ -55,7 +55,7 @@ const Profile = (props) => {
         text2: 'Please fill your profile, before you continue!',
         type: 'success'
       });
-  }, [props.route?.params])
+  }, [props.route?.params, state.rerender])
 
   const onChangeSetBmi = (weight, height) => {
     if(!weight || !height) return
@@ -157,6 +157,7 @@ const Profile = (props) => {
       //if success
       console.log(res)
       updateProfileLocalState(res)
+      props.contxt.updateState('rerender', Math.random()) //trigger rerender to component that listen to this property
       Toast.show({
         text1: 'Success!',
         text2: 'Sucess updating profile',

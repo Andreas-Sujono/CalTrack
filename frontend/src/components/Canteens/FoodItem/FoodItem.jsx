@@ -36,7 +36,7 @@ const FoodItem = (props) => {
       .then(res => {
         //if success
         console.log(res)
-        props.context.updateState('rerender', Math.random())
+        props.context.updateState('rerender', Math.random()) //trigger rerender for every component listen to this property
         Toast.show({
           text1: 'Success!',
           text2: 'Success posting food',

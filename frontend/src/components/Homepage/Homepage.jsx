@@ -55,7 +55,7 @@ function Homepage(props) {
             })
         }
         
-    }, [state.userDetails?.weight, state.userDetails?.height, state.userDetails?.goalWeight, state.userDetails?.age, state.userDetails?.sex, state.userDetails?.activity, state.userDetails?.budget, state.rerender])
+    }, [state.rerender])
 
     const getHomepageData = async () => {
         await axios.get(`${API_ENDPOINT}/consumption/spending`, { headers: {"Authorization" : `Bearer ${state.token}`} })
