@@ -180,7 +180,7 @@ function Homepage(props) {
                         <View style={styles.legend}>
                             <View style={{flexDirection: 'row', justifyContent: 'flex-start'}}>
                                 <View style={styles.colorChart}></View>
-                                <Text>{caloriesGainedWeek}Cal Net Consumed</Text>
+                                <Text>{caloriesGainedWeek}Cal Consumed</Text>
                             </View>
                             <View style={{flexDirection: 'row', justifyContent: 'flex-start'}}>
                                 <View style={styles.whiteChart}></View>
